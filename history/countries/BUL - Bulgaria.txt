@@ -3,7 +3,10 @@
 #TROOPS
 oob = "BUL_1936" #VANILLA & DLC
 if = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				} }
 		set_air_oob = "BUL_1936_air_bba"
 	else = {
 		set_air_oob = "BUL_1936_air_legacy"
@@ -340,7 +343,10 @@ set_technology = { #VANILLA & DLC
 if = {
 	limit = {
 		NOT = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 	}
 	set_technology = {
@@ -505,7 +511,10 @@ if = {
 		set_oob = "BUL_1939_nsb"
 	}
 	if = {
-		limit = { has_dlc = "By Blood Alone" }
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			set_air_oob = "BUL_1939_air_bba"
 		else = {
 			set_air_oob = "BUL_1939_air_legacy"

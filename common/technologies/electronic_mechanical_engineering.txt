@@ -1317,7 +1317,10 @@ technologies = {
 		# can build v1s/rocket planes
 		enable_equipments = {
 			limit = {
-				NOT = { has_dlc = "By Blood Alone" }
+				NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			}
 			rocket_interceptor_equipment_1
 		}
@@ -1428,7 +1431,10 @@ technologies = {
 			}
 		}
 		allow_branch = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 
 		special_project_specialization = { specialization_air }
@@ -1501,7 +1507,10 @@ technologies = {
 		
 		enable_equipments = {
 			limit = {
-				NOT = { has_dlc = "By Blood Alone" }
+				NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			}
 			rocket_interceptor_equipment_2
 		}
@@ -1556,7 +1565,10 @@ technologies = {
 		
 		enable_equipments = {
 			limit = {
-				NOT = { has_dlc = "By Blood Alone" }
+				NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			}
 			rocket_interceptor_equipment_3
 		}
@@ -1701,7 +1713,10 @@ technologies = {
 			hidden_effect = {
 				if = {
 					limit = {
-						has_dlc = "By Blood Alone"
+						has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 					}
 					if = {
 						limit = {
@@ -1877,7 +1892,10 @@ technologies = {
 				
 		enable_equipments = {
 			limit = {
-				NOT = { has_dlc = "By Blood Alone" }
+				NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			}
 			rocket_interceptor_equipment_2
 		}
@@ -1922,7 +1940,10 @@ technologies = {
 				
 		enable_equipments = {
 			limit = {
-				NOT = { has_dlc = "By Blood Alone" }
+				NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			}
 			rocket_interceptor_equipment_3
 		}

@@ -2,7 +2,10 @@ capital = 271
 
 IF = {
 	limit = {
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}
 	}
 	ETH_set_up_lon_arms_resolution_effect = yes 
 	set_war_support = 0.30 # People are beginning to lose heart a bit
@@ -125,7 +128,10 @@ IF = {
 }
 IF = {
 	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
+		NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 	}
 	set_oob = "ETH_1936"
 	set_variable = { ETH_war_escalation_level = 0 }
@@ -157,7 +163,10 @@ recruit_character = ETH_makonnen_endelkatchew
 recruit_character = ETH_john_robinson
 
 IF = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 	recruit_character = ETH_hailu_tekle_haymanot
 	recruit_character = ETH_abba_jofir
 	recruit_character = ETH_amha_selassie
@@ -208,7 +217,10 @@ IF = {
 }
 
 IF = { 
-	limit = { NOT = { has_dlc = "By Blood Alone" } }
+	limit = { NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} } }
 	recruit_character = ETH_fitawrari_yeebio_woldai
 	recruit_character = ETH_amare_makonnen
 	# recruit_character = ETH_haile_mariam
@@ -276,7 +288,10 @@ set_politics = {
 	elections_allowed = no
 }
 IF = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 	set_popularities = {
 		neutrality = 70
 		fascism = 20 
@@ -285,7 +300,10 @@ IF = {
 	}
 }
 IF = {
-	limit = { NOT = { has_dlc = "By Blood Alone" } }
+	limit = { NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} } }
 	set_popularities = {
 		neutrality = 100
 	}

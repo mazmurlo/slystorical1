@@ -51,7 +51,10 @@ AOI_ncgf_organization = {
 	icon = GFX_idea_ETH_ncgf
 	allowed = {	
 		tag = AOI
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	available = {
 		owner = { has_completed_focus = ETH_invest_in_the_west }
@@ -63,7 +66,10 @@ AOI_hmmbi_organization = {
 	icon = GFX_idea_ETH_hmmbi
 	allowed = {	
 		tag = AOI
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	available = {
 		owner = { has_completed_focus = ETH_invest_in_the_north }

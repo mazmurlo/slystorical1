@@ -1952,7 +1952,10 @@ technologies = {
 
 	airdrop_mines = {
 		allow_branch = {
-			NOT = { has_dlc = "By Blood Alone" }
+			NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 		}
 
 		research_cost = 2
@@ -1996,7 +1999,10 @@ technologies = {
 
 	airdrop_mines_bba = {
 		allow_branch = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 
 		research_cost = 1
@@ -2074,7 +2080,10 @@ technologies = {
 
 	airsweep_mines = {
 		allow_branch = {
-			NOT = { has_dlc = "By Blood Alone" }
+			NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 		}
 
 		research_cost = 2
@@ -2108,7 +2117,10 @@ technologies = {
 
 	airsweep_mines_bba = {
 		allow_branch = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 
 		research_cost = 1

@@ -475,7 +475,10 @@
 
 		completion_reward = {
 			if = {
-				limit = { has_dlc = "By Blood Alone" }
+				limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 				create_equipment_variant = {
 					name = "Bristol Blenheim"
 					type = medium_plane_airframe_1

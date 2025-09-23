@@ -15,7 +15,10 @@ ETH_defeat_italy_category = { # Non BBA category
 	}
 
 	visible = {
-		NOT = { has_dlc = "By Blood Alone"}
+		NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}}
 		ITA = {
 			NOT = { has_completed_focus = ITA_triumph_in_africa_bba }
 		}
@@ -106,7 +109,10 @@ ETH_chitet_category = {
 	}
 
 	visible = {
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		has_template = "Chitet Sefari"
 	}
 	visible_when_empty = no 
@@ -121,7 +127,10 @@ ETH_second_italo_ethiopian_war_category = {
 		OR = {
 			AND = {
 				original_tag = ETH
-				has_dlc = "By Blood Alone"
+				has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 			}
 			original_tag = ITA
 		}
@@ -153,7 +162,10 @@ ETH_improve_country_category = {
 	}
 
 	visible = {
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		OR = {
 			# We can develop a state 
 			any_owned_state = {  
@@ -194,7 +206,10 @@ ETH_anti_colonialism_category = { #### TODO_TA Remove - to be replaced by proper
 	}
 
 	visible = {
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		has_country_flag = ETH_anti_colonialism_flag 
 	}
 
@@ -211,7 +226,10 @@ ETH_anti_colonialism_category = { #### TODO_TA Remove - to be replaced by proper
 #	allowed = 
 #	{
 #		original_tag = ETH
-#		has_dlc = "By Blood Alone"
+#		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 #		
 #	}
 #	priority = {
@@ -228,7 +246,10 @@ ETH_freedom_at_gunpoint_category = {
 	picture = GFX_decision_cat_picture_generic_border_conflicts
 	allowed = {
 		original_tag = ETH
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	visible = {
 		has_completed_focus = ETH_freedom_at_gunpoint
@@ -242,7 +263,10 @@ ETH_exploit_french_weakness_category = {
 	picture = GFX_decision_cat_picture_take_dji
 	allowed = {
 		original_tag = ETH
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	visible = {
 		OR = {
@@ -261,7 +285,10 @@ ETH_reintegrate_former_territory_category = {
 	picture = GFX_decision_cat_picture_reclaim_the_empire
 	allowed = {
 		original_tag = ETH
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	visible = {
 		has_completed_focus = ETH_reclaim_the_empire
@@ -299,7 +326,10 @@ ETH_italo-ethiopian_empire_decisions = {
 	icon = GFX_decision_category_generic_fascism
 	allowed = {
 		original_tag = ETH
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	visible = {
 		has_completed_focus = ETH_the_italo-ethiopian_empire
@@ -316,7 +346,10 @@ ETH_consolidate_east_africa_category = {
 
 	allowed = {
 		original_tag = ETH
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	visible = {
 		has_completed_focus = ETH_consolidate_east_africa
@@ -345,7 +378,10 @@ ETH_improve_the_horn_of_africa_category = {
 	picture = GFX_decision_cat_picture_naval_treaties
 	allowed = {
 		original_tag = ETH
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	visible = {
 		has_completed_focus = ETH_develop_the_horn_of_africa

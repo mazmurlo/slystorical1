@@ -2923,7 +2923,10 @@ operation_steal_tech_airforce = { ### 18 3/55
 		ROOT = {
 			if = {
 				limit = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				steal_random_tech_bonus = {
 					folder = bba_air_techs_folder
@@ -2960,7 +2963,10 @@ operation_steal_tech_airforce = { ### 18 3/55
 				ROOT = {
 					if = {
 						limit = {
-							has_dlc = "By Blood Alone"
+							has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 						}
 						steal_random_tech_bonus = {
 							folder = bba_air_techs_folder
@@ -2991,7 +2997,10 @@ operation_steal_tech_airforce = { ### 18 3/55
 			67 = {
 				if = {
 					limit = {
-						has_dlc = "By Blood Alone"
+						has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 					}
 
 					ROOT = {
@@ -3030,7 +3039,10 @@ operation_steal_tech_airforce = { ### 18 3/55
 		ROOT = {
 			if = {
 				limit = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				steal_random_tech_bonus = {
 					folder = bba_air_techs_folder

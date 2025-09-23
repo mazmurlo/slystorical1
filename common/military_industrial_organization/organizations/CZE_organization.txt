@@ -7,7 +7,10 @@ CZE_ckd_organization = {
 			tag = CZE
 			AND = {
 				tag = AOI 
-				has_dlc = "By Blood Alone"
+				has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 			}
 		}
 	}
@@ -30,7 +33,10 @@ CZE_skoda_armor_organization = {
 			tag = CZE
 			AND = {
 				tag = AOI 
-				has_dlc = "By Blood Alone"
+				has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 			}
 		}
 	}
@@ -93,7 +99,10 @@ CZE_skoda_artillery_organization = {
 			tag = CZE 
 			AND = {
 				tag = AOI
-				has_dlc = "By Blood Alone"
+				has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 			}
 		}
 	}

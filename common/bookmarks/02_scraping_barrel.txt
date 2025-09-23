@@ -102,7 +102,10 @@ bookmarks = {
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
-			available = { has_dlc = "By Blood Alone" }
+			available = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			ideas = {
 				vittorio_emanuele
 				ITA_iri_fake_ns
@@ -117,7 +120,10 @@ bookmarks = {
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
-			available = { NOT = { has_dlc = "By Blood Alone" } }
+			available = { NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} } }
 			ideas = {
 				vittorio_emanuele
 				ITA_iri_fake_ns

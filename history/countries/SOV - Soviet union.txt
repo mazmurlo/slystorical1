@@ -743,7 +743,10 @@ if = {
 	}
 }
 if = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 		set_air_oob = "SOV_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
@@ -911,7 +914,10 @@ if = {
 
 if = {
 	limit = {
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	create_equipment_variant = { #Note: There is a copy of this variant in Finnish Scripted Effects file (FIN_purchase_soviet_equipment_for_cw). Any changes here should also be applied there
 		name = "I-15" #
@@ -1238,7 +1244,10 @@ if = {
 1939.1.1 = {
 	if = {
 		limit = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 		create_equipment_variant = {
 			name = "I-153" #

@@ -4897,7 +4897,10 @@ form_roman_empire_category = { #rome
 			original_tag = ITA
 			OR = {
 				has_dlc = "Waking the Tiger"
-				has_dlc = "By Blood Alone"
+				has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 			}
 		}
 
@@ -11508,7 +11511,10 @@ form_horn_of_africa_africa_category = {
 			}
 			NOT = { has_global_flag = form_horn_of_africa_flag }
 
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 
 		available = {
@@ -11690,7 +11696,10 @@ form_horn_of_africa_africa_category = {
 			
 			has_global_flag = form_horn_of_africa_flag
 			NOT = { has_global_flag = socotra_conquered_flag }
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 
 		available = {
@@ -11753,7 +11762,10 @@ form_horn_of_africa_africa_category = {
 			has_global_flag = form_horn_of_africa_flag
 			NOT = { has_global_flag = integrate_the_south_flag }
 
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 
 		available = {
@@ -11832,7 +11844,10 @@ form_horn_of_africa_africa_category = {
 			has_global_flag = form_horn_of_africa_flag
 			NOT = { has_global_flag = the_upper_nile_flag }
 
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 
 		available = {

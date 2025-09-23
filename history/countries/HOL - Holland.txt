@@ -9,7 +9,10 @@ if = {
 	}
 }
 if = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				} }
 		set_air_oob = "HOL_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
@@ -205,7 +208,10 @@ if = {
 		}
 	}
 	if = {
-		limit = { has_dlc = "By Blood Alone" }
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			set_air_oob = "HOL_1939_air_bba"
 			set_technology = {
 				engines_2 = 1
@@ -305,7 +311,10 @@ set_stability = 0.75
 
 if = {
 	limit = {
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	create_equipment_variant = {
 		name = "Fokker C.X" #also represents Fokker C.V
@@ -492,7 +501,10 @@ if = {
 1939.1.1 = {
 	if = {
 		limit = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 		create_equipment_variant = {
 			name = "Fokker D.XXI"

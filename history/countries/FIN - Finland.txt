@@ -595,7 +595,10 @@ set_convoys = 5
 
 	oob = "FIN_1939"
 	if = {
-		limit = { has_dlc = "By Blood Alone" }
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				} }
 			set_air_oob = "FIN_1939_air_bba"
 		else = {
 			set_air_oob = "FIN_1939_air_legacy"

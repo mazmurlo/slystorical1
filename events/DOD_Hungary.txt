@@ -5925,7 +5925,10 @@ country_event = {
 	option = {# light fighter
 		name = DOD_hungary.150.a
 		trigger = {
-			NOT = { has_dlc = "By Blood Alone" }
+			NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			OR = {
 				GER = {
 					is_available_fighter_HUN = yes
@@ -5967,7 +5970,10 @@ country_event = {
 		name = DOD_hungary.150.b
 		trigger = {
 			NOT = {
-				has_dlc = "By Blood Alone"
+				has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 			}
 			OR = {
 				GER = {
@@ -6007,7 +6013,10 @@ country_event = {
 	option = {# light fighter - BBA
 		name = DOD_hungary.150.a
 		trigger = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 			OR = {
 				GER = {
 					is_available_fighter_HUN = yes
@@ -6048,7 +6057,10 @@ country_event = {
 	option = {# heavy fighter - BBA
 		name = DOD_hungary.150.b
 		trigger = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 			OR = {
 				GER = {
 					is_available_heavy_fighter_HUN = yes
@@ -7395,7 +7407,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			if = {
@@ -7506,7 +7521,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			HUN = { country_event = DOD_hungary.151 }
@@ -7541,7 +7559,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			if = {
@@ -7652,7 +7673,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			HUN = { country_event = DOD_hungary.152 }
@@ -7740,7 +7764,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			country_event = DOD_hungary.161 	
@@ -7801,7 +7828,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			country_event = DOD_hungary.162 	
@@ -9116,7 +9146,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			if = {
@@ -9227,7 +9260,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			HUN = { country_event = DOD_hungary.161 }
@@ -9262,7 +9298,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			if = {
@@ -9373,7 +9412,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 			HUN = { country_event = DOD_hungary.162 }

@@ -605,7 +605,10 @@ ITA_missiolinis = {
 		icon = GFX_decision_generic_police_action
 		allowed = {
 			tag = ITA
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 
 		available = { #GOAL
@@ -680,7 +683,10 @@ ITA_missiolinis = {
 		icon = GFX_decision_generic_police_action
 		allowed = {
 			tag = ITA
-			NOT = { has_dlc = "By Blood Alone"}
+			NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}}
 		}
 
 		available = { #GOAL

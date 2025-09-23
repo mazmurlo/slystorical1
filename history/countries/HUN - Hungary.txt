@@ -16,7 +16,10 @@ IF = {
 }
 
 IF = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				} }
 		set_air_oob = "HUN_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
@@ -161,7 +164,10 @@ set_variable = { HUN_academy_of_sciences_research_speed_factor = 0.03 }
 ### PLANE VARIANTS ###
 IF = {
 	limit = {
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	create_equipment_variant = {
 		name = "Weiss WM-16 Budapest"

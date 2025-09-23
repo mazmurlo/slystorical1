@@ -448,7 +448,10 @@ leader_traits = {
 			
 			modifier = {
 				FROM = { 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				factor = 0
 			}
@@ -508,7 +511,10 @@ leader_traits = {
 			
 			modifier = {
 				FROM = { 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				factor = 0
 			}
@@ -575,7 +581,10 @@ leader_traits = {
 			
 			modifier = {
 				FROM = { 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				factor = 0
 			}
@@ -631,7 +640,10 @@ leader_traits = {
 			}
 			
 			modifier = {
-				FROM = { has_dlc = "By Blood Alone" }
+				FROM = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 				factor = 0
 			}
 			

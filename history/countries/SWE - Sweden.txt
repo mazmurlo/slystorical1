@@ -10,7 +10,10 @@ if = {
 	}
 }
 if = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 		set_air_oob = "SWE_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
@@ -233,7 +236,10 @@ if = {
 		}
 	}
 	if = {
-		limit = { has_dlc = "By Blood Alone" }
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			set_air_oob = "SWE_1939_air_bba"
 		else = {
 			set_air_oob = "SWE_1939_air_legacy"
@@ -391,7 +397,10 @@ if = {
 }
 if = {
 	limit = {
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	create_equipment_variant = {
 		name = "Svenska Jaktfalken" 

@@ -210,7 +210,10 @@ if = {
 	set_naval_oob = "JAP_1936_naval_legacy"
 }
 if = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 		set_air_oob = "JAP_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
@@ -388,7 +391,10 @@ if = {
 		}
 	}
 	if = {
-		limit = { has_dlc = "By Blood Alone" }
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			set_air_oob = "JAP_1939_air_bba"
 			set_technology = {
 				basic_medium_airframe = 1
@@ -682,7 +688,10 @@ if = {
 }
 if = {
 	limit = {
-		has_dlc = "By Blood Alone"
+		has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 	}
 	create_equipment_variant = {
 		name = "Ki-10"
@@ -1229,7 +1238,10 @@ if = {
 	1939.1.1 = {
 		if = {
 			limit = {
-				has_dlc = "By Blood Alone"
+				has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 			}
 			create_equipment_variant = {
 				name = "Ki-27"

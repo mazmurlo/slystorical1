@@ -46,7 +46,10 @@ recruit_character = ENG_robert_watson_watt
 
 
 if = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = {has_game_rule = { 
+					rule = larp_barb
+					option = on
+				} }
 		set_air_oob = "ENG_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
@@ -317,7 +320,10 @@ if = {
 		}
 	}
 	if = {
-		limit = { has_dlc = "By Blood Alone" }
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 		set_air_oob = "ENG_1939_air_bba"
 		set_technology = {
 			basic_small_airframe = 1
@@ -1294,7 +1300,10 @@ if = {
 	}
 	if = {
 		limit = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 		create_equipment_variant = {
 			name = "Hawker Fury" #also covers Gloster Gauntlet, Hawker Demon
@@ -1657,7 +1666,10 @@ if = {
 	}
 	if = {
 		limit = {
-			has_dlc = "By Blood Alone"
+			has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 		}
 		create_equipment_variant = {
 			name = "Sea Gladiator" 

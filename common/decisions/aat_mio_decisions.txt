@@ -19,7 +19,10 @@ foreign_mio_decisions_category = {
 				}
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -206,7 +209,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -357,7 +363,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				} 
 			}
 		}
@@ -797,7 +806,10 @@ foreign_mio_decisions_category = {
 				}
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -995,7 +1007,10 @@ foreign_mio_decisions_category = {
 				}
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -1100,7 +1115,10 @@ foreign_mio_decisions_category = {
 				}
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -1201,7 +1219,10 @@ foreign_mio_decisions_category = {
 				}
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -1583,7 +1604,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				} 
 			}
 		}
@@ -1641,7 +1665,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -1701,7 +1728,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -1761,7 +1791,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				} 
 			}
 		}
@@ -1822,7 +1855,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -1881,7 +1917,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				} 
 			}
 		}
@@ -1939,7 +1978,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -1999,7 +2041,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -2057,7 +2102,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				} 
 			}
 		}
@@ -2116,7 +2164,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -2176,7 +2227,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -2235,7 +2289,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}
@@ -2293,7 +2350,10 @@ foreign_mio_decisions_category = {
 			OR = {
 				AND = {
 					tag = ETH 
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 			}
 		}

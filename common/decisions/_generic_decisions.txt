@@ -2101,7 +2101,10 @@ economy_decisions = {
 				limit = { 
 					OR = { 
 						has_dlc = "Man the Guns" 	
-						has_dlc = "By Blood Alone" 
+						has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} 
 					}
 				}
 				has_war_with_non_exiled_country = yes   

@@ -12301,7 +12301,10 @@ focus_tree = {
                 add_ideas = idea_RAJ_japanese_army_advisors
                 if = {
                     limit = {
-                        has_dlc = "By Blood Alone"
+                        has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
                     }
 
                     create_equipment_variant = {
@@ -24207,7 +24210,10 @@ focus = {
 
             if = {
                 limit = {
-                    has_dlc = "By Blood Alone"
+                    has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
                 }
                 add_tech_bonus = {
                     name = RAJ_douglas_dakota
@@ -24260,7 +24266,10 @@ focus = {
         completion_reward = {
             if = {
                 limit = {
-                    has_dlc = "By Blood Alone"
+                    has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
                 }
 
                 add_tech_bonus = {

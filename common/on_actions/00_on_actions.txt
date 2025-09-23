@@ -3540,7 +3540,10 @@ on_actions = {
 			ETH = {
 				if = {
 					limit = {
-						has_dlc = "By Blood Alone"
+						has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 						OR = {
 							AND = {
 								is_historical_focus_on = no
@@ -3593,7 +3596,10 @@ on_actions = {
 			SWI = {
 				if = {
 					limit = {
-						has_dlc = "By Blood Alone"
+						has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 						OR = {
 							AND = {
 								is_historical_focus_on = no

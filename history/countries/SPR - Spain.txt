@@ -10,7 +10,10 @@ if = {
 	}
 }
 if = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 		set_air_oob = "SPR_1936_air_bba"
 	else = {
 		set_air_oob = "SPR_1936_air_legacy"
@@ -281,7 +284,10 @@ set_technology = {
 }
 if = {
 	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
+		NOT = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 	}
 	set_technology = {
 		early_fighter = 1
@@ -433,7 +439,10 @@ set_stability = 0.5
 		}
 	}
 	if = {
-		limit = { has_dlc = "By Blood Alone" }
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				} }
 			set_air_oob = "SPA_1939_air_bba"
 		else = {
 			set_air_oob = "SPA_1939_air_legacy"

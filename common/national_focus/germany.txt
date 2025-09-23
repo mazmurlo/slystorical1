@@ -4030,7 +4030,10 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				create_equipment_variant = { 
@@ -4163,7 +4166,10 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				create_equipment_variant = { 
@@ -4295,7 +4301,10 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				create_equipment_variant = { 
@@ -4533,7 +4542,10 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				create_equipment_variant = { 
@@ -5042,7 +5054,10 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				create_equipment_variant = { 
@@ -5195,7 +5210,10 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_dlc = "By Blood Alone"
+					has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 				}
 				create_equipment_variant = { 
 					name = "Me 262" 
@@ -7754,7 +7772,10 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_dlc = "By Blood Alone"
+						has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}				}
 					}
 					random_country_division = {
 						limit = {
