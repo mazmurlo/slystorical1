@@ -4028,27 +4028,6 @@ focus_tree = {
 				category = light_air
 			}
 
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				create_equipment_variant = { 
-					name = "Ju 87 G" 
-					type = small_plane_cas_airframe_2
-					allow_without_tech = no
-					design_team = mio:GER_junkers_organization
-					modules = {
-						fixed_main_weapon_slot = bomb_locks
-						fixed_auxiliary_weapon_slot_1 = tank_buster_1
-						engine_type_slot = engine_3_1x
-						special_type_slot_1 = lmg_defense_turret
-						special_type_slot_2 = empty
-					}
-					icon = "GFX_GER_CAS2_medium"
-					model = "GER_CAS_equipment_2_entity"
-				}
-			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
@@ -4160,41 +4139,9 @@ focus_tree = {
 				uses = 1
 				category = medium_air
 			}
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				create_equipment_variant = { 
-					name = "Ju 88" 
-					type = medium_plane_airframe_2
-					allow_without_tech = no
-					design_team = mio:GER_dornier_organization
-					modules = {
-						fixed_main_weapon_slot = medium_bomb_bay
-						fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
-						fixed_auxiliary_weapon_slot_2 = torpedo_mounting
-						engine_type_slot = engine_3_2x
-						special_type_slot_1 = lmg_defense_turret_2x
-						special_type_slot_2 = empty	
-					}
-					icon = "GFX_GER_tactical_bomber2_medium"
-					model = "GER_medium_plane_entity"
-				}
-			}
 			
 			custom_effect_tooltip = generic_skip_one_line_tt
 
-			GER_modify_airforce_modifier = yes
-			add_to_variable = { 
-				GER_military_air_strategic_bomber_bombing_factor = 0.1
-				tooltip = air_strategic_bomber_bombing_factor_tt
-			}
-			add_to_variable = { 
-				GER_military_air_cas_efficiency = 0.05
-				tooltip = air_cas_efficiency_tt
-			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
@@ -4291,29 +4238,6 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = heavy_air
-			}
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				create_equipment_variant = { 
-					name = "Ju 89" 
-					type = large_plane_airframe_1
-					allow_without_tech = no
-					design_team = mio:GER_heinkel_organization
-					modules = {
-						fixed_main_weapon_slot = large_bomb_bay
-						fixed_auxiliary_weapon_slot_1 = empty
-						fixed_auxiliary_weapon_slot_2 = empty
-						engine_type_slot = engine_2_4x
-						special_type_slot_1 = lmg_defense_turret_2x
-						special_type_slot_2 = lmg_defense_turret
-					}
-					icon = "GFX_GER_strategic_bomber1_medium"
-					model = "GER_strat_bomber_equipment_1_entity"
-				}
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -4518,43 +4442,6 @@ focus_tree = {
 				uses = 1
 				category = air_doctrine
 			}
-
-
-			GER_modify_airforce_modifier = yes
-			add_to_variable = { 
-				GER_military_air_ace_generation_chance_factor = 0.25
-				tooltip = air_ace_generation_chance_factor_tt
-			}
-			add_to_variable = { 
-				GER_military_air_agility_factor = 0.05
-				tooltip = air_agility_factor_tt
-			}
-
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				create_equipment_variant = { 
-					name = "FW 190" 
-					type = small_plane_airframe_2
-					allow_without_tech = no
-					design_team = mio:GER_messerschmitt_organization
-					modules = {
-						fixed_main_weapon_slot = light_mg_4x
-						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
-						fixed_auxiliary_weapon_slot_2 = heavy_mg_4x
-						engine_type_slot = engine_3_1x
-						special_type_slot_1 = armor_plate_small
-						special_type_slot_2 = drop_tanks	
-						special_type_slot_3 = self_sealing_fuel_tanks_small	
-					}
-					icon = "GFX_GER_fighter2_medium"
-					model = "GER_fighter_equipment_2_entity"
-				}
-			}
-
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			add_ace = {
@@ -4769,7 +4656,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = GER_knickebein
-				days = 545
+				days = 300
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -4994,11 +4881,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
-			add_ideas = GER_nachtjagdgeschwader
-			#add_timed_idea = {
-			#	idea = GER_nachtjagdgeschwader
-			#	days = 365
-			#}
+			add_timed_idea = {
+				idea = GER_nachtjagdgeschwader
+				days = 180
+			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 

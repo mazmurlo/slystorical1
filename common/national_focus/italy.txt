@@ -3987,24 +3987,15 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
-
-			#add_tech_bonus = {
-			#	name = ITA_air_innovations_bba #fighter_bonus
-			#	bonus = 1
-			#	uses = 1
-			#	technology = improved_small_airframe
-			#}
-
-				#add_tech_bonus = {
-				#name = ITA_air_innovations_bba #fighter_bonus
-				#bonus = 1
-				#uses = 1
-				#technology = engines_3
-			#}
-
-			add_doctrine_cost_reduction = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 1
+				category = light_fighter
+			}
+			add_tech_bonus = {
 				name = air_doc_bonus
-				cost_reduction = 0.5
+				bonus = 1.0
 				uses = 2
 				category = air_doctrine
 			}
@@ -4029,10 +4020,13 @@ focus_tree = {
 		completion_reward = {
 
 			add_tech_bonus = {
-				name = ITA_citta_dell_aria
-				bonus = 0.25
-				uses = 3 # was 4
-				category = air_equipment
+				name = naval_air_effort
+				bonus = 1.0
+				uses = 1
+				category = naval_bomber
+				#technology = naval_bomber1
+				#technology = naval_bomber2
+				#technology = naval_bomber3
 			}
 			custom_effect_tooltip = generic_skip_one_line_tt
 
@@ -4100,14 +4094,6 @@ focus_tree = {
 					}
 				}
 			}
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				ITA_add_citta_dell_aria_templates = yes
-			}
 		}
 	}
 
@@ -4126,15 +4112,8 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { ITA_ra_air_ace_generation_chance_factor = 0.05 }
-			add_to_variable = { ITA_ra_air_night_penalty = -0.1 }
-			add_to_variable = { ITA_ra_air_weather_penalty = -0.1 }
-			add_to_variable = { ITA_ra_air_training_xp_gain_factor = 0.05 }
-			custom_effect_tooltip = ITA_expand_rome_flying_school_ra_tt
+			air_experience = 100
 
-			air_experience = 25
-
-			custom_effect_tooltip = ITA_reduced_chance_of_air_accidents_tt
 		}
 	}
 
@@ -4229,19 +4208,6 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 15
-			if = {
-				limit = {
-					country_exists = GER
-					NOT = { has_war_with = GER }
-				}
-				add_equipment_to_stockpile = { 
-					type = small_plane_cas_airframe_1
-					amount = 100
-					producer = GER
-					variant_name = "Ju 87"
-				}
-			}
-			else = {
 				add_tech_bonus = {
 					name = ITA_diving_bombers
 					bonus = 0.5
@@ -4252,7 +4218,6 @@ focus_tree = {
 			}
 			#NTH_Manu: Sends a request to Germany to purchase CAS and/or licensing design templates (historically 100 Ju87)
 		}
-	}
 
 	focus = {
 		id = ITA_superaereo
@@ -4272,21 +4237,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { ITA_ra_air_mission_efficiency = 0.05 }
-			add_to_variable = { ITA_ra_air_mission_xp_gain_factor = 0.05 }
-			add_to_variable = { ITA_ra_air_doctrine_cost_factor = -0.1 }
-			custom_effect_tooltip = ITA_superaereo_ra_tt
-
-			air_experience = 50
-			#if = {
-			#	limit = {
-			#		has_dlc = "No Step Back"
-			#	}
-			#	custom_effect_tooltip = "TODO_Manu: Cost reduction for Airforce spirits. Code support"
-			#}
-
-			#Update NS icon
-			ITA_improve_regia_aeronautica_dm_effect = yes
+			air_experience = 100
 		}
 	}
 
@@ -4317,10 +4268,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { ITA_ra_air_night_penalty = -0.05 }
-			add_to_variable = { ITA_ra_air_weather_penalty = -0.05 }
-			add_to_variable = { ITA_ra_air_accidents_factor = -0.1 }
-			custom_effect_tooltip = ITA_officers_of_the_service_role_ra_tt
 
 			air_experience = 25
 
@@ -4336,8 +4283,6 @@ focus_tree = {
 				surname = "Sanseverino"
 				callsign = "Postino" #Totally made up
 			}
-
-			custom_effect_tooltip = ITA_reduced_chance_of_air_accidents_tt
 		}
 	}
 
@@ -4356,18 +4301,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-			More expensive to edit templates, more cheap to produce aircraft
-			add_to_variable = { ITA_military_industry_air_equipment_upgrade_xp_cost = 0.25 }
-			custom_effect_tooltip = ITA_standardization_ra_tt
 
-			hidden_effect = {
-				add_ideas = ITA_hidden_standardization_ns
-				#add_ideas = ITA_hidden_standardization_ns_hidden
-			}
-
-			add_to_variable = { ITA_iri_consumer_goods_factor = 0.02 }
-			custom_effect_tooltip = ITA_ricostruzione_industriale_cg_penalty_tt
-		
 			add_tech_bonus = {
 				name = ITA_standardization
 				bonus = 0.75
@@ -4393,9 +4327,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
-			#Update NS icon
-			ITA_improve_regia_aeronautica_dm_effect = yes
 		}
 	}
 
@@ -4414,18 +4345,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			More expensive to edit templates, more cheap to produce aircraft
-			add_to_variable = { ITA_military_industry_air_equipment_upgrade_xp_cost = -0.025 }
-			custom_effect_tooltip = ITA_specialization_ra_tt
-
-			hidden_effect = {
-				add_ideas = ITA_hidden_specialization_ns
-				#add_ideas = ITA_hidden_specialization_ns_hidden
-			}
-
-			add_to_variable = { ITA_iri_consumer_goods_factor = 0.02 }
-			custom_effect_tooltip = ITA_ricostruzione_industriale_cg_penalty_tt
-
+		
 			air_experience = 15
 	
 			add_tech_bonus = {
@@ -4451,9 +4371,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
-			#Update NS icon
-			ITA_improve_regia_aeronautica_dm_effect = yes
 		}
 	}
 
@@ -4473,10 +4390,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-			add_to_variable = { ITA_ra_strategic_bomb_visibility = -0.05 }
-			add_to_variable = { ITA_ra_air_strategic_bomber_bombing_factor = 0.05 }
-			add_to_variable = { ITA_ra_air_range_factor = 0.05 }
-			custom_effect_tooltip = ITA_long_range_aircraft_ra_tt
 
 			random_core_state = {
 				limit = {
@@ -4493,13 +4406,6 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-			}
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_long_range_aircraft_templates = yes
 			}
 		}
 	}
@@ -4537,13 +4443,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_bomber_designs_templates = yes
-			}
 		}
 	}
 
@@ -4579,13 +4478,6 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-			}
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_fighter_designs_templates = yes
 			}
 		}
 	}
@@ -4627,13 +4519,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_multirole_aircraft_templates = yes
-			}
 		}
 	}
 
@@ -4652,11 +4537,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { ITA_ra_air_superiority_bonus_in_combat = 0.05 }
-			add_to_variable = { ITA_ra_air_superiority_efficiency = 0.05 }
-			add_to_variable = { ITA_ra_air_intercept_efficiency = 0.05 }
-			custom_effect_tooltip = ITA_supremacy_in_the_skies_ra_tt
-
 			air_experience = 50
 
 			random_core_state = {
@@ -4674,13 +4554,6 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-			}
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_supremacy_in_the_skies_templates = yes
 			}
 		}
 	}
@@ -8876,8 +8749,6 @@ focus_tree = {
 			custom_effect_tooltip = ITA_by_blood_alone_re_tt
 
 			#REGIA AERONAUTICA
-			add_to_variable = { ITA_ra_air_superiority_bonus_in_combat = 0.05 }
-			custom_effect_tooltip = ITA_by_blood_alone_ra_tt
 
 			#REGIA MARINA
 			add_to_variable = { ITA_rm_naval_morale_factor = 0.05 }
