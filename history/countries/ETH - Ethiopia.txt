@@ -156,8 +156,11 @@ recruit_character = ETH_makonnen_endelkatchew
 # Military Advisors
 recruit_character = ETH_john_robinson
 
-IF = {
-	limit = { has_dlc = "By Blood Alone" }
+if = {
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on } 
+		}
 	recruit_character = ETH_hailu_tekle_haymanot
 	recruit_character = ETH_abba_jofir
 	recruit_character = ETH_amha_selassie
@@ -275,8 +278,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-IF = {
-	limit = { has_dlc = "By Blood Alone" }
+if = {
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on } 
+		}
 	set_popularities = {
 		neutrality = 70
 		fascism = 20 

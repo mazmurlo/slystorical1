@@ -15,8 +15,11 @@ IF = {
 	}
 }
 
-IF = {
-	limit = { has_dlc = "By Blood Alone" }
+if = {
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on } 
+		}
 		set_air_oob = "HUN_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1

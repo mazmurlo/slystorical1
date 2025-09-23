@@ -7,8 +7,11 @@ every_core_state = {
 		add_to_array = { cores_at_game_start = PREV }
 	}
 }
-IF = {
-	limit = { has_dlc = "By Blood Alone" }
+if = {
+		limit = { has_game_rule = { 
+					rule = larp_barb
+					option = on } 
+		}
 		set_air_oob = "BRA_1936_air_bba"
 	ELSE = {
 		set_air_oob = "BRA_1936_air_legacy"
