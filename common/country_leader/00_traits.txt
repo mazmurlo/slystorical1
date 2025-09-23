@@ -12825,7 +12825,8 @@ leader_traits = {
 
 	air_air_superiority_1 = {
 		sprite = 1
-		air_superiority_efficiency = 0.05
+		air_training_xp_gain_factor = 0.25
+		#air_superiority_efficiency = 0.05
 		#experience_gain_air = @experience_gain_low
 
 		command_cap_increase = @tier1_cp_cap_increase
@@ -12842,7 +12843,8 @@ leader_traits = {
 
 	air_air_superiority_2 = {
 		sprite = 1
-		air_superiority_efficiency = 0.1
+		air_training_xp_gain_factor = 0.25
+		#air_superiority_efficiency = 0.1
 		#experience_gain_air = @experience_gain_medium
 
 		command_cap_increase = @tier2_cp_cap_increase
@@ -12859,7 +12861,8 @@ leader_traits = {
 
 	air_air_superiority_3 = {
 		sprite = 1
-		air_superiority_efficiency = 0.15
+		air_training_xp_gain_factor = 0.25
+		#air_superiority_efficiency = 0.15
 		#experience_gain_air = @experience_gain_high
 
 		command_cap_increase = @tier3_cp_cap_increase
