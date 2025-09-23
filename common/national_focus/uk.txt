@@ -1154,10 +1154,7 @@ focus_tree = {
 			air_experience = 25
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				add_tech_bonus = {
 					technology =  photo_reconnaisance
@@ -1395,10 +1392,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+					NOT = { has_dlc = "By Blood Alone" }
 				}
 				air_experience = 25
 				add_tech_bonus = {
@@ -1411,10 +1405,7 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				air_experience = 25
 				add_tech_bonus = {
@@ -1455,10 +1446,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+					NOT = { has_dlc = "By Blood Alone" }
 				}
 				air_experience = 25
 				add_tech_bonus = {
@@ -1471,10 +1459,7 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				air_experience = 25
 				add_tech_bonus = {
@@ -1511,10 +1496,7 @@ focus_tree = {
 	completion_reward = {
 			if = {
 				limit = {
-					NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+					NOT = { has_dlc = "By Blood Alone" }
 				}
 				air_experience = 25
 				add_tech_bonus = {
@@ -1527,10 +1509,7 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				air_experience = 25
 				add_tech_bonus = {

@@ -472,10 +472,7 @@ ideas = {
 			removal_cost = -1
 			
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 
 			allowed_civil_war = {
@@ -2800,10 +2797,7 @@ ideas = {
 			removal_cost = -1	
 	
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 				original_tag = ITA
 			}
 
@@ -2829,10 +2823,7 @@ ideas = {
 			removal_cost = -1	
 	
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 				original_tag = ITA
 			}
 
@@ -2858,10 +2849,7 @@ ideas = {
 			removal_cost = -1	
 	
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 
 			cancel = {
@@ -2884,10 +2872,7 @@ ideas = {
 			removal_cost = -1	
 	
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 
 			cancel = {
@@ -2942,10 +2927,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 
 			do_effect = {
@@ -2974,10 +2956,7 @@ ideas = {
 			picture = spr_the_popular_front
 			
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 
 			allowed_civil_war = {
@@ -2996,10 +2975,7 @@ ideas = {
 			picture = ITA_il_sol_dell_avvenire_ns
 			
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 	
 			allowed_civil_war = {
@@ -3018,10 +2994,7 @@ ideas = {
 			picture = generic_deal_with_the_devil2
 			
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 
 			allowed_civil_war = {
@@ -3041,10 +3014,7 @@ ideas = {
 			picture = generic_deal_with_the_devil2
 			
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 
 			allowed_civil_war = {
@@ -4529,10 +4499,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			
 			available = {

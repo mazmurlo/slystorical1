@@ -280,10 +280,7 @@ characters = {
 			available = {
 				if =  {
 					limit = { 
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 					ITA_is_advisor_available = yes
 				}
@@ -331,10 +328,7 @@ characters = {
 			}
 			available = {
 				if = {
-					limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+					limit = { has_dlc = "By Blood Alone" }
 					OR = {
 						NOT = { has_government = communism }
 						has_completed_focus = ITA_common_ground
@@ -1707,10 +1701,7 @@ characters = {
 				ITA_government_is_somewhat_fascist = yes
 				if =  {
 					limit = { 
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 					ITA_is_advisor_available = yes
 				}
@@ -2082,10 +2073,7 @@ characters = {
 					has_government = neutrality
 					if = {
 						limit = {
-							has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+							has_dlc = "By Blood Alone"
 						}
 						has_completed_focus = ITA_cooperate_with_moderates
 					}
@@ -2127,10 +2115,7 @@ characters = {
 				NOT = { has_completed_focus = ITA_pact_of_steel }
 				if = {
 					limit = {
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 					NOT = { has_completed_focus = ITA_revoke_the_acerbo_law }
 				}
@@ -2208,10 +2193,7 @@ characters = {
 			available = {
 				if = {
 					limit = {
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 					OR = {
 						has_government = fascism
@@ -2412,10 +2394,7 @@ characters = {
 			idea_token = ITA_giovanni_duca
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -2523,10 +2502,7 @@ characters = {
 			idea_token = ITA_vittorio_emanuele_orlando
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -2568,10 +2544,7 @@ characters = {
 			idea_token = ITA_luigi_einaudi
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -2604,10 +2577,7 @@ characters = {
 			idea_token = ITA_pietro_d_acquarone
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				has_completed_focus = ITA_convene_the_grand_council
@@ -2642,10 +2612,7 @@ characters = {
 			idea_token = ITA_alberto_de_stefani
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -2742,10 +2709,7 @@ characters = {
 			idea_token = ITA_alcide_de_gasperi
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -2790,10 +2754,7 @@ characters = {
 			idea_token = ITA_mario_scelba
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -2831,10 +2792,7 @@ characters = {
 			idea_token = ITA_guido_de_ruggiero
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -2873,10 +2831,7 @@ characters = {
 			idea_token = ITA_alberto_tarchiani
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				has_completed_focus = ITA_bring_back_exiled_intellectuals
@@ -2904,10 +2859,7 @@ characters = {
 			idea_token = ITA_giuseppe_borea
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -3164,10 +3116,7 @@ characters = {
 			idea_token = ITA_luigi_longo
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 
 			available = {
@@ -3231,10 +3180,7 @@ characters = {
 					original_tag = ITA
 					original_tag = SWE
 				}
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -3295,10 +3241,7 @@ characters = {
 			idea_token = ITA_sandro_pertini
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -3342,10 +3285,7 @@ characters = {
 			idea_token = ITA_antonio_pesenti
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -3382,10 +3322,7 @@ characters = {
 					original_tag = ITA
 					original_tag = SWE
 				}
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			
 			}
 			available = {
@@ -3425,10 +3362,7 @@ characters = {
 			idea_token = ITA_giulio_paggio
 			allowed = {
 				original_tag = ITA
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				has_completed_focus = ITA_the_popular_front
@@ -3459,10 +3393,7 @@ characters = {
 					original_tag = ITA
 					original_tag = SWE
 				}
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				OR = {
@@ -3620,10 +3551,7 @@ characters = {
 	#	idea_token = ITA_enrico_fermi
 	#	allowed = {
 	#		original_tag = ITA
-	#		has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+	#		has_dlc = "By Blood Alone"
 	#	}
 	#	available = {
 	#		OR = {

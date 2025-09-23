@@ -2,10 +2,7 @@
 
 oob = "LIT_1936"
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "LIT_1936_air_bba"
 	else = {
 		set_air_oob = "LIT_1936_air_legacy"
@@ -118,10 +115,7 @@ set_convoys = 10
 	
 	oob = "LIT_1939"
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "LIT_1939_air_bba"
 			set_technology = {
 				iw_small_airframe = 1
@@ -173,10 +167,7 @@ set_convoys = 10
 	}
 	if = {
 		limit = {
-			has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+			has_dlc = "By Blood Alone"
 		}
 		create_equipment_variant = {
 			name = "ANBO IV" #

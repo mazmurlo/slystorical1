@@ -18,12 +18,7 @@ add_breakthrough_progress = {
 }
 
 if = {
-	limit = {
-		 has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}
-			}
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "GER_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1

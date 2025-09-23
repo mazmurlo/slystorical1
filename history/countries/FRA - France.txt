@@ -28,10 +28,7 @@ if = {
 }
 
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "FRA_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
@@ -250,10 +247,7 @@ if = {
 		}
 	}
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "FRA_1939_air_bba"
 			set_technology = {
 				basic_small_airframe = 1
@@ -601,10 +595,7 @@ if = {
 }
 if = {
 	limit = {
-		has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+		has_dlc = "By Blood Alone"
 	}
 	create_equipment_variant = {
 		name = "Br. 19" #
@@ -1144,10 +1135,7 @@ if = {
 1939.1.1 = {
 	if = {
 		limit = {
-			has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+			has_dlc = "By Blood Alone"
 		}
 		create_equipment_variant = {
 			name = "M.S. 406" #

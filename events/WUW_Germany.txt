@@ -12243,10 +12243,7 @@ country_event = {
 
 			IF = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 					SWI = {
 						NOT = {
 							AND = {
@@ -12305,10 +12302,7 @@ country_event = {
 		RAR = {
 			IF = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 					SWI = {
 						NOT = {
 							AND = {
@@ -12414,10 +12408,7 @@ country_event = {
 			
 			IF = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 					SWI = {
 						NOT = {
 							AND = {

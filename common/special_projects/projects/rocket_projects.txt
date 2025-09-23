@@ -78,10 +78,7 @@ sp_rockets_flying_bomb = {
 			}
 			if = { 
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_TECH
@@ -1133,28 +1130,19 @@ sp_rocket_interceptor = {
 				TECH = advanced_rocket_engines	
 			}
 			if = {
-				limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+				limit = { has_dlc = "By Blood Alone" }
 				 SP_create_variant_based_on_country_improved_small_airframe_rocket_engine = yes	
 			}		
 		}
 		enable_equipments = {
 			limit = {
-				NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+				NOT = { has_dlc = "By Blood Alone" }
 			}
 			rocket_interceptor_equipment_1
 		}
 		enable_equipment_modules = {
 			limit = { 
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} 
+				has_dlc = "By Blood Alone" 
 			}
 			rocket_engine_1
 		}

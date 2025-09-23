@@ -15,10 +15,7 @@ every_possible_country = {
 			NOT = { tag = TUR tag = GRE }
 		}
 		IF = {
-			limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+			limit = { has_dlc = "By Blood Alone" }
 			NOT = { OR = { tag = ETH tag = SWI } }
 		}
 		IF = {
@@ -75,10 +72,7 @@ every_possible_country = {
 			NOT = { tag = TUR tag = GRE }
 		}
 		IF = {
-			limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+			limit = { has_dlc = "By Blood Alone" }
 			NOT = { OR = { tag = ETH tag = SWI } }
 		}
 		IF = {
@@ -139,10 +133,7 @@ every_possible_country = {
 			NOT = { tag = TUR tag = GRE }
 		}
 		IF = {
-			limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+			limit = { has_dlc = "By Blood Alone" }
 			NOT = { OR = { tag = ETH tag = SWI } }
 		}
 		IF = {
@@ -205,10 +196,7 @@ every_possible_country = {
 			}
 		}
 		IF = {
-			limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+			limit = { has_dlc = "By Blood Alone" }
 			NOT = { OR = { tag = ETH tag = SWI } }
 		}
 

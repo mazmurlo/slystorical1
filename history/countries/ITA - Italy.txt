@@ -110,10 +110,7 @@ set_variable = { ITA_militias_cap = 12 } #WARNING THIS VALUE NEEDS TOP MATCH THE
 ############ ATOMIC RESEARCH ############
 if = {
 	limit = {
-		has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+		has_dlc = "By Blood Alone"
 	}
 	set_variable = { global.atomic_research_race = 0 }
 }
@@ -452,10 +449,7 @@ if = {
 }
 
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "ITA_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
@@ -689,10 +683,7 @@ if = {
 		set_oob = "ITA_1939_nsb"
 	}
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "ITA_1939_air_bba"
 			set_technology = {
 				aa_hmg = 1
@@ -882,10 +873,7 @@ recruit_character = ITA_curio_bernardis
 ### IF NOT BBA, trigger the first Missiolini from here #TODO_Manu: PLEASE CHECK IF THIS ACTUALLY WORKS (character has just been recruited)
 if = {
 	limit = {
-		NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		NOT = { has_dlc = "By Blood Alone" }
 	}
 	ITA_benito_mussolini = { unit_leader_event = { id = BBA_italo_ethiopian_war_events.01 days = 14 } }  # JAN 36 - Conquer Ethiopia  - APR/JUNE 36 - (120-170 days)
 }
@@ -948,10 +936,7 @@ add_equipment_to_stockpile = {
 # 1936 Start #
 #plane variants
 if = {
-	limit = { NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} } }
+	limit = { NOT = { has_dlc = "By Blood Alone" } }
 	create_equipment_variant = {
 		name = "CR.42"
 		type = fighter_equipment_0
@@ -964,10 +949,7 @@ if = {
 	}
 }
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+	limit = { has_dlc = "By Blood Alone" }
 	create_equipment_variant = {
 		name = "CR.32" #
 		type = small_plane_airframe_0
@@ -1576,10 +1558,7 @@ if = {
 1939.1.1 = {
 	if = {
 		limit = {
-			has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+			has_dlc = "By Blood Alone"
 		}
 		create_equipment_variant = {
 			name = "CR.42" #

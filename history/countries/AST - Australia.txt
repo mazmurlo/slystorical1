@@ -74,12 +74,7 @@ if = {
 	set_naval_oob = "AST_1936_naval"
 }
 if = {
-	limit = {	
-		has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}
-				 }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "AST_1936_air_bba"
 	else = {
 		set_air_oob = "AST_1936_air_legacy"
@@ -154,10 +149,7 @@ if = {
 	add_command_power = 100
 	oob = "AST_1939"
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "AST_1939_air_bba"
 		else = {
 			set_air_oob = "AST_1939_air_legacy"

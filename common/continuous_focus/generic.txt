@@ -80,10 +80,7 @@ continuous_focus_palette = {
 		
 		available = {
 			hidden_trigger = { 
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} 
+				has_dlc = "By Blood Alone" 
 				original_tag = ETH 
 			}
 			has_completed_focus = ETH_anti-italian_propaganda
@@ -125,10 +122,7 @@ continuous_focus_palette = {
 		
 		available = {
 			hidden_trigger = { 
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} 
+				has_dlc = "By Blood Alone" 
 				original_tag = ETH 
 			}
 			has_completed_focus = ETH_the_patriots
@@ -169,10 +163,7 @@ continuous_focus_palette = {
 		
 		available = {
 			hidden_trigger = { 
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} 
+				has_dlc = "By Blood Alone" 
 				original_tag = SWI 
 			}
 		}
@@ -217,10 +208,7 @@ continuous_focus_palette = {
 		
 		available = {
 			hidden_trigger = { 
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} 
+				has_dlc = "By Blood Alone" 
 				original_tag = SWI
 			}
 		}

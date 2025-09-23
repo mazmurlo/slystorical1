@@ -2076,10 +2076,7 @@ shared_focus = {
 			if = {
 				limit = {
 					NOT = {
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 				}
 				if = {
@@ -2458,10 +2455,7 @@ shared_focus = {
 	available = {
 		if = {
 			limit = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			NOT = { has_tech = advanced_small_airframe }
 		}
@@ -2481,10 +2475,7 @@ shared_focus = {
 	completion_reward = {
 		if = {
 			limit = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			add_tech_bonus = {
 				name = CHI_the_chu_x_po

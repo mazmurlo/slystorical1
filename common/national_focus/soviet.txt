@@ -1929,10 +1929,7 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = {
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 					create_equipment_variant = {
 						name = "U-2" #

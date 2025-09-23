@@ -86,10 +86,7 @@ instant_effect = {
 	}
 
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "GER_1939_air_bba"
 		else = {
 			set_air_oob = "GER_1939_air_legacy"

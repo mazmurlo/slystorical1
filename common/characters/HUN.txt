@@ -2748,10 +2748,7 @@ characters = {
 				IF = {
 					limit = {
 						# TODO:JA: Change this later!
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 					has_completed_focus = wuw_HUN_end_the_regency
 				}

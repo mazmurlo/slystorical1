@@ -55,10 +55,7 @@ characters = {
 	ETH_haile_selassie_gugsa = {
 		instance = {
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			name = ETH_haile_selassie_gugsa
 			portraits = {
@@ -99,10 +96,7 @@ characters = {
 		}
 		instance = {
 			allowed = {
-				NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+				NOT = { has_dlc = "By Blood Alone" }
 			}
 			name = ETH_haile_selassie_gugsa
 			portraits = {
@@ -203,10 +197,7 @@ characters = {
 	ETH_alemework_beyene = {
 		instance = {
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			name = ETH_alemework_beyene
 			portraits = {
@@ -227,10 +218,7 @@ characters = {
 		}
 		instance = {
 			allowed = {
-				NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+				NOT = { has_dlc = "By Blood Alone" }
 			}
 			name = ETH_alemework_beyene
 			portraits = {
@@ -283,10 +271,7 @@ characters = {
 
 	ETH_ras_imru_haile_selassie = {
 		instance = {
-			allowed = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}}
+			allowed = { has_dlc = "By Blood Alone"}
 			allowed_civil_war = {
 				NOT = { has_government = fascism }
 			}
@@ -334,10 +319,7 @@ characters = {
 				idea_token = ETH_ras_imru_haile_selassie_army_chief
 				allowed  = {
 					original_tag  = ETH
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				available = {
 					NOT = { has_government = fascism } 
@@ -362,10 +344,7 @@ characters = {
 				idea_token = ETH_ras_imru_haile_selassie_high_command
 				allowed  = {
 					original_tag  = ETH
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				available = {
 					NOT = { has_government = fascism } 
@@ -397,10 +376,7 @@ characters = {
 			}
 		}
 		instance = {
-			allowed = { NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} } }
+			allowed = { NOT = { has_dlc = "By Blood Alone" } }
 			name = ETH_ras_imru_haile_selassie
 			portraits={
 				civilian = {
@@ -479,10 +455,7 @@ characters = {
 			idea_token = ETH_seyoum_mengesha
 			allowed = {
 				original_tag = ETH
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			available = {
 				IF = {
@@ -515,10 +488,7 @@ characters = {
 	ETH_desta_damtew = {
 		instance = {
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			allowed_civil_war = {
 				NOT = { has_government = fascism }
@@ -544,10 +514,7 @@ characters = {
 		}
 		instance = {
 			allowed = {
-				NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+				NOT = { has_dlc = "By Blood Alone" }
 			}
 			name = ETH_desta_damtew
 			portraits={
@@ -623,10 +590,7 @@ characters = {
 	ETH_ras_kassa = {
 		instance = {
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			allowed_civil_war = {
 				has_government = neutrality
@@ -733,10 +697,7 @@ characters = {
 		}
 		instance = {
 			allowed = {
-				NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+				NOT = { has_dlc = "By Blood Alone" }
 			}
 			name = ETH_ras_kassa
 			portraits = {
@@ -975,10 +936,7 @@ characters = {
 	ETH_makonnen_endelkatchew={
 		instance = {
 			allowed = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 			allowed_civil_war = {
 				OR = {
@@ -1011,10 +969,7 @@ characters = {
 		}
 		instance = {
 			allowed = {
-				NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+				NOT = { has_dlc = "By Blood Alone" }
 			}
 			name = ETH_makonnen_endelkatchew
 			portraits = {
@@ -1443,10 +1398,7 @@ characters = {
 
 	ETH_john_robinson={
 		instance = {
-			allowed = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+			allowed = { has_dlc = "By Blood Alone" }
 			name = ETH_john_robinson
 			allowed_civil_war = {
 				OR = {
@@ -1481,10 +1433,7 @@ characters = {
 			}
 		}
 		instance = {
-			allowed = { NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} } }
+			allowed = { NOT = { has_dlc = "By Blood Alone" } }
 			name=ETH_john_robinson
 			portraits={
 				army={

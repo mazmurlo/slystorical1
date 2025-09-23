@@ -701,10 +701,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				every_country_division = {
 					random_select_amount = 12
@@ -993,10 +990,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 					random_country_division = {
 						limit = {
@@ -4065,10 +4059,7 @@ focus_tree = {
 			
 				if = {
 					limit = {
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 					if = {
 						limit = {
@@ -4445,10 +4436,7 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				has_tech = iw_small_airframe
 			}
@@ -4477,10 +4465,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				if = {
 					limit = {
@@ -4637,10 +4622,7 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				has_tech = iw_small_airframe
 			}
@@ -4668,10 +4650,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				if = {
 					limit = {
@@ -4811,10 +4790,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				if = {
 					limit = {

@@ -12,10 +12,7 @@ if = {
 	}
 }
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "USA_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
@@ -246,10 +243,7 @@ if = {
 		}
 	}
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "USA_1939_air_bba"
 			set_technology = {
 				iw_large_airframe = 1
@@ -592,10 +586,7 @@ if = {
 }
 if = {
 	limit = {
-		has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+		has_dlc = "By Blood Alone"
 	}
 	create_equipment_variant = {
 		name = "P-6" #export models only
@@ -1178,10 +1169,7 @@ if = {
 	}
 	if = {
 		limit = {
-			has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+			has_dlc = "By Blood Alone"
 		}
 		create_equipment_variant = {
 			name = "F2A Buffalo" #
@@ -1345,10 +1333,7 @@ if = {
 	if = {
 		limit = {
 			NOT = {
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 		}
 		create_equipment_variant = {

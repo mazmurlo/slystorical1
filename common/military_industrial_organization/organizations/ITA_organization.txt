@@ -18,10 +18,7 @@ ITA_fiat_organization = {
 			tag = ITA 
 			AND = {
 				tag = AOI 
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 		}
 	}
@@ -152,10 +149,7 @@ ITA_macchi_organization = {
 			tag = ITA 
 			AND = {
 				tag = AOI 
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 		}
 	}
@@ -203,10 +197,7 @@ ITA_caproni_organization = {
 			tag = ITA 
 			AND = {
 				tag = AOI 
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 		}
 	}
@@ -254,10 +245,7 @@ ITA_imam_organization = {
 			tag = ITA 
 			AND = {
 				tag = AOI 
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 		}
 	}
@@ -331,10 +319,7 @@ ITA_beretta_organization = {
 			tag = ITA 
 			AND = {
 				tag = AOI
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 		}
 	}
@@ -387,10 +372,7 @@ ITA_breda_organization = {
 			original_tag = ITA 
 			AND = {
 				original_tag = AOI
-				has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+				has_dlc = "By Blood Alone"
 			}
 		}
 	}
@@ -435,10 +417,7 @@ ITA_officine_meccaniche_organization = {
 	
 	allowed = {
 		original_tag = ITA
-		has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+		has_dlc = "By Blood Alone"
 	}
 
 	equipment_type = {

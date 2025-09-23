@@ -9,10 +9,7 @@ if = {
 	}
 }
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "SIA_1936_air_bba"
 	else = {
 		set_air_oob = "SIA_1936_air_legacy"
@@ -99,10 +96,7 @@ set_convoys = 15
 		}
 	}
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "SIA_1939_air_bba"
 			set_technology = {
 				bba_early_transport_plane = 1

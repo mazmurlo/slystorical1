@@ -3,10 +3,7 @@ set_research_slots = 3
 
 oob = "SAF_1936"
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "SAF_1936_air_bba"
 	else = {
 		set_air_oob = "SAF_1936_air_legacy"
@@ -100,10 +97,7 @@ if = {
 	add_command_power = 100
 	oob = "SAF_1939"
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "SAF_1939_air_bba"
 		else = {
 			set_air_oob = "SAF_1939_air_legacy"
@@ -177,10 +171,7 @@ if = {
 	}
 	if = {
 		limit = {
-			NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+			NOT = { has_dlc = "By Blood Alone" }
 		}
 		set_technology = {
 			fighter1 = 1

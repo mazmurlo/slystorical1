@@ -15,10 +15,7 @@ if = {
 	set_oob = "CZE_1936_nsb"
 }
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "CZE_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
@@ -196,10 +193,7 @@ if = {
 
 if = {
 	limit = {
-		has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+		has_dlc = "By Blood Alone"
 	}
 	create_equipment_variant = {
 		name = "Avia B.534"

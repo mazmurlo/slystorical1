@@ -1611,10 +1611,7 @@ characters={
 
 	SWE_christian_gunter={
 		instance = {
-			allowed = {has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}}
+			allowed = {has_dlc = "By Blood Alone"}
 			advisor={
 				slot = political_advisor
 				cost = 75
@@ -1638,10 +1635,7 @@ characters={
 		}
 
 		instance = {
-			allowed = { NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }}
+			allowed = { NOT = { has_dlc = "By Blood Alone" }}
 			advisor={
 				slot = political_advisor
 				cost = 75

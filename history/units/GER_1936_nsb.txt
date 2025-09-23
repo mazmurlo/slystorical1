@@ -497,10 +497,7 @@ if = {
 if = {
 	limit = {
 		NOT = {
-			has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+			has_dlc = "By Blood Alone"
 		}
 	}
 	create_equipment_variant = {
@@ -532,10 +529,7 @@ if = {
 
 if = {
 	limit = {
-		has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+		has_dlc = "By Blood Alone"
 	}
 	create_equipment_variant = {
 		name = "Do 23"

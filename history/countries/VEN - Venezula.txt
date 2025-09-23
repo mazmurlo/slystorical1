@@ -13,10 +13,7 @@ set_technology = {
 
 if = {
 	limit = {
-		NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
 		early_fighter = 1
@@ -67,10 +64,7 @@ add_ideas = idea_VEN_blockade_inactive
 	
 	oob = "VEN_1939"
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "VEN_1939_air_bba"
 		else = {
 			set_air_oob = "VEN_1939_air_legacy"

@@ -31,10 +31,7 @@ set_technology = {
 }
 if = {
 	limit = {
-		NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
 		early_fighter = 1

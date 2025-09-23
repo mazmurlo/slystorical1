@@ -9,10 +9,7 @@ if = {
 	}
 }
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "POL_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
@@ -193,10 +190,7 @@ if = {
 		}
 	}
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "POL_1939_air_bba"
 			set_technology = {
 				iw_medium_airframe = 1
@@ -291,10 +285,7 @@ if = {
 	}
 	if = {
 		limit = {
-			NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+			NOT = { has_dlc = "By Blood Alone" }
 		}
 		create_equipment_variant = {
 			name = "PZL P.43"
@@ -309,10 +300,7 @@ if = {
 	}
 	if = {
 		limit = {
-			has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+			has_dlc = "By Blood Alone"
 		}
 		create_equipment_variant = {
 			name = "PZL P.43"
@@ -484,10 +472,7 @@ if = {
 if = {
 	limit = {
 		NOT = {
-			has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+			has_dlc = "By Blood Alone"
 		}
 	}
 	create_equipment_variant = {
@@ -503,10 +488,7 @@ if = {
 }
 if = {
 	limit = {
-		has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+		has_dlc = "By Blood Alone"
 	}
 	create_equipment_variant = {
 		name = "PZL P.11"

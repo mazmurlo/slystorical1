@@ -15,10 +15,7 @@ set_technology = {
 
 IF = {
 	limit = {
-		NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
 		early_fighter = 1
@@ -103,10 +100,7 @@ recruit_character = LUX_felix_of_luxembourg
 	}
 	IF = {
 		limit = {
-			NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+			NOT = { has_dlc = "By Blood Alone" }
 		}
 		set_technology = {
 			fighter1 = 1

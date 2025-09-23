@@ -2,10 +2,7 @@
 
 oob = "PER_1936"
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "PER_1936_air_bba"
 	else = {
 		set_air_oob = "PER_1936_air_legacy"
@@ -65,10 +62,7 @@ recruit_character = PER_ali_khan_mansour
 	
 	oob = "PER_1939"
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "PER_1936_air_bba" #intentionally using 36 oob (No significant airforce expansion)
 		else = {
 			set_air_oob = "PER_1936_air_legacy"

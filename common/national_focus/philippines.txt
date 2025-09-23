@@ -1021,10 +1021,7 @@ focus = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				add_tech_bonus = {
 					name = PHI_fighter_modernisation
@@ -1104,10 +1101,7 @@ focus = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				create_equipment_variant = {
 					name = "P-38 Lightning" #
@@ -1159,10 +1153,7 @@ focus = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				add_tech_bonus = {
 					name = POL_naval_bomber_experiments
@@ -1220,10 +1211,7 @@ focus = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				add_tech_bonus = {
 					name = POL_medium_bomber_focus
@@ -1274,10 +1262,7 @@ focus = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				add_tech_bonus = {
 					name = PHI_light_bomber_focus

@@ -4103,10 +4103,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				ITA_add_citta_dell_aria_templates = yes
@@ -4208,10 +4205,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				ITA_add_reggianes_exports_templates = yes
 			}
@@ -4309,10 +4303,7 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				has_tech = improved_small_airframe
 				has_tech = improved_medium_airframe
@@ -4506,10 +4497,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				ITA_add_long_range_aircraft_templates = yes
 			}
@@ -4552,10 +4540,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				ITA_add_bomber_designs_templates = yes
 			}
@@ -4598,10 +4583,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				ITA_add_fighter_designs_templates = yes
 			}
@@ -4648,10 +4630,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				ITA_add_multirole_aircraft_templates = yes
 			}
@@ -4699,10 +4678,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				ITA_add_supremacy_in_the_skies_templates = yes
 			}
@@ -5737,10 +5713,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				ITA_naval_air_coordination_templates = yes
 			}
@@ -7341,10 +7314,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				ETH_deescalate_the_war_effect = yes
 			}
@@ -7577,10 +7547,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				custom_effect_tooltip = ITA_topple_amhara_rulers_event_chain_tt
 				hidden_effect = {
@@ -7698,10 +7665,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 					has_game_rule = {
 						rule = obsolete_focus_branches_visibility
 						option = HIDE
@@ -8153,10 +8117,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 					has_game_rule = {
 						rule = obsolete_focus_branches_visibility
 						option = HIDE
@@ -8216,10 +8177,7 @@ focus_tree = {
 			has_dlc = "La Resistance"
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 					has_game_rule = {
 						rule = obsolete_focus_branches_visibility
 						option = HIDE
@@ -8970,10 +8928,7 @@ focus_tree = {
 		allow_branch = {
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 					has_game_rule = {
 						rule = obsolete_focus_branches_visibility
 						option = HIDE
@@ -9003,10 +8958,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+					has_dlc = "By Blood Alone"
 				}
 				custom_effect_tooltip = ITA_foreign_affairs_focus_lock_tt
 			}
@@ -9409,10 +9361,7 @@ focus_tree = {
 			hidden_effect = {
 				if ={
 					limit = {
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 					load_oob = "ITA_aviazione_legionaria_bba"
 				}

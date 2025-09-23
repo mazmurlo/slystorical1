@@ -1921,10 +1921,7 @@ characters={
 					}
 					AND = {
 						original_tag = ETH
-						has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				}
+						has_dlc = "By Blood Alone"
 					}
 
 					AND = {

@@ -22,10 +22,7 @@ if = {
 	}
 }
 if = {
-	limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				} }
+	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "CAN_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
@@ -109,10 +106,7 @@ set_technology = {
 }
 if = {
 	limit = {
-		NOT = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		NOT = { has_dlc = "By Blood Alone" }
 	}
 	set_technology = {
 		early_fighter = 1
@@ -225,10 +219,7 @@ if = {
 		}
 	}
 	if = {
-		limit = { has_game_rule = { 
-					rule = larp_barb
-					option = on
-				}				} }
+		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "CAN_1939_air_bba"
 			set_technology = {
 				iw_small_airframe = 1
