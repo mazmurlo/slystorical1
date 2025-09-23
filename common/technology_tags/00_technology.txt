@@ -169,14 +169,19 @@ technology_folders = {
 	}
 	air_techs_folder = {
 		available = {
-					has_dlc = "By Blood Alone" 
+				NOT = { 
+					has_country_flag = barbstart
 				}
+			}
 		ledger = air
 	}
 	bba_air_techs_folder = {
 		available = {
-			
-		}
+				has_game_rule = { 
+					rule = larp_barb
+					option = on
+				}
+			}
 		ledger = air
 	}
 	naval_folder = {
