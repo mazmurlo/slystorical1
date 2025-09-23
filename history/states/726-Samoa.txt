@@ -1,0 +1,34 @@
+state={
+	id=726
+	name="STATE_726"
+	manpower=123214
+	state_category = small_island
+
+	history={
+		# Less Minors + Scraping
+		1936.1.1.15 = { owner = RAJ add_core_of = AST}
+		1936.1.1.14 = { owner = RAJ add_core_of = AST }
+
+        owner = AST
+
+		add_core_of = WST
+		buildings = {
+			infrastructure = 2
+			7290 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			7290 1
+		}
+			1941.1.1 = {
+		owner = WST
+		add_core_of = WST
+		}
+	}
+	provinces={
+		7290 13080 
+	}
+
+	local_supplies=0.0 
+}

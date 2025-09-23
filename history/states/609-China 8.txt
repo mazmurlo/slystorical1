@@ -1,0 +1,40 @@
+
+state={
+	id=609
+	name="STATE_609" # East Hebei
+	manpower = 6400000
+	
+	state_category = town
+
+	history={
+		# No Asia + Scraping
+		1936.1.1.13 = { owner = WST add_core_of = WST }
+		1936.1.1.14 = { owner = WST add_core_of = WST }
+
+        owner = JAP
+
+       # Less Minors
+		1936.1.1.15 = { owner = JAP add_core_of = JAP }
+
+		add_core_of = CHI
+		
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 1
+			3900 = {
+				naval_base = 2
+			}
+		}
+	1941.1.1 = {
+		owner = WST
+		add_core_of = WST
+		}
+	}
+
+	provinces={
+		900 1052 3830 3900 6969 11822 12043 
+	}
+
+	local_supplies=0.0 
+}

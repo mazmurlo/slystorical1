@@ -1,0 +1,33 @@
+state={
+	id=683
+	name="STATE_683"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		# Less Minors + Scraping
+		1936.1.1.15 = { owner = SAF add_core_of = SAF }
+		1936.1.1.14 = { owner = SAF add_core_of = SAF }
+
+        owner = CAN
+
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAN
+	1941.1.1 = {
+		owner = WST
+		add_core_of = WST
+		}
+	}
+
+	provinces={
+		2947 8962 10721 13188 13190 13191 
+	}
+	manpower=46135
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

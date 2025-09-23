@@ -1,0 +1,32 @@
+state = {
+	id = 861
+	name = "STATE_861"
+	manpower = 50000
+	state_category = pastoral
+	
+	history = {
+
+		# Less Minors + Scraping
+		1936.1.1.15 = { owner = SAF add_core_of = SAF }
+		1936.1.1.14 = { owner = SAF add_core_of = SAF }
+
+        owner = CAN
+
+		add_core_of = CAN
+		add_core_of = WST
+
+		buildings = {
+			infrastructure = 1
+		}
+	1941.1.1 = {
+		owner = WST
+		add_core_of = WST
+		}
+	}
+	
+	provinces = {
+		1657 4666 13164 
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

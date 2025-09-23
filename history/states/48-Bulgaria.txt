@@ -1,0 +1,46 @@
+
+state={
+	id=48
+	name="STATE_48"
+	manpower = 1685989
+	resources = {
+		chromium = 50
+		aluminium = 12
+	} 
+	
+	
+	state_category = city
+
+	history={
+		# Scraping
+		1936.1.1.14 = { owner = ITA add_core_of = ITA }
+
+        owner = BUL
+
+		victory_points = { #Sofia
+			949 15 
+		}
+		victory_points = { #Vidin
+			9771 1
+		}
+		buildings = {
+           965 = {
+                land_facility = 1 
+            }
+			infrastructure = 3
+			industrial_complex = 6
+			air_base = 9
+		}
+		add_core_of = BUL
+			1941.1.1 = {
+		owner = WST
+		add_core_of = WST
+		}
+	}
+
+	provinces={
+		793 935 949 965 3908 3971 9771 11754 
+	}
+
+	local_supplies=0.0 
+}

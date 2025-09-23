@@ -1,0 +1,32 @@
+state = {
+	id = 862
+	name = "STATE_862"
+	manpower = 80000
+	state_category = rural
+	
+	history = {
+
+		# Less Minors + Scraping
+		1936.1.1.15 = { owner = SAF add_core_of = SAF }
+		1936.1.1.14 = { owner = SAF add_core_of = SAF }
+
+        owner = CAN
+
+		add_core_of = CAN
+		add_core_of = WST
+
+		buildings = {
+			infrastructure = 1
+		}
+	1941.1.1 = {
+		owner = WST
+		add_core_of = WST
+		}
+	}
+	
+	provinces = {
+		983 1341 1764 3911 7435 7875 10249 10700 11682 11902 12205 12276 
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

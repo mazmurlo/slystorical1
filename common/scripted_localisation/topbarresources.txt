@@ -1,0 +1,143 @@
+
+
+defined_text = { # global
+	name = steel_text
+	text = {
+		trigger = {
+			check_variable = {resource_imported@steel>0}
+			check_variable = {resource@steel>resource_imported@steel}
+		}
+		localization_key = resourcesteel
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = resourcesteel1
+	}
+
+
+}
+defined_text = { # global
+	name = rubber_text
+	text = {
+		trigger = {
+			check_variable = {resource_imported@rubber>0}
+			check_variable = {resource@rubber>resource_imported@rubber}
+		}
+		localization_key = resourcerubber
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = resourcerubber1
+	}
+
+
+}
+defined_text = { # global
+	name = aluminium_text
+	text = {
+		trigger = {
+			check_variable = {resource_imported@aluminium>0}
+			check_variable = {resource@aluminium>resource_imported@aluminium}
+		}
+		localization_key = resourcealuminium
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = resourcealuminim1
+	}
+
+
+}
+defined_text = { # global
+	name = tungsten_text
+	text = {
+		trigger = {
+			check_variable = {resource_imported@tungsten>0}
+			check_variable = {resource@tungsten>resource_imported@tungsten}
+		}
+		localization_key = resourcetungsten
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = resourcetungsten1
+	}
+
+
+}
+defined_text = { # global
+	name = chromium_text
+	text = {
+		trigger = {
+			check_variable = {resource_imported@chromium>0}
+			check_variable = {resource@chromium>resource_imported@chromium}
+		}
+		localization_key = resourcechromium
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = resourcechromium1
+	}
+
+
+}
+defined_text = { # global
+	name = vp_text
+
+	text = {
+		trigger = {
+			check_variable = {global.allies_score = 0}
+		}
+		localization_key = not_started_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {global.axis_score > 10}
+		}
+		localization_key = axis_winning_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {global.allies_score > 10}
+		}
+		localization_key = allies_winning_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {global.axis_score > 7}
+		}
+		localization_key = axis_leading_tt
+	}
+	text = {
+		trigger = {
+			check_variable = {global.allies_score > 7}
+		}
+		localization_key = allies_leading_tt
+	}
+}
+
+defined_text = { # global
+	name = vp_ticking_text
+
+	text = {
+		trigger = {
+			has_active_mission = MOD_countdown_to_axis_victory_mission
+		}
+		localization_key = axis_victory_tt
+	}
+	text = {
+		trigger = {
+			has_active_mission = MOD_countdown_to_allied_victory_mission
+		}
+		localization_key = allied_victory_tt
+	}
+}

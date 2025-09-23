@@ -1,0 +1,41 @@
+state=
+{
+	id=645
+	name="STATE_645"
+	manpower=1018
+	state_category = small_island
+	history=
+	{
+		# No Asia + Scraping
+		1936.1.1.13 = { owner = WST add_core_of = WST }
+		1936.1.1.14 = { owner = WST add_core_of = WST }
+
+        owner = JAP
+
+       # Less Minors
+		1936.1.1.15 = { owner = JAP add_core_of = JAP }
+
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13025 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			13025 5
+		 }
+		1941.1.1 = {
+		owner = WST
+		add_core_of = WST
+		}
+
+	}
+	provinces={
+		13025
+	}
+
+	local_supplies=0.0 
+}
