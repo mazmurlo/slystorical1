@@ -10,6 +10,22 @@ ideas = {
 
 
 	country= {
+		SOV_positive_heroism_idea = {
+			name = "Positive Heroism"
+
+			removal_cost = -1
+
+			picture = SOV_war_heroes # New GFX entry pointing to the original icon, so it can be safely overwritten by CCP 2D Sov Art without impacting other content using the same icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				sprite = 14
+				cat_mass_assault_cost_factor = 1
+			}
+		}
 		SOV_tankograd_idea = {
 			name = "Tankograd"
 
