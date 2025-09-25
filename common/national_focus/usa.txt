@@ -3357,7 +3357,7 @@ focus_tree = {
 				}
 			add_tech_bonus = {
 				name = USA_escort_fighters
-				bonus = 1.5
+				bonus = 2
 				uses = 1
 				category = light_fighter
 				}
