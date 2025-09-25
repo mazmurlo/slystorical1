@@ -2231,7 +2231,7 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		#prerequisite = { focus = wuw_HUN_a_revolutionary_greater_hungary }
 		mutually_exclusive = { focus = wuw_HUN_economic_intervention }
-		x = 12
+		x = 13
 		y = 0
 		relative_position_id = wuw_HUN_end_the_regency
 
@@ -2270,38 +2270,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
-	}
-
-	focus = {
-		id = wuw_HUN_economic_intervention
-		icon = GFX_goal_generic_demand_territory
-		#prerequisite = { focus = wuw_HUN_a_revolutionary_greater_hungary }
-		mutually_exclusive = { focus = wuw_HUN_avoid_interventionalist_destablilization }
-		x = 14
-		y = 0
-		
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 5
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = HUN_wuw_interventionism
 		}
 	}
 
@@ -2368,11 +2336,11 @@ focus_tree = {
 	focus = {
 		id = wuw_HUN_forcefully_revitalize_the_industries
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = wuw_HUN_economic_intervention }
+		prerequisite = { focus = wuw_HUN_avoid_interventionalist_destablilization }
 		#mutually_exclusive = { focus = wuw_HUN_avoid_interventionalist_destablilization }
-		x = 1
+		x = 2
 		y = 1
-		relative_position_id = wuw_HUN_economic_intervention
+		relative_position_id = wuw_HUN_avoid_interventionalist_destablilization
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 
@@ -2415,9 +2383,9 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = wuw_HUN_economic_intervention focus = wuw_HUN_avoid_interventionalist_destablilization }
 		#mutually_exclusive = { focus = wuw_HUN_avoid_interventionalist_destablilization }
-		x = -1
+		x = 0
 		y = 1
-		relative_position_id = wuw_HUN_economic_intervention
+		relative_position_id = wuw_HUN_avoid_interventionalist_destablilization
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
