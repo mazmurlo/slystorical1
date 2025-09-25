@@ -4012,7 +4012,7 @@
 		}
 
 		bypass = {
-			has_tech = cv_fighter2
+
 		}
 
 		cancel_if_invalid = yes
@@ -4023,14 +4023,28 @@
 		completion_reward = {
 			custom_effect_tooltip = JAP_the_zero_tt
 			hidden_effect = { 
-				if = {
-					limit = {
-						NOT = {
-							has_dlc = "By Blood Alone"
-						}
+				#if = {
+					#limit = {
+					#	NOT = {
+						#	has_dlc = "By Blood Alone"
+						#}
+					#}
+				#set_technology = { cv_fighter2 = 1 } 
+				create_equipment_variant = { 
+					name = "A6M Zero-sen"
+					type = cv_fighter_equipment_2
+					allow_without_tech = yes #Makes no difference since focus grants appropriate tech (above), but it improves tooltip
+					parent_version = 0
+					upgrades = {
+						cv_plane_gun_upgrade = 5
+						cv_plane_range_upgrade = 5
+						plane_engine_upgrade = 5
+						#plane_reliability_upgrade = 5
 					}
-					set_technology = { cv_fighter2 = 1 } 
+					icon = "GFX_JAP_cv_fighter2_medium"
 				}
+			}	
+				#}
 				#else = {
 					#create_equipment_variant = {
 						#name = "A6M Zero-Sen"
@@ -4048,7 +4062,6 @@
 						#icon = "GFX_JAP_cv_fighter2_medium"
 					#}
 				#}
-			}
 		}
 	}
 
