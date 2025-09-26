@@ -21,7 +21,7 @@ focus_tree = {
 	focus = {
 		id = ROM_national_recovery
 		icon = GFX_goal_generic_consumer_goods
-		x = 1
+		x = 10
 		y = 0
 		cost = 5
 
@@ -246,7 +246,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ROM_the_stabilization_plan }
 		
 		icon = GFX_goal_generic_oil_refinery
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = ROM_national_recovery
 		cost = 5
@@ -588,198 +588,6 @@ focus_tree = {
 	}
 }
 
-
-	focus = {
-		id = ROM_the_stabilization_plan
-
-		available = {
-		}
-
-		bypass = {
-		}
-
-		mutually_exclusive = { focus = ROM_autarky }
-		prerequisite = { focus = ROM_national_recovery }
-		
-		icon = GFX_goal_generic_neutrality_focus
-		x = 4
-		y = 1
-		relative_position_id = ROM_national_recovery
-		cost = 5
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_ideas = ROM_industrialization_1
-		}
-	}
-
-	focus = {
-		id = ROM_malaxa
-		available = {
-			# has_government = democratic
-		}
-		bypass = {
-		}
-		prerequisite = { focus = ROM_the_stabilization_plan }
-		
-		icon = GFX_goal_generic_construct_military
-		x = 0
-		y = 1
-		relative_position_id = ROM_the_stabilization_plan
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = ROM_agrarian_economy
-				add_idea = ROM_agrarian_economy_effectivized
-			}			
-			swap_ideas = {
-				remove_idea = ROM_industrialization_1
-				add_idea = ROM_industrialization_2 
-			}
-		}
-	}
-
-	focus = {
-		id = ROM_reduce_reliance_on_oil
-		available = {
-			# has_government = democratic
-		}
-		bypass = {
-		}
-		prerequisite = { focus = ROM_malaxa }
-		icon = GFX_focus_generic_the_giant_wakes
-		x = 0
-		y = 1
-		relative_position_id = ROM_malaxa
-		cost = 10
-
-		available_if_capitulated = yes
-
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = ROM_industrialization_2
-				add_idea = ROM_industrialization_3 
-			}
-		}
-	}
-
-	focus = {
-		id = ROM_improve_living_standards
-		available = {
-			# has_government = democratic
-		}
-		bypass = {
-		}
-		prerequisite = { focus = ROM_reduce_reliance_on_oil }
-		
-		icon = GFX_focus_generic_road_investment
-		x = -1
-		y = 1
-		relative_position_id = ROM_reduce_reliance_on_oil
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			every_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-					is_core_of = ROOT
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}		
-			add_stability = 0.15
-			add_political_power = 150
-		}
-	}
-
-	focus = {
-		id = ROM_domestic_industrial_developments
-		available = {
-			# has_government = democratic
-		}
-		bypass = {
-		}
-		prerequisite = { focus = ROM_reduce_reliance_on_oil }
-		
-		icon = GFX_goal_generic_production
-		x = 1
-		y = 1
-		relative_position_id = ROM_reduce_reliance_on_oil
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_tech_bonus = {
-				category = industry
-				uses = 2
-				bonus = 1
-				name = ROM_domestic_industrial_developments
-			} 
-
-			swap_ideas = {
-				remove_idea = ROM_industrialization_3
-				add_idea = ROM_industrialization_4 
-			}
-		}
-	}
-
-	focus = {
-		id = ROM_the_romanian_miracle
-		available = {
-			# has_government = democratic
-		}
-		prerequisite = { focus = ROM_improve_living_standards }
-		prerequisite = { focus = ROM_domestic_industrial_developments }
-		
-		icon = GFX_focus_spa_the_spanish_miracle
-		x = 1
-		y = 1
-		relative_position_id = ROM_improve_living_standards
-		cost = 10
-
-		available_if_capitulated = yes
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			remove_ideas = ROM_the_resource_curse_1
-			remove_ideas = ROM_industrialization_4 
-			add_ideas = ROM_fully_industralized
- 		}
-	}
- 
-	focus = {
-		id = ROM_for_the_preservation_of_greater_romania 
-		icon =  GFX_focus_rom_preserve_romania
-		relative_position_id = ROM_national_recovery
-		
-		x = 14
-		y = 0
-
-		cost = 5
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = ROM_preserve_greater_romania
-		}
-	}
-
-
-
 	focus = {
 		id = ROM_reject_french_containment_strategies
 		icon = GFX_focus_focus_fra_fascist_threat
@@ -817,6 +625,26 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = ROM_for_the_preservation_of_greater_romania 
+		icon =  GFX_focus_rom_preserve_romania
+		relative_position_id = ROM_national_recovery
+		
+		x = 12
+		y = 0
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = ROM_preserve_greater_romania
+		}
+	}
+
 
 	focus = {
 		id = ROM_the_decay_of_democracy
@@ -1602,7 +1430,7 @@ focus_tree = {
 		id = ROM_romanian_rearmament
 		icon = GFX_focus_generic_combined_arms
 
-		x = 37
+		x = 44
 		y = 0
 
 		cost = 5
@@ -1631,7 +1459,9 @@ focus_tree = {
 		relative_position_id = ROM_romanian_rearmament
 		x = -10
 		y = 1
-
+	available = { 
+		date > 1942.1.1
+	}
 		cost = 5
 
 		completion_reward = {
@@ -2793,16 +2623,6 @@ focus_tree = {
 		}
 	}
 
-
-
-
-
-
-
-
-
-	
-
 	
 	############################
 	##### INDUSTRY BRANCH ######
@@ -2812,7 +2632,7 @@ focus_tree = {
 		id = ROM_civil_works
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = ROM_national_recovery  }
-		x = 6
+		x = 5
 		y = 1
 		relative_position_id = ROM_national_recovery
 
@@ -2834,7 +2654,7 @@ focus_tree = {
 		id = ROM_national_defense_industry
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = ROM_national_recovery  }
-		x = 8
+		x = 7
 		y = 1
 		relative_position_id = ROM_national_recovery
 		mutually_exclusive = { focus = ROM_civil_works }

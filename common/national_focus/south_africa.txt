@@ -603,7 +603,7 @@ focus_tree = {
 	focus = {
 		id = SAF_status_of_the_union_act
 		icon = GFX_focus_SWE_form_rfsu
-		x = 13
+		x = 14
 		y = 0
 
 		cost = 10
@@ -879,7 +879,7 @@ focus_tree = {
 		icon = GFX_focus_BEL_government_resigns
 		prerequisite = { focus = SAF_work_for_all_poor }
 		prerequisite = { focus = SAF_police_windhoek }
-		x = -1
+		x = 0
 		y = 2
 		relative_position_id = SAF_police_windhoek
 
@@ -1459,7 +1459,7 @@ focus_tree = {
 	focus = {
 		id = SAF_union_defense_force
 		icon = GFX_goal_generic_army_doctrines
-		x = 27
+		x = 24
 		y = 0
 
 		cost = 5
@@ -1493,7 +1493,7 @@ focus_tree = {
 		id = SAF_commit_to_the_five_year_plan
 		icon = GFX_goal_generic_build_airforce
 		prerequisite = { focus = SAF_union_defense_force }
-		x = -9
+		x = -6
 		y = 1
 		relative_position_id = SAF_union_defense_force
 
@@ -1541,43 +1541,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SAF_joint_air_training_scheme
-		icon = GFX_focus_generic_armored_air_support
-		prerequisite = { focus = SAF_commit_to_the_five_year_plan }
-		x = 0
-		y = 1
-		relative_position_id = SAF_commit_to_the_five_year_plan
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = SAF_joint_air_training_scheme
-		}
-	}
-
-	focus = {
 		id = SAF_improve_the_hawker_hartbees
 		icon = GFX_goal_generic_air_fighter
 		prerequisite = { focus = SAF_commit_to_the_five_year_plan }
-		mutually_exclusive = { focus = SAF_replace_the_blenheim  }
-		x = -2
-		y = 2
+		#mutually_exclusive = { focus = SAF_replace_the_blenheim  }
+		x = 0
+		y = 1
 		relative_position_id = SAF_commit_to_the_five_year_plan
 
 		cost = 5
@@ -1615,212 +1584,9 @@ focus_tree = {
 				}
 				set_state_flag = SAF_magazine_hill_AF
 			}
-			add_tech_bonus = {
-				name = SAF_improve_the_hawker_hartbees
-				bonus = 0.5
-				uses = 1
-				category = light_air
-			}
 		}
 	}
 
-	focus = {
-		id = SAF_replace_the_blenheim
-		icon = GFX_goal_generic_occupy_start_war
-		prerequisite = { focus = SAF_commit_to_the_five_year_plan }
-		mutually_exclusive = { focus = SAF_improve_the_hawker_hartbees  }
-		x = 2
-		y = 2
-		relative_position_id = SAF_commit_to_the_five_year_plan
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 0.6
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = SAF_magazine_hill_AF
-			}
-			add_tech_bonus = {
-				name = SAF_replace_the_blenheim
-				bonus = 0.5
-				uses = 1
-				category = medium_air
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_perfect_the_cab_rank_technique
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = SAF_improve_the_hawker_hartbees focus = SAF_replace_the_blenheim }
-		x = 0
-		y = 3
-		relative_position_id = SAF_commit_to_the_five_year_plan
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			air_experience = 25
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_desert_air_force
-		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = SAF_perfect_the_cab_rank_technique }
-		x = -1
-		y = 4
-		relative_position_id = SAF_commit_to_the_five_year_plan
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = SAF_desert_air_force
-				bonus = 1
-				uses = 1
-				category = light_air
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_secure_the_cape_sea_route
-		icon = GFX_goal_generic_air_bomber 
-		prerequisite = { focus = SAF_perfect_the_cab_rank_technique }
-		x = 1
-		y = 4
-		relative_position_id = SAF_commit_to_the_five_year_plan
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = SAF_secure_the_cape_sea_route
-				bonus = 1
-				uses = 1
-				category = medium_air
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_retain_experienced_pilots
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = SAF_desert_air_force focus = SAF_secure_the_cape_sea_route }
-		x = 0
-		y = 5
-		relative_position_id = SAF_commit_to_the_five_year_plan
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			air_experience = 35
-			add_tech_bonus = {
-				name = SAF_retain_experienced_pilots
-				bonus = 0.5
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
 	
 	############################
 	####### ARMY SECTION #######
@@ -2565,7 +2331,7 @@ focus_tree = {
 		id = SAF_seaward_defence_force
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = SAF_union_defense_force }
-		x = 9
+		x = 8
 		y = 1
 		relative_position_id = SAF_union_defense_force		
 

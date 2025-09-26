@@ -3989,7 +3989,7 @@ focus_tree = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = fighter_bonus
-				bonus = 1.0
+				bonus = 0.75
 				uses = 1
 				technology = fighter2
 			}
@@ -8944,7 +8944,7 @@ focus_tree = {
 		prerequisite = {  focus = ITA_foreign_affairs }
 	
 		x = 0
-		y = 3
+		y = 2
 		relative_position_id = ITA_foreign_affairs
 		cost = 5
 
@@ -9129,48 +9129,6 @@ focus_tree = {
 			}
 		}
 	}
-
-
-
-
-
-	focus = {
-		id = ITA_befriend_japan
-		icon = GFX_focus_chi_collaboration_with_the_japanese
-		prerequisite = { focus = ITA_pact_of_steel  }
-
-		x = 4
-		y = 1
-		relative_position_id = ITA_pact_of_steel
-		cost = 5
-
-		available = {
-			country_exists = JAP
-			JAP = { 
-				is_in_faction = no
-				has_government = ROOT
-			}
-		}
-
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-
-		completion_reward = {
-			add_relation_modifier = {
-				target = JAP
-				modifier = ITA_military_agreements
-			}
-			JAP = {
-				add_relation_modifier = {
-					target = ROOT
-					modifier = ITA_military_agreements
-				}
-
-				add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
-			}
-		}
-	}
-
-
 
 	focus = {
 		id = ITA_corpo_di_truppe_volontarie

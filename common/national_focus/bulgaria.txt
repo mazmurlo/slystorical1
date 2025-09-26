@@ -115,7 +115,7 @@ focus_tree = {
 		mutually_exclusive = { focus = BUL_invigorate_national_industry }
 
 		available = {
-
+			always = no
 		}
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL}
@@ -732,7 +732,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_ideas = BUL_aircraft_repair_facilities
+			#add_ideas = BUL_aircraft_repair_facilities
 		}
 	}
 

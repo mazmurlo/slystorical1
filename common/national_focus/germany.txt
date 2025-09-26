@@ -3789,11 +3789,11 @@ focus_tree = {
 		completion_reward = {			
 			add_tech_bonus = {
 				name = GER_aeronautical_research_institute
-				bonus = 1
+				bonus = 0.75
 				uses = 1
 				category = light_fighter
 			}
-			air_experience = 25
+			air_experience = 100
 
 			if = {
 				limit = {
