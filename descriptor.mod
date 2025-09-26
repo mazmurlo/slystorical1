@@ -2,6 +2,6 @@ version="1.16.*"
 tags={
 	"Historical"
 }
-name="Slystorical BETA"
+name="Slystorical"
 supported_version="1.16.10"
 remote_file_id="3574837186"
