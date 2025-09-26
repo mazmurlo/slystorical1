@@ -2833,6 +2833,9 @@ focus_tree = {
                 if = { limit = { NOT = { SOV = { has_idea = SPR_seized_spanish_gold_reserves } } } SOV = { add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 } } }
 				country_event = { id = lar_news.1 hours = 6 }
 			}
+			hidden_effect = { 
+				retire_character = SPR_gonzalo_queipo_de_llano
+			}
 		}
 	}
 
