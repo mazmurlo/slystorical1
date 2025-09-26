@@ -1459,7 +1459,7 @@ focus_tree = {
 	focus = {
 		id = SAF_union_defense_force
 		icon = GFX_goal_generic_army_doctrines
-		x = 24
+		x = 25
 		y = 0
 
 		cost = 5

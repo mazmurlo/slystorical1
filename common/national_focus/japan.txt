@@ -4039,7 +4039,7 @@
 						cv_plane_gun_upgrade = 5
 						cv_plane_range_upgrade = 5
 						plane_engine_upgrade = 5
-						#plane_reliability_upgrade = 5
+						plane_reliability_upgrade = 5
 					}
 					icon = "GFX_JAP_cv_fighter2_medium"
 				}
