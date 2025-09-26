@@ -139,8 +139,13 @@ characters={
 				small=GFX_portrait_FRA_jean_de_lattre_de_tassigny_small
 			}
 		}
-		corps_commander={
-			traits={ brilliant_strategist panzer_leader cavalry_leader organizer war_hero trickster }
+		advisor = {
+			slot = high_command
+			idea_token = FRA_jean_de_lattre_de_tassigny
+			traits = { army_armored_1 }
+		}
+		field_marshal ={
+			traits={ brilliant_strategist logistics_wizard thorough_planner aggressive_assaulter combined_arms_expert panzer_leader cavalry_leader organizer war_hero trickster }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -158,8 +163,14 @@ characters={
 				small=GFX_portrait_FRA_alphonse_juin_small
 			}
 		}
-		corps_commander={
-			traits={ career_officer trait_cautious armor_officer cavalry_leader panzer_leader trait_engineer }
+		advisor = {
+			slot = high_command
+			idea_token = FRA_alphonse_juin
+			traits = { army_CombinedArms_1 }
+		}
+
+		field_marshal ={
+			traits={ career_officer trait_cautious combined_arms_expert offensive_doctrine fortress_buster armor_officer cavalry_leader panzer_leader trait_engineer }
 			skill=4
 			attack_skill= 5
 			defense_skill= 4
