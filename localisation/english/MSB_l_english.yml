@@ -154,6 +154,14 @@ stalin_they_will_know_fear:0 "They will know Fear"
 SOV_the_road_of_life2:0 "Road of Life"
 SOV_the_road_of_life2_desc:0 "With several of our cities threatened and under siege, we must focus on getting the fighting forces in those places the support they need to hold out, whatever the cost may be."
 
+# SPR
+SPA_the_national_army_of_spain:0 "The National Army of Spain"
+SPA_the_national_army_of_spain_desc:0 "The military might of the new Spanish nation will be organized in a national and popular army in which all able-bodied men shall have the honor of being enlisted."
+SPA_the_popular_army_of_spain:0 "The Popular Army of Spain"
+SPA_the_popular_army_of_spain_desc:0 "The military might of the new Spanish nation will be organized in a national and popular army in which all able-bodied men shall have the honor of being enlisted."
+SPR_mohamed_meziane_armor:0 "Mohamed Meziane"
+SPA_juan_yague_armor:0 "Juan Yagüe"
+
 # USA
 USA_vic_plan:0 "Victory Plan"
 allied_vic_plan:0 "Allied Victory Plan"
