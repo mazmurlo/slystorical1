@@ -1786,30 +1786,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
-			if = {
-				limit = { #Must be one economy law away from the next one and fulfill the next law's criterias
-					has_idea = partial_economic_mobilisation
-					has_war_support > 0.5
-					OR = {
-						has_government = fascism
-						has_government = communism
-						custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
-						AND = {
-							has_war = yes
-							any_enemy_country = {
-								ic_ratio = {
-									tag = ROOT
-									ratio > 0.4
-								}
-							}
-						}
-					}
-				}
-				add_ideas = war_economy
-			}
-			else = {
-				custom_effect_tooltip = GER_criteria_for_economy_laws_tt
-			}
+			add_ideas = GER_tankograd_idea	
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 			
@@ -3810,7 +3787,12 @@ focus_tree = {
 		}
 		
 		completion_reward = {			
-			
+			add_tech_bonus = {
+				name = GER_aeronautical_research_institute
+				bonus = 1
+				uses = 1
+				category = light_fighter
+			}
 			air_experience = 25
 
 			if = {
@@ -3950,12 +3932,6 @@ focus_tree = {
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
-			add_tech_bonus = {
-				name = GER_aeronautical_research_institute
-				bonus = 0.25
-				uses = 2
-				category = air_equipment
-			}
 			add_breakthrough_progress = {
 				specialization = specialization_air
 				value = 0.5
@@ -4015,20 +3991,12 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = GER_dive_bombers
-				cost_reduction = 0.25
-				uses = 1
-				category = battlefield_support_tree
-			}
 			add_tech_bonus = {
 				name = GER_dive_bombers
-				bonus = 0.5
+				bonus = 1
 				uses = 1
-				category = light_air
+				category = cas_bomber
 			}
-
-
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -4131,7 +4099,7 @@ focus_tree = {
 				name = GER_tactical_bombers
 				bonus = 0.5
 				uses = 1
-				category = medium_air
+				category = tactical_bomber
 			}
 			
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -4220,13 +4188,6 @@ focus_tree = {
 			show_ideas_tooltip = GER_robert_knauss
 
 			custom_effect_tooltip = generic_skip_one_line_tt
-
-			add_doctrine_cost_reduction = {
-				name = GER_uralbomber_program
-				cost_reduction = 0.25
-				uses = 2
-				category = strategic_destruction_tree
-			}
 			add_tech_bonus = {
 				name = GER_uralbomber_program
 				bonus = 0.5
@@ -4917,29 +4878,6 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				category = cat_air_bombs
-			}
-
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				custom_effect_tooltip = generic_skip_one_line_tt
-				create_equipment_variant = { 
-					name = "He 115" 
-					type = small_plane_naval_bomber_airframe_2
-					allow_without_tech = no
-					design_team = mio:GER_fieseler_organization
-					modules = {
-						fixed_main_weapon_slot = torpedo_mounting
-						fixed_auxiliary_weapon_slot_1 = bomb_locks
-						engine_type_slot = engine_2_2x
-						special_type_slot_1 = lmg_defense_turret	
-						special_type_slot_2 = empty
-					}
-					icon = "GFX_GER_naval_bomber2_medium"
-					model = "GER_nav_bomber_equipment_2_entity"
-				}
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt

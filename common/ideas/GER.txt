@@ -3,6 +3,23 @@ ideas = {
 	country = {
 
 		################ MSB ################
+		GER_tankograd_idea = {
+			name = "Panzerkampfwagen Production"
+
+			removal_cost = -1
+
+			picture = man_five_year_plan_tank # New GFX entry pointing to the original icon, so it can be safely overwritten by CCP 2D Sov Art without impacting other content using the same icon
+
+			allowed = {
+				always = no
+			}
+
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.10
+				}
+			}
+		}
 			r56_ger_naval_treaty = {
 			allowed = {
 				original_tag = GER

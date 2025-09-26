@@ -3151,13 +3151,14 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 	
 		completion_reward = {
-			air_experience = 25
-			add_doctrine_cost_reduction = {
-				name = USA_air_war_plans_division
-				cost_reduction = 0.5
-				uses = 2
-				category = air_doctrine
-			} # REVISIT May use modifier?
+			air_experience = 100
+				add_tech_bonus = {
+					name = USA_air_war_plans_division
+					bonus = 1
+					uses = 1
+					category = light_fighter
+					category = cat_heavy_fighter
+				} # REVISIT May use modifier?
 			add_ideas = air_war_plans_division_focus
 			#hidden_effect = {
 			#	add_ideas = air_war_plans_division_focus_hidden
@@ -3333,7 +3334,9 @@ focus_tree = {
 		}
 
 		available = {
-
+			ENG = { 
+				has_war = yes
+			}
 		}
 		
 		bypass = {
@@ -3351,6 +3354,12 @@ focus_tree = {
 				bonus = 3.0
 				uses = 1
 				category = cat_heavy_fighter
+				}
+			add_tech_bonus = {
+				name = USA_escort_fighters
+				bonus = 2
+				uses = 1
+				category = light_fighter
 				}
 			}
 		}

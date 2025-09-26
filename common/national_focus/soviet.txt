@@ -7848,15 +7848,12 @@ focus = {
 	mutually_exclusive = { focus = SOV_positive_heroism }
 
 	available = {
-		NOT = { 
-			has_start_date = 1941.1.1.12
-		}
 	}
 	
 	search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_PROPAGANDA}
 
 	completion_reward = {
-		add_political_power = 25
+		remove_ideas = SOV_positive_heroism_idea
 		add_ideas = SOV_collectivist_propaganda_ns
 
 		custom_effect_tooltip = unlock_propaganda_campaign_tt
