@@ -248,6 +248,8 @@ if = {
 	recruit_character = SPA_mauricio_de_sivatte
 	recruit_character = SPA_karl_pius_von_habsburg
 	recruit_character = SPR_manuel_azana
+	recruit_character = SPA_juan_yague_armor
+	recruit_character = SPR_mohamed_meziane_armor
 	165 = {
 		add_dynamic_modifier = { modifier = autonomous_state }
 	}

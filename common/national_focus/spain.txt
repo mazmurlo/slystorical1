@@ -172,7 +172,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = SPA_a_great_spain }
 		
-		icon = GFX_focus_generic_concessions
+		icon = GFX_focus_ITA_generic_fascist_workers
 		x = 0
 		y = 1
 		offset = {
@@ -831,7 +831,8 @@ focus_tree = {
 		}
 		prerequisite = { focus = SPA_fuse_the_parties }
 		mutually_exclusive = { focus = SPA_the_popular_army_of_spain }
-		icon = GFX_the_army_of_africa_model
+		icon = GFX_focus_generic_mechanized
+		#GFX_the_army_of_africa_model
 
 		x = -7
 		y = 1
@@ -852,6 +853,7 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			custom_effect_tooltip = SPA_mech_gens
 			army_experience = 50
 			random_owned_controlled_state = {
 				limit = {
@@ -881,7 +883,8 @@ focus_tree = {
 		}
 		prerequisite = { focus = SPA_fuse_the_parties }
 		mutually_exclusive = { focus = SPA_the_national_army_of_spain }
-		icon = GFX_the_army_of_africa_model
+		icon = GFX_focus_generic_heavy_tank
+		#GFX_the_army_of_africa_model
 
 		x = -5
 		y = 1
@@ -902,6 +905,7 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			custom_effect_tooltip = SPA_tank_gens
 			army_experience = 50
 			random_owned_controlled_state = {
 				limit = {
@@ -958,7 +962,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = SPA_the_army_of_africa_model }
 		
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_the_army_of_africa_model
 		x = -1
 		y = 2
 		relative_position_id = SPA_the_army_of_africa_model
