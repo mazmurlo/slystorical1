@@ -1170,7 +1170,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		build_cost_ic = 112
+		build_cost_ic = 60
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -1196,7 +1196,7 @@ equipments = {
 		air_attack = 46
 		air_defence = 15
 
-		build_cost_ic = 120
+		build_cost_ic = 62
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -1225,7 +1225,7 @@ equipments = {
 		air_attack = 54
 		air_defence = 18
 
-		build_cost_ic = 125
+		build_cost_ic = 64
 		resources = {
 			#oil = 1
 			aluminium = 4

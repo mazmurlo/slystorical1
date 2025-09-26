@@ -3991,7 +3991,7 @@ focus_tree = {
 				name = fighter_bonus
 				bonus = 1.0
 				uses = 1
-				category = light_fighter
+				technology = fighter2
 			}
 			add_tech_bonus = {
 				name = air_doc_bonus
@@ -4105,14 +4105,14 @@ focus_tree = {
 		x = 4
 		y = 1
 		relative_position_id = ITA_air_innovations_bba
-		cost = 10
+		cost = 5
 		available = {
 		}
 
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			air_experience = 100
+			air_experience = 300
 
 		}
 	}
@@ -4125,7 +4125,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = ITA_citta_dell_aria
-		cost = 10
+		cost = 5
 		available = {
 			has_full_control_of_state = 161
 		}
@@ -4179,14 +4179,7 @@ focus_tree = {
 				name = ITA_reggianes_exports
 				bonus = 0.50
 				uses = 1
-				category = air_equipment #Maybe more specific stuff? (Light/Medium bombers, fighters...)
-			}
-
-			if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				ITA_add_reggianes_exports_templates = yes
+				category = naval_bomber #Maybe more specific stuff? (Light/Medium bombers, fighters...)
 			}
 		}
 	}
@@ -4294,14 +4287,14 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = ITA_superaereo
-		cost = 5
+		cost = 10
 		available = {
 		}
 
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-
+			add_ideas = ITA_hidden_standardization_ns
 			add_tech_bonus = {
 				name = ITA_standardization
 				bonus = 0.5
@@ -4326,6 +4319,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			ITA_improve_regia_aeronautica_dm_effect = yes
 		}
 	}
 
@@ -4349,9 +4343,9 @@ focus_tree = {
 	
 			add_tech_bonus = {
 				name = ITA_specialization
-				bonus = 0.5
-				uses = 2
-				category = air_equipment
+				bonus = 1
+				uses = 1
+				category = cas_bomber
 			}
 
 			random_core_state = {
@@ -4382,7 +4376,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = ITA_standardization
-		cost = 10
+		cost = 5
 		available = {
 		}
 
@@ -4417,7 +4411,7 @@ focus_tree = {
 		x = 2
 		y = 0
 		relative_position_id = ITA_long_range_aircraft
-		cost = 10
+		cost = 5
 		available = {
 		}
 
@@ -4453,7 +4447,7 @@ focus_tree = {
 		x = 4
 		y = 0
 		relative_position_id = ITA_long_range_aircraft
-		cost = 10
+		cost = 5
 		available = {
 		}
 
@@ -4489,7 +4483,7 @@ focus_tree = {
 		x = 6
 		y = 0
 		relative_position_id = ITA_long_range_aircraft
-		cost = 10
+		cost = 5
 		available = {
 		}
 
@@ -4529,7 +4523,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_bomber_designs
-		cost = 10
+		cost = 5
 		available = {
 		}
 
