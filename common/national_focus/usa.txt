@@ -3334,9 +3334,7 @@ focus_tree = {
 		}
 
 		available = {
-			ENG = { 
-				has_war = yes
-			}
+			date > 1939.6.1
 		}
 		
 		bypass = {
