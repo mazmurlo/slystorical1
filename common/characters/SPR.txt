@@ -855,7 +855,7 @@ characters={
 				visible = { 
 					has_completed_focus = SPA_the_national_army_of_spain
 				}
-				traits={ brilliant_strategist logistics_wizard defensive_doctrine ambusher combined_arms_expert guerilla_fighter trait_reckless trait_SPA_nationalist_sympathies cavalry_leader organizer trickster }
+				traits={ brilliant_strategist logistics_wizard defensive_doctrine ambusher infantry_leader combined_arms_expert guerilla_fighter trait_reckless trait_SPA_nationalist_sympathies cavalry_leader organizer trickster }
 				skill = 6
 				attack_skill = 3
 				defense_skill = 10
