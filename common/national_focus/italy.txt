@@ -4331,7 +4331,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_superaereo
-		cost = 5
+		cost = 10
 		available = {
 		}
 
