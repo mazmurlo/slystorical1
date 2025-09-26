@@ -3151,7 +3151,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 	
 		completion_reward = {
-			air_experience = 100
+			air_experience = 200
 				add_tech_bonus = {
 					name = USA_air_war_plans_division
 					bonus = 1
@@ -3347,6 +3347,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
+			air_experience = 500
 			add_tech_bonus = {
 				name = USA_escort_fighters
 				bonus = 3.0
