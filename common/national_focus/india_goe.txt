@@ -17563,7 +17563,7 @@ focus = {
 
 	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
     
-    avaialble = { 
+    available = { 
         always = no
     }
 
