@@ -741,6 +741,10 @@ focus_tree = {
 
 		cost = 5
 
+		available = { 
+			always = no
+		}
+
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
