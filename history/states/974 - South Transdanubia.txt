@@ -7,7 +7,7 @@ state = {
 
 	resources = {
 		oil = 1
-		aluminium = 10
+		aluminium = 11
 		rubber=16 # Rubber spawned in Day 1 instead of "Invest in the Magyar ..."
 	}
 
