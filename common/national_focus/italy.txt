@@ -4338,15 +4338,15 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-		add_ideas = ITA_hidden_standardization_ns
-			air_experience = 15
+			add_ideas = ITA_hidden_specialization_ns
+				air_experience = 15
 	
-			add_tech_bonus = {
-				name = ITA_specialization
-				bonus = 1
-				uses = 1
-				category = cas_bomber
-			}
+				add_tech_bonus = {
+					name = ITA_specialization
+					bonus = 1
+					uses = 1
+					category = cas_bomber
+				}
 
 			random_core_state = {
 				limit = {
