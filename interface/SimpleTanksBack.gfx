@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_stb_chassis_icon"
+		texturefile = "gfx/interface/armor_softness_icon.dds"
+	}
+}

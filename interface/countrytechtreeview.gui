@@ -785,7 +785,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_medium"
-					position = { x = 207 y = 55 }
+					position = { x = 207 y = 335 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -810,7 +810,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "armour_subtitle_amphibious"
-					position = { x = -360 y = 200 }
+					position = { x = -360 y = 335 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1089,7 +1089,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_medium"
-					position = { x = 150 y = 230 }
+					position = { x = 150 y = 300 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1114,7 +1114,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "armour_subtitle_amphibious"
-					position = { x = -350 y = 230 }
+					position = { x = -400 y = 305 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1125,7 +1125,14 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 			}
-
+            
+            gridboxtype = { #new
+				name = "gwtank_tree"
+				position = { x = 9% y = 130 } # x was 10% - y was 172
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 
 			gridboxtype = {
 				name = "gwtank_chassis_tree"
@@ -1568,7 +1575,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1939"
+					text = "1940"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1581,7 +1588,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1942"
+					text = "1944"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1859,7 +1866,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1939"
+					text = "1940"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1872,7 +1879,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1942"
+					text = "1944"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -2081,7 +2088,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1939"
+					text = "1940"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -2094,7 +2101,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1942"
+					text = "1944"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -2412,7 +2419,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1939"
+					text = "1940"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -2425,7 +2432,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1942"
+					text = "1944"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -2438,7 +2445,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1944"
+					text = "1945"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -2451,7 +2458,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1947"
+					text = "1950"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -2654,7 +2661,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 2240 height = 1300
+					width = 3125 height = 1300 #width 2240 > 3125
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
@@ -2670,7 +2677,6 @@ guiTypes = {
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
-
 			}
 
 			instantTextBoxType = {
@@ -2705,7 +2711,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "1939"
+				text = "1940"
 				maxWidth = 170
 				maxHeight = 32
 				format = left
@@ -2718,7 +2724,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
-				text = "1942"
+				text = "1944"
 				maxWidth = 170
 				maxHeight = 32
 				format = left
@@ -2753,7 +2759,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "airtech_year_left"
-				position = { x=2000 y=0 }
+				position = { x=2875 y=0 }
 				size = { width = 200 height = 100% }
 				orientation = upper_left
 
@@ -2789,7 +2795,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1939"
+					text = "1940"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -2802,7 +2808,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1942"
+					text = "1944"
 					maxWidth = 170
 					maxHeight = 32
 					format = right
@@ -2839,7 +2845,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "airtech_subtitle_airframe"
-				position = { x = 335 y = 110 }
+				position = { x = 410 y = 110 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -2850,8 +2856,8 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = ""
 			}
-
-			instantTextBoxType = {
+            
+            instantTextBoxType = {
 				name = "airtech_subtitle_transport"
 				position = { x = 970 y = 110 }
 				textureFile = ""
@@ -2867,10 +2873,10 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "airtech_subtitle_weapons"
-				position = { x = 1340 y = 110 }
+				position = { x = 1155 y = 110 }
 				textureFile = ""
 				font = "hoi_33"
-				borderSize = {x = 0 y = 4} 
+				borderSize = {x = 0 y = 4}
 				text = "AIR_TITLE_WEAPONS"
 				maxWidth = 300
 				maxHeight = 62
@@ -2881,7 +2887,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "airtech_subtitle_engines"
-				position = { x = 1875 y = 110 }
+				position = { x = 1650 y = 110 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -2893,19 +2899,20 @@ guiTypes = {
 				pdx_tooltip = "nav_bomber_equipment_desc"
 			}
 
-			#containerWindowType = { #MM: Old orange box for Modern Airframe that required Jet Engines
+
+			#containerWindowType = {
 			#	name = "tiled_research_bg"
-			#	position = { x=180 y=807 }
-			#	size = { width = 630 height = 180 }
+			#	position = { x=250 y=807 }
+			#	size = { width = 1475 height = 350 }
 			#	clipping = no
-			#
+            #
 			#	background = {
 			#		name = "Background"
 			#		quadTextureSprite ="GFX_tiled_research_bg"
 			#	}
 			#}
-
-			gridboxtype = {
+            
+            gridboxtype = {
 				name = "iw_small_airframe_tree"
 				position = { x = 90 y = 32 }
 				size = { width = 400 height = 1000 }
@@ -2928,10 +2935,18 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-
-			gridboxtype = {
+            
+            gridboxtype = {
 				name = "bba_early_transport_plane_tree"
 				position = { x = 850 y = 32 }
+				size = { width = 400 height = 1000 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+            
+            gridboxtype = {
+				name = "early_transport_plane_tree"
+				position = { x = 1990 y = 32 }
 				size = { width = 400 height = 1000 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -2973,6 +2988,38 @@ guiTypes = {
 				name = "air_torpedoe_1_tree"
 				position = { x = 1630 y = 32 }
 				size = { width = 400 height = 400 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "early_fighter_tree"
+				position = { x = 300 y = 32 }
+				size = { width = 400 height = 1000 }
+				slotsize = { width = 60 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "early_bomber_tree"
+				position = { x = 935 y = 32 }
+				size = { width = 400 height = 1000 }
+				slotsize = { width = 60 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "strategic_bomber1_tree"
+				position = { x = 1400 y = 32 }
+				size = { width = 200 height = 1000 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "scout_plane1_tree"
+				position = { x = 870 y = 32 }
+				size = { width = 400 height = 1000 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
