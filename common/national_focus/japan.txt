@@ -4029,20 +4029,20 @@
 						#	has_dlc = "By Blood Alone"
 						#}
 					#}
-				#set_technology = { cv_fighter2 = 1 } 
-				create_equipment_variant = { 
-					name = "A6M Zero-sen"
-					type = cv_fighter_equipment_2
-					allow_without_tech = yes #Makes no difference since focus grants appropriate tech (above), but it improves tooltip
-					parent_version = 0
-					upgrades = {
-						cv_plane_gun_upgrade = 5
-						cv_plane_range_upgrade = 5
-						plane_engine_upgrade = 5
-						plane_reliability_upgrade = 5
-					}
-					icon = "GFX_JAP_cv_fighter2_medium"
-				}
+				set_technology = { cv_fighter2 = 1 } 
+				#create_equipment_variant = { 
+				#	name = "A6M Zero-sen"
+					#type = cv_fighter_equipment_2
+				#	allow_without_tech = yes #Makes no difference since focus grants appropriate tech (above), but it improves tooltip
+				#	parent_version = 0
+				#	upgrades = {
+				#		cv_plane_gun_upgrade = 5
+				#		cv_plane_range_upgrade = 5
+				#		plane_engine_upgrade = 5
+				#		plane_reliability_upgrade = 0
+				#	}
+				#	icon = "GFX_JAP_cv_fighter2_medium"
+				#}
 			}	
 				#}
 				#else = {
