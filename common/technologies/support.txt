@@ -1754,7 +1754,7 @@ technologies = {
 	railway_gun = {
 
 		allow = {
-			land_facility > 0
+			always = no
 		}
 
 		enable_equipments = {

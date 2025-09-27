@@ -11175,7 +11175,8 @@ focus_tree = {
 		
 
 		available = {
-			has_tech = armored_train
+			always = no
+			#has_tech = armored_train
 		}
 
 		search_filters = {FOCUS_FILTER_INDUSTRY}
