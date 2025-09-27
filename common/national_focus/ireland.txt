@@ -58,6 +58,7 @@ focus_tree = {
 
 
 		available = {
+			always = no
 		}
 	
 		search_filters = { FOCUS_FILTER_HISTORICAL }
@@ -776,6 +777,7 @@ focus_tree = {
 	
 		
 		available = {
+			always = no
 		}
 	
 		search_filters = { FOCUS_FILTER_HISTORICAL }
@@ -1127,6 +1129,7 @@ focus_tree = {
 
 		
 		available = {
+			always = no
 		}
 	
 		search_filters = { FOCUS_FILTER_HISTORICAL }
@@ -1932,6 +1935,7 @@ focus_tree = {
 		
 		
 		available = {
+			always = no
 		}
 	
 		search_filters = { FOCUS_FILTER_HISTORICAL }
