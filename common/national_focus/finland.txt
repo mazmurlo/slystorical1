@@ -3949,11 +3949,6 @@ focus_tree = {
 		completion_reward = {
 			air_experience = 25
 
-			custom_effect_tooltip = FIN_modify_finnish_airforce_ns_intro
-			add_to_variable = { FIN_finnish_airforce_air_weather_penalty = -0.1 tooltip = air_weather_penalty_tt }
-			add_to_variable = { FIN_finnish_airforce_air_ace_generation_chance_factor = 0.1 tooltip = air_ace_generation_chance_factor_tt }
-			add_to_variable = { FIN_finnish_airforce_air_home_defence_factor = 0.1 tooltip = air_home_defence_factor_tt }
-
 			add_doctrine_cost_reduction = {
 				name = FIN_pilot_training
 				cost_reduction = 0.5
