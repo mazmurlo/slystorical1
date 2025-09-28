@@ -1,16 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			ENG = {
-                hidden_effect = {
-                    set_technology = {uk_airport_technology = 1 popup = no }
-                }
-            }
-		every_country = {
-                hidden_effect = {
-                    set_technology = { everyone_airport_technology = 1 popup = no }
-                }
-            }	
 			every_country = {
 				limit = {
 					is_playable_country = yes
