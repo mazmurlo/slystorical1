@@ -2274,7 +2274,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			 	air_intercept_efficiency = 0.05
+			 	#air_intercept_efficiency = 0.05
 			 	production_speed_radar_station_factor = 0.25
 			}
 		}
