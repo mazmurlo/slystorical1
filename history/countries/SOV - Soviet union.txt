@@ -733,7 +733,7 @@ capital = 219 # Moscow
 starting_train_buffer = 3.0
 
 
-set_oob = "SOV_1936_nsb"
+set_oob = "SOV_1936"
 	set_technology = { 
 		mobile_warfare = 1
 	}

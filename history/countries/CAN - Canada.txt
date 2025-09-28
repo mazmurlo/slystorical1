@@ -1,19 +1,8 @@
 ﻿capital = 276
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "CAN_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "CAN_1936_nsb"
-}
+set_oob = "CAN_1936"
+
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = "CAN_1936_naval_mtg"
@@ -119,26 +108,12 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
+
 	set_technology = {
 		gwtank = 1
 		basic_light_tank = 1
 	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-		basic_heavy_tank_chassis = 1
-		improved_light_tank_chassis = 1
-	}
-}
+
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
