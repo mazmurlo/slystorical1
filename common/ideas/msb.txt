@@ -37,5 +37,29 @@ ideas = {
 				command_power_gain_mult = 0.5
 			}
 		}
+		ai_cap_progress = {
+			allowed = {
+				always = no
+			}
+			cancel = {
+			}
+			removal_cost = -1
+			picture = RAJ_partition_india_united
+			modifier = {
+				surrender_limit = -0.2
+			}
+		}
+		easier_cap_progress = {
+			allowed = {
+				always = no
+			}
+			cancel = {
+			}
+			removal_cost = -1
+			picture = RAJ_partition_india_united
+			modifier = {
+				forced_surrender_limit = -0.12
+			}
+		}
 	}
 }
