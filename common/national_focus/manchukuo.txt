@@ -503,18 +503,19 @@
 
 		completion_reward = {
 			add_stability = 0.1
-			if = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				if = {
-					limit = {
-						has_intelligence_agency = no
-					}
-					create_intelligence_agency = yes
-				}
-				add_ideas = MAN_hoankyoku_idea
-			}
+			add_ideas = MAN_hoankyoku_idea
+			#if = {
+			#	limit = {
+			#		has_dlc = "La Resistance"
+			#	}
+			#	if = {
+			#		limit = {
+			#			has_intelligence_agency = no
+			#		}
+			#		create_intelligence_agency = yes
+			#	}
+			#	
+			#}
 		}
 	}
 

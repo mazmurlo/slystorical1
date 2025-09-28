@@ -555,7 +555,7 @@ add_breakthrough_progress = {
 			armored_car1 = 1
 		}
 		# The Hivatal has already been established at this point 
-		create_intelligence_agency = yes
+		#create_intelligence_agency = yes
 	}
 }
 

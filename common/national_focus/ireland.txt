@@ -414,18 +414,18 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 	
 		completion_reward = {
-			if = {
-				limit = {
-					has_dlc = "La Resistance" 
-				}
- 				if = {
-					limit = {
-						has_intelligence_agency = no
-					}
-					create_intelligence_agency = {
-					}
-				}
-			}
+			add_stability = 0.1 # Template for removed agency smh
+			#if = {
+			#	limit = {
+			#		has_dlc = "La Resistance" 
+			#	}
+ 			#	if = {
+			#		limit = {
+			#			has_intelligence_agency = no
+			#		}
+			#		create_intelligence_agency 
+			#	}
+			#}
 		}
 	}
 	
