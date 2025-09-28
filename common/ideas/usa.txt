@@ -928,6 +928,7 @@ ideas = {
 
 			modifier = {
 				conversion_cost_civ_to_mil_factor = -0.5
+				line_change_production_efficiency_factor = 0.10
 			}
 		}
 	
