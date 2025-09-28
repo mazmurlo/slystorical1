@@ -7185,20 +7185,20 @@ focus_tree = {
 				ETH_deescalate_the_war_effect = yes
 			}
 			
-			if = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				if = {
-					limit = {
-						has_intelligence_agency = no
-					}
-					create_intelligence_agency = yes
-				}
-				add_ideas = ITA_servizio_informazione_militare_ns
-
-				ITA_create_rosa_dainelli_operative = yes
-			}
+			#if = {
+			#	limit = {
+			#		has_dlc = "La Resistance"
+			#	}
+			#	if = {
+			#		limit = {
+			#			has_intelligence_agency = no
+			#		}
+			#		create_intelligence_agency = yes
+			#	}
+			#	add_ideas = ITA_servizio_informazione_militare_ns
+			#
+			#	ITA_create_rosa_dainelli_operative = yes
+			#}
 			else = {
 				add_ideas = ITA_servizio_informazione_militare_ns_vanilla
 			}
