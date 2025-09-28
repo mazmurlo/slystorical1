@@ -2233,30 +2233,6 @@ characters = {
 		}
 	}
 
-	GER_josef_kammhuber = {
-		name = GER_josef_kammhuber
-		portraits = {
-			army = {
-				small = GFX_portrait_GER_josef_kammhuber_small
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = GER_josef_kammhuber
-			ledger = air
-			allowed = {
-				original_tag = GER
-			}
-			traits = {
-				air_bomber_interception_2
-			}
-			cost = 100
-			ai_will_do = {
-				base = 1.000
-			}
-		}
-	}
-
 	GER_alfred_becker = {
 		name = GER_alfred_becker
 		portraits = {

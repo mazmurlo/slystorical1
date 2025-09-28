@@ -1675,8 +1675,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_secure_the_imperial_shipping_routes
-		prerequisite = { focus = ENG_global_defense
-		}
+	
 		prerequisite = { focus = naval_rearmament_focus
 		}
 		relative_position_id = ENG_global_defense
@@ -1692,7 +1691,7 @@ focus_tree = {
 			}
 		}
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1974,7 +1973,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = uk_battleship_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2028,7 +2027,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = uk_battleship_focus
-		cost = 10
+		cost = 5
 		available = {
 			date > 1940.01.01
 			has_war = yes
@@ -2867,8 +2866,9 @@ focus_tree = {
 		icon = GFX_focus_generic_africa_factory
 		prerequisite = { 
 			focus = uk_canada_focus 
+			focus = uk_india_focus
 		}
-		x = 2
+		x = 1
 		y = 3
 		relative_position_id = uk_commonwealth_focus
 
@@ -3009,8 +3009,9 @@ focus_tree = {
 		icon = GFX_focus_AST_rats_tobruk
 		prerequisite = { 
 			focus = uk_india_focus
+			focus = uk_canada_focus
 			}
-		x = -2
+		x = -1
 		y = 3
 		relative_position_id = uk_commonwealth_focus
 		cost = 2
@@ -3072,82 +3073,11 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = uk_ireland_focus
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { 
-			focus = uk_india_focus
-			focus = uk_canada_focus
-			}
-		x = 0
-		y = 3
-		relative_position_id = uk_commonwealth_focus
-		cost = 2
-
-		available = {
-			any_country = {
-				original_tag = IRE
-				is_in_faction_with = ROOT
-			}
-		}
-
-		bypass = {
-			IRE = { 
-				OR = {
-					exists = no
-					is_in_faction = no
-				}
-			}
-		}
-
-		available_if_capitulated = no
-
-		completion_reward = {
-			IRE = {
-				add_opinion_modifier = { target = ENG modifier = ENG_imperial_trade }
-				add_timed_idea = {	idea = GBR_british_mobilisation_support	days = 200	}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-					set_state_flag = GBR_supported_local_industry_flag
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-					set_state_flag = GBR_supported_local_industry_flag
-				}
-			}
-		}
-	}
-
-
+	
 	focus = {
 		id = ENG_imperial_conference
 		prerequisite = { focus = uk_australia_focus }
 		prerequisite = { focus = uk_south_africa_focus }
-		prerequisite = { focus = uk_ireland_focus }
 
 		allow_branch = {
 			has_dlc = "Man the Guns"
