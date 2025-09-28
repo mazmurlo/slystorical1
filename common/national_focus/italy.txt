@@ -2712,7 +2712,6 @@ focus_tree = {
 				bonus = 0.50
 				uses = 2
 				category = motorized_equipment
-				category = light_air
 			}
 		}
 	}

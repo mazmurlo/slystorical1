@@ -2274,7 +2274,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			 	air_intercept_efficiency = 0.05
+			 	#air_intercept_efficiency = 0.05
 			 	production_speed_radar_station_factor = 0.25
 			}
 		}
@@ -2289,9 +2289,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				air_intercept_efficiency = 0.05
-			 	air_superiority_efficiency = 0.05
-			 	air_night_penalty = -0.1
+				#air_intercept_efficiency = 0.05
+			 	#air_superiority_efficiency = 0.05
+				industry_air_damage_factor = -0.15
+			 	air_night_penalty = -0.10
 			}
 		}
 

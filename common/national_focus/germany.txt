@@ -4836,11 +4836,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MILITARY_CHARACTER FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
-			add_timed_idea = {
-				idea = GER_nachtjagdgeschwader
-				days = 90
-			}
-
+			add_ideas = GER_nachtjagdgeschwader
+		
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			add_ace = {
