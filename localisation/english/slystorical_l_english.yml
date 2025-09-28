@@ -110,7 +110,9 @@ SOV_frontline_mob:0 "Mobilization to the Front"
 SOV_frontline_mob_desc:0 ""
 advanced_heavy_tank:0 "Heavy Tank III"
 
+# ITA
 
+ITA_military_industry_dynamic_modifier_tankettes_sly_tt:1 "Modify §YMilitary Industry§W by \n§Y$light_tank_chassis$§!: $production_cost_tt$ §G-5.00%§! \n§Y$light_tank_chassis$§!: Reliability: §G+5.00%§! \n§Y$medium_tank_chassis$§!: $production_cost_tt$ §G-5.00%§! \n§Y$medium_tank_chassis$§!: Reliability: §G+5.00%§! \n"
 
 
 add_convoy:0 "Add Convoy"

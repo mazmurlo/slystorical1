@@ -3392,7 +3392,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-			custom_effect_tooltip = ITA_italian_tankettes_military_industry_tt
+			custom_effect_tooltip = ITA_military_industry_dynamic_modifier_tankettes_sly_tt
 			hidden_effect = {
 				add_ideas = ITA_hidden_tankettes_ns
 			}
@@ -3418,44 +3418,6 @@ focus_tree = {
 					type = arms_factory
 					level = 1
 					instant_build = yes
-				}
-			}
-
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				if = {
-					limit = {
-						has_tech = improved_light_tank_chassis
-					}
-					ITA_add_improved_light_tank_templates = yes
-				}
-				else = {
-					custom_effect_tooltip = ITA_italian_tankettes_light_hull_tt
-					effect_tooltip = {
-						ITA_add_improved_light_tank_templates = yes
-					}
-				}
-				
-				ITA_add_basic_light_tank_destroyer_template = yes
-
-				if = {
-					limit = {
-						is_special_project_completed = sp:sp_land_flamethrower_tank
-					}
-					#L3/35 lf Flamethrower
-					ITA_add_basic_light_flamethrower_template = yes
-				}
-				else = {
-					sp:sp_land_flamethrower_tank = {
-						add_project_progress_ratio = 0.5
-					}
-					custom_effect_tooltip = ITA_italian_tankettes_flamethrower_tt
-					effect_tooltip = {
-						#L3/35 lf Flamethrower
-						ITA_add_basic_light_flamethrower_template = yes
-					}
 				}
 			}
 		}
@@ -3715,12 +3677,7 @@ focus_tree = {
 				}
 			}
 			
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				ITA_add_basic_medium_tank_templates = yes
-			}
+
 		}
 	}
 
@@ -3748,36 +3705,6 @@ focus_tree = {
 
 			add_to_variable = { ITA_iri_consumer_goods_factor = 0.02 }
 			custom_effect_tooltip = ITA_ricostruzione_industriale_cg_penalty_tt
-
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				if = {
-					limit = {
-						has_tech = improved_medium_tank_chassis
-					}
-					ITA_add_improved_medium_tank_templates = yes
-				}
-				else = {
-					custom_effect_tooltip = ITA_end_fiat_ansaldo_duopoly_medium_templates_tt
-					effect_tooltip = {
-						ITA_add_improved_medium_tank_templates = yes
-					}
-				}
-				if = {
-					limit = {
-						has_tech = improved_heavy_tank_chassis
-					}
-					ITA_add_improved_heavy_tank_templates = yes
-				}
-				else = {
-					custom_effect_tooltip = ITA_end_fiat_ansaldo_duopoly_heavy_templates_tt
-					effect_tooltip = {
-						ITA_add_improved_heavy_tank_templates = yes
-					}
-				}	
-			}
 
 			#Update NS icon
 			ITA_improve_regio_esercito_dm_effect = yes
@@ -3847,37 +3774,6 @@ focus_tree = {
 				}
 			}
 
-
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				if = {
-					limit = {
-						has_tech = improved_medium_tank_chassis
-					}
-					ITA_add_improved_medium_tank_templates = yes
-				}
-				else = {
-					custom_effect_tooltip = ITA_end_fiat_ansaldo_duopoly_medium_templates_tt
-					effect_tooltip = {
-						ITA_add_improved_medium_tank_templates = yes
-					}
-				}
-				if = {
-					limit = {
-						has_tech = improved_heavy_tank_chassis
-					}
-					ITA_add_improved_heavy_tank_templates = yes
-				}
-				else = {
-					custom_effect_tooltip = ITA_end_fiat_ansaldo_duopoly_heavy_templates_tt
-					effect_tooltip = {
-						ITA_add_improved_heavy_tank_templates = yes
-					}
-				}	
-			}
-
 			#Update NS icon
 			ITA_improve_regio_esercito_dm_effect = yes
 		}
@@ -3926,36 +3822,6 @@ focus_tree = {
 					type = arms_factory
 					level = 2
 					instant_build = yes
-				}
-			}
-
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				if = {
-					limit = {
-						has_tech = advanced_medium_tank_chassis
-					}
-					ITA_add_advanced_medium_tank_templates = yes
-				}
-				else = {
-					custom_effect_tooltip = ITA_ferrea_mole_ferreo_cuore_medium_tempaltes_tt
-					effect_tooltip = {
-						ITA_add_advanced_medium_tank_templates = yes
-					}
-				}
-				if = {
-					limit = {
-						has_tech = advanced_heavy_tank_chassis
-					}
-					ITA_add_advanced_heavy_tank_templates = yes
-				}
-				else = {
-					custom_effect_tooltip = ITA_ferrea_mole_ferreo_cuore_heavy_tempaltes_tt
-					effect_tooltip = {
-						ITA_add_advanced_heavy_tank_templates = yes
-					}
 				}
 			}
 		}
