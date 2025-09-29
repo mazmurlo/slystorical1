@@ -70,7 +70,7 @@ instant_effect = {
 		type = light_tank_equipment_1
 		amount = 200
 		producer = ENG
-		variant_name = "Vickers II" 	
+		variant_name = "Vickers Medium Mark II" 	
 		}
 
 	add_equipment_production = {

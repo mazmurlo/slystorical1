@@ -122,7 +122,7 @@ instant_effect = {
 		type = light_tank_equipment_1
 		amount = 210
 		producer = JAP
-		variant_name = "Type 94" 	
+		variant_name = "Type 94 Tankette" 	
 		}
 
 	add_equipment_production = {

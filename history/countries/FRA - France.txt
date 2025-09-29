@@ -114,6 +114,21 @@ set_technology = {
 		improved_light_tank = 1
 	}
 
+	add_equipment_to_stockpile = {
+		type = light_tank_equipment_1
+		amount = 860
+		producer = FRA
+		variant_name = "Hotchkiss H35" 	
+	}
+	add_equipment_to_stockpile = {
+		type = light_tank_equipment_2
+		amount = 120
+		producer = FRA
+		variant_name = "FCM 36" 	
+	}
+
+
+
 if = {
 	limit = {
 		has_dlc = "Battle for the Bosporus"
