@@ -2118,10 +2118,6 @@ technologies = {
 			super_heavy_tank_equipment_1
 		}
 
-		enable_subunits = {
-			super_heavy_armor
-		}
-
 	#	on_research_complete = {
 	#		if = {
 	#			limit = {

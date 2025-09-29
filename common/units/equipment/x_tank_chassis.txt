@@ -1722,12 +1722,12 @@ equipments = {
 		defense = 10
 		breakthrough = 74
 		hardness = 0.99
-		armor_value = 145
+		armor_value = 162
 
 		#Offensive Abilities
 		soft_attack = 60
 		hard_attack = 65
-		ap_attack = 146
+		ap_attack = 200
 		air_attack = 0
 
 		#Space taken in convoy
@@ -1738,7 +1738,7 @@ equipments = {
 			tank_armor_upgrade
 			tank_gun_upgrade
 		}
-		build_cost_ic = 100
+		build_cost_ic = 50
 		resources = {
 			#oil = 2
 			steel = 3
@@ -1779,7 +1779,7 @@ equipments = {
 		ap_attack = 9
 		air_attack = 0
 		
-		build_cost_ic = 100
+		build_cost_ic = 50
 		resources = {
 			#oil = 2
 			steel = 3
@@ -1811,15 +1811,15 @@ equipments = {
 		defense = 7
 		breakthrough = 1.8
 		hardness = 0.99
-		armor_value = 145
+		armor_value = 168
 
 		#Offensive Abilities
 		soft_attack = 12
-		hard_attack = 70
-		ap_attack = 170
+		hard_attack = 80
+		ap_attack = 220
 		air_attack = 0
 		
-		build_cost_ic = 100
+		build_cost_ic = 50
 		resources = {
 			#oil = 2
 			steel = 3
@@ -1851,15 +1851,15 @@ equipments = {
 		defense = 3.5
 		breakthrough = 3.5
 		hardness = 0.9
-		armor_value = 100
+		armor_value = 140
 
 		#Offensive Abilities
 		soft_attack = 11.5
 		hard_attack = 9
 		ap_attack = 98
-		air_attack = 50
+		air_attack = 90
 		
-		build_cost_ic = 100
+		build_cost_ic = 50
 		resources = {
 			#oil = 2
 			steel = 3
