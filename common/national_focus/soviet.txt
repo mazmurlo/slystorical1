@@ -1572,7 +1572,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		relative_position_id = SOV_infrastructure_effort_nsb
-		cost = 5
+		cost = 1
 
 		ai_will_do = {
 			factor = 1
@@ -1609,7 +1609,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_transpolar_flights
-		cost = 10
+		cost = 1 
 
 		available = {
 			any_owned_state = {
@@ -1678,7 +1678,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_expand_the_aircraft_industry
-		cost = 10
+		cost = 1
 
 		available = {
 
@@ -1726,7 +1726,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = SOV_modernize_aircraft_facilities
-		cost = 5
+		cost = 1
 
 		available = {
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
@@ -1796,7 +1796,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_expand_the_aircraft_industry
-		cost = 10
+		cost = 1
 
 		mutually_exclusive = { focus = SOV_intensify_pilot_training_program }
 
@@ -1848,7 +1848,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_transpolar_flights
-		cost = 10
+		cost = 1
 
 		available = {
 
@@ -2026,7 +2026,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_expand_the_aircraft_industry
-		cost = 10
+		cost = 1
 
 		available = {
 
