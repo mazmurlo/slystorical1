@@ -5218,6 +5218,7 @@ focus_tree = {
 				idea = SOV_desperate_measures_ns
 				days = 365
 			}
+			add_ideas = SOV_tankograd_idea
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
@@ -6829,7 +6830,7 @@ focus_tree = {
 					}
 				}
 			}
-				custom_effect_tooltip = "Y Spawn in divisions in every frontline state"
+				#custom_effect_tooltip = "Y Spawn in divisions in every frontline state"
 		}
 	}
 
