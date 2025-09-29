@@ -744,7 +744,7 @@ equipments = {
 		
 		#Misc Abilities
 		maximum_speed = 8
-		reliability = .9
+		reliability = 0.90
 		#Defensive Abilities
 		defense = 9
 		breakthrough = 57
@@ -1159,7 +1159,7 @@ equipments = {
 		
 		#Misc Abilities
 		maximum_speed = 5
-		reliability = .7
+		reliability = 0.70
 		#Defensive Abilities
 		defense = 8
 		breakthrough = 50
@@ -1181,7 +1181,7 @@ equipments = {
 	# 1943
 	heavy_tank_equipment_3 = {
 		year = 1942
-
+		
 		archetype = heavy_tank_chassis
 		parent = heavy_tank_equipment_2
 		priority = 90
@@ -1190,7 +1190,7 @@ equipments = {
 
 		#Misc Abilities
 		maximum_speed = 6
-		reliability = .9
+		reliability = 0.90
 		#Defensive Abilities
 		defense = 9
 		breakthrough = 60
