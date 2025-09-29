@@ -118,6 +118,13 @@ division_template = {
 #########################
 instant_effect = {
 
+	add_equipment_to_stockpile = {
+		type = light_tank_equipment_1
+		amount = 210
+		producer = JAP
+		variant_name = "Type 94" 	
+		}
+
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1

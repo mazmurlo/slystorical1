@@ -158,6 +158,21 @@ instant_effect = {
 		basic_heavy_tank = 1
 
 	}
+
+add_equipment_to_stockpile = {
+		type = light_tank_equipment_1
+		amount = 2000
+		producer = SOV
+		variant_name = "T-26" 	
+		}
+	add_equipment_to_stockpile = {
+		type = light_tank_equipment_2
+		amount = 400
+		producer = SOV
+		variant_name = "BT-7" 	
+		}
+
+
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1

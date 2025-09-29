@@ -285,6 +285,14 @@ division_template = {
 
 ####### Starting Production Queue #######
 instant_effect = { 
+
+add_equipment_to_stockpile = {
+		type = light_tank_equipment_1
+		amount = 320
+		producer = ITA
+		variant_name = "L3" 	
+		}
+
 	if = { 
 		limit = { is_tutorial = no } 
 
