@@ -192,7 +192,7 @@ equipments = {
 		}
 
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 
 		# Air vs Navy - low damage / high hit chance / easy to hurt
 		naval_strike_attack = 1
@@ -241,7 +241,7 @@ equipments = {
 		surface_detection = 13 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 3 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		lend_lease_cost = 8
 		manpower = 20
 		fuel_consumption = 0.21
@@ -273,7 +273,7 @@ equipments = {
 		surface_detection = 16 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 4 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		lend_lease_cost = 8
 		manpower = 20
 		fuel_consumption = 0.21
@@ -305,7 +305,7 @@ equipments = {
 		surface_detection = 20 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		lend_lease_cost = 8
 		manpower = 20
 		fuel_consumption = 0.21
@@ -362,7 +362,7 @@ equipments = {
 
 		lend_lease_cost = 8
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.21
 	}
@@ -395,7 +395,7 @@ equipments = {
 		sub_detection = 4 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		lend_lease_cost = 8
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.21
 	}
@@ -427,7 +427,7 @@ equipments = {
 		sub_detection = 4.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		lend_lease_cost = 8
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.21
 	}
@@ -460,7 +460,7 @@ equipments = {
 		sub_detection = 5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		lend_lease_cost = 8
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.21
 	}
@@ -511,7 +511,7 @@ equipments = {
 		}
 
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.26
 	}
@@ -543,7 +543,7 @@ equipments = {
 		surface_detection = 23 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 5.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.26
 	}
@@ -575,7 +575,7 @@ equipments = {
 		surface_detection = 27 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 6.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.26
 	}
@@ -626,7 +626,7 @@ equipments = {
 		}
 
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.26
 
@@ -662,7 +662,7 @@ equipments = {
 		surface_detection = 20 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 10 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.26
 	}
@@ -695,7 +695,7 @@ equipments = {
 		surface_detection = 30 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 15 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.26
 	}
@@ -747,7 +747,7 @@ equipments = {
 		}
 
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.28
 	}
@@ -778,7 +778,7 @@ equipments = {
 		}
 
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.28
 	}
@@ -809,7 +809,7 @@ equipments = {
 		}
 
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.28
 	}
@@ -864,7 +864,7 @@ equipments = {
 		}
 
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.28
 	}
@@ -894,7 +894,7 @@ equipments = {
 			rubber = 1
 		}
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.28
 	}
@@ -924,7 +924,7 @@ equipments = {
 			rubber = 1
 		}
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		manpower = 20
 		fuel_consumption = 0.28
 	}
@@ -961,7 +961,7 @@ equipments = {
 		air_agility = 50
 		air_attack = 0
 		air_defence = 12
-		reliability = 1
+		reliability = 0.80
 
 		naval_strike_attack = 20
 		naval_strike_targetting = 10
@@ -1031,7 +1031,7 @@ equipments = {
 		manpower = 40
 		lend_lease_cost = 10
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		fuel_consumption = 0.36
 	}
 
@@ -1064,7 +1064,7 @@ equipments = {
 		manpower = 40
 		lend_lease_cost = 10
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		fuel_consumption = 0.36
 	}
 
@@ -1097,7 +1097,7 @@ equipments = {
 		manpower = 40
 		lend_lease_cost = 10
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		fuel_consumption = 0.36
 	}
 
@@ -1130,7 +1130,7 @@ equipments = {
 		manpower = 40
 		lend_lease_cost = 10
 		air_superiority = 1
-		reliability = 1
+		reliability = 0.80
 		fuel_consumption = 0.36
 	}
 
@@ -1178,7 +1178,7 @@ equipments = {
 		}
 
 		air_superiority = 1.25
-		reliability = 1
+		reliability = 0.80
 		manpower = 40
 		fuel_consumption = 0.26
 	}
@@ -1207,7 +1207,7 @@ equipments = {
 		surface_detection = 18 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 3.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 1.25
-		reliability = 1
+		reliability = 0.80
 		manpower = 40
 		fuel_consumption = 0.26
 	}
@@ -1236,7 +1236,7 @@ equipments = {
 		surface_detection = 21 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 4 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 1.25
-		reliability = 1
+		reliability = 0.80
 		manpower = 40
 		fuel_consumption = 0.26
 	}
@@ -1275,7 +1275,7 @@ equipments = {
 			rubber = 1
 		}
 		air_superiority = 0
-		reliability = 1
+		reliability = 0.80
 		manpower = 40
 		fuel_consumption = 0.26
 	}
@@ -1303,7 +1303,7 @@ equipments = {
 		surface_detection = 60 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 15 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		air_superiority = 0
-		reliability = 1
+		reliability = 0.80
 		manpower = 40
 		fuel_consumption = 0.26
 	}
@@ -1354,7 +1354,7 @@ equipments = {
 		}
 
 		air_superiority = 0.01
-		reliability = 1
+		reliability = 0.80
 		manpower = 80
 		fuel_consumption = 0.8
 	}
