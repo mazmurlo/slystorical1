@@ -6964,7 +6964,7 @@ focus_tree = {
 				}
 				GER_add_or_modify_military_intelligence_service = yes
 				add_to_variable = { 
-					GER_military_intelligence_service_operative_slot = 1
+					GER_military_intelligence_service_
 					tooltip = operative_slot_tt
 				}
 				GER_create_operative_otto_skorzeny = yes
@@ -9311,7 +9311,7 @@ focus_tree = {
 					GER_add_or_modify_military_intelligence_service = yes
 				}
 				add_to_variable = { 
-					GER_military_intelligence_service_operative_slot = 1
+					GER_military_intelligence_service_
 					tooltip = operative_slot_tt
 				}
 				GER_create_operative_norman_stewart = yes

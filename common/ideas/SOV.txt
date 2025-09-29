@@ -1227,7 +1227,7 @@ ideas = {
 			}
 
 			modifier = {
-				operative_slot = 1
+				
 				intelligence_agency_defense = 0.5
 			}
 		}
@@ -1266,7 +1266,7 @@ ideas = {
 
 			modifier = {
 				subversive_activites_upkeep = -0.5
-				operative_slot = 1
+				
 				root_out_resistance_effectiveness_factor = 0.1
 				resistance_damage_to_garrison = -0.05
 			}
@@ -1520,7 +1520,7 @@ ideas = {
 			}
 
 			modifier = {
-				operative_slot = 1
+				
 			}
 		}
 
@@ -3997,7 +3997,7 @@ ideas = {
 #
 #			modifier = {
 #				subversive_activites_upkeep = -0.5
-#				operative_slot = 1
+#				
 #			}
 #		}
 #
@@ -4014,7 +4014,7 @@ ideas = {
 #
 #			modifier = {
 #				subversive_activites_upkeep = -0.5
-#				operative_slot = 1
+#				
 #				land_reinforce_rate = 0.05
 #			}
 #		}

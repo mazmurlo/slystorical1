@@ -427,7 +427,7 @@ ideas = {
 			
 			modifier = {
 				planning_speed = 0.1
-				operative_slot = 2
+				
 			}
 		}
 		USA_maritime_commission = {

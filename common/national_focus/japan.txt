@@ -1041,7 +1041,7 @@
 			}
 		}
 		available = {
-			has_intelligence_agency = yes
+			
 		}
 		completion_reward = {
 			add_ideas = GER_abwehr_contacts

@@ -6194,7 +6194,7 @@ ideas = {
 				non_core_manpower = 0.02
 
 				subversive_activites_upkeep = -0.25
-				operative_slot = 1
+				
 				intelligence_agency_defense = 0.2
 				intel_from_combat_factor = 0.25
 			}
@@ -6219,7 +6219,7 @@ ideas = {
 				non_core_manpower = 0.04
 
 				subversive_activites_upkeep = -0.25
-				operative_slot = 1
+				
 				intelligence_agency_defense = 0.2
 				intel_from_combat_factor = 0.25
 
@@ -6318,7 +6318,7 @@ ideas = {
 				surrender_limit = 0.1
 				offensive_war_stability_factor = 0.1
 				defensive_war_stability_factor = 0.1
-				operative_slot = 1
+				
 				boost_ideology_mission_factor = 0.15
 				boost_resistance_factor = 0.15
 			}

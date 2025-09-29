@@ -17,7 +17,7 @@ ideas = {
 					
 			modifier = {
 				stability_factor = 0.05
-				operative_slot = 1
+				
 				civilian_intel_to_others = -5
 				enemy_operative_detection_chance = 0.05
 				enemy_operative_capture_chance_factor = 0.05
@@ -584,7 +584,7 @@ ideas = {
 			removal_cost = -1			
 
 			modifier = {
-				operative_slot = 2
+				
 				operation_infiltrate_outcome = 0.25
 				boost_resistance_factor = 0.25
 			}

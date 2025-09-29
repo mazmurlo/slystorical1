@@ -667,7 +667,7 @@ ideas = {
 				foreign_subversive_activites = -0.25
 				operation_cost = -0.15
 				operation_outcome = 0.1
-				operative_slot = 1
+				
 			}
 		}
 		FPM_export_the_revolution = {
@@ -691,7 +691,7 @@ ideas = {
 				operation_cost = -0.2
 				operation_outcome = 0.15
 				operation_coup_government_outcome = 0.2
-				operative_slot = 1
+				
 				intel_network_gain_factor = 0.1
 				own_operative_detection_chance_factor = -0.1
 			}

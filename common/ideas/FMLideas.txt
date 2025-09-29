@@ -681,7 +681,7 @@ ideas = {
 		picture = generic_spy_intel
 
 		modifier = {
-			operative_slot = 3
+			
 			operation_cost = -0.10
 			}
 		}

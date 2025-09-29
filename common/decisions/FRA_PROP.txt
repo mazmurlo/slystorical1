@@ -215,7 +215,7 @@ FRA_propaganda_campaigns = {
 
 		modifier = {
 			intelligence_agency_defense = 0.5
-			operative_slot = 1
+			
 		}
 
 		complete_effect = {

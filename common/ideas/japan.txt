@@ -12,7 +12,7 @@ ideas = {
 			}
 
 			modifier = {
-				operative_slot = 1
+				strategic_bomb_visibility = -0.20
 			}
 		}
 	

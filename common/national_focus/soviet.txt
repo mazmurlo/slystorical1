@@ -6662,7 +6662,7 @@ focus_tree = {
 				}
 
 				#Extra operative slot
-				set_variable = { SOV_the_politburo_operative_slot = 1 }
+				set_variable = { SOV_the_politburo_ }
 				custom_effect_tooltip = SOV_behead_the_snake_ns_tt
 			}
 			else = {
