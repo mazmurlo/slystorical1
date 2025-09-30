@@ -3844,7 +3844,7 @@ focus_tree = {
 		x = 9
 		y = 0
 		relative_position_id = ITA_army_primacy_bba
-		cost = 10
+		cost = 2
 		available = {
 		}
 

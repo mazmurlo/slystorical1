@@ -1534,6 +1534,7 @@ ideas = {
 				max_planning = 0.1
 				planning_speed = -0.15
 				dig_in_speed_factor = 0.25
+				command_abilities_cost_factor = 0.50
 			}
 		}
 		FRA_infantry_focus = {

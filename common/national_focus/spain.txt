@@ -1308,6 +1308,7 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			add_ideas = SAF_military_complex_expansion
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -2828,6 +2829,17 @@ focus_tree = {
 			}
 			hidden_effect = { 
 				retire_character = SPR_gonzalo_queipo_de_llano
+				if = { 
+					limit = { 
+						has_game_rule = { 
+							rule = scw_difficulty
+							option = easy 
+						}
+					}
+					add_ideas = tot_economic_mobilisation
+					add_ideas = extensive_conscription
+					add_political_power = -100
+				}
 			}
 		}
 	}
