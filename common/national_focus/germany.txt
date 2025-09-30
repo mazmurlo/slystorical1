@@ -9515,7 +9515,7 @@ focus_tree = {
 						option = locked
 					}	
 				}
-				date > 1941.6.22
+				date > 1941.6.21
 			}
 
 			is_subject = no
@@ -9755,7 +9755,7 @@ focus_tree = {
 			hidden_effect = { 
 				add_tech_bonus = {
 				name = armor_bonus
-				bonus = 1.5
+				bonus = 1
 				uses = 1
 				technology = advanced_medium_tank
 				}
