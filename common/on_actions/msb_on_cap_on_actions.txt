@@ -46,6 +46,114 @@ on_actions = {
         }
     }
 	on_capitulation = {
+        effect = {
+            if = {
+                limit = {
+                    tag = POL
+                }
+                GER = {
+					every_state = {
+						limit = {
+							is_core_of = POL
+							is_controlled_by = GER
+						}
+						set_compliance = 75
+					}
+                }
+            }
+        }
+    }
+	on_capitulation = {
+        effect = {
+            if = {
+                limit = {
+                    tag = BEL
+                }
+                GER = {
+					every_state = {
+						limit = {
+							is_core_of = BEL
+							is_controlled_by = GER
+						}
+						set_compliance = 75
+					}
+                }
+            }
+        }
+    }
+	on_capitulation = {
+        effect = {
+            if = {
+                limit = {
+                    tag = HOL
+                }
+                GER = {
+					every_state = {
+						limit = {
+							is_core_of = HOL
+							is_controlled_by = GER
+						}
+						set_compliance = 75
+					}
+                }
+            }
+        }
+    }
+	on_capitulation = {
+        effect = {
+            if = {
+                limit = {
+                    tag = DEN
+                }
+                GER = {
+					every_state = {
+						limit = {
+							is_core_of = DEN
+							is_controlled_by = GER
+						}
+						set_compliance = 75
+					}
+                }
+            }
+        }
+    }
+	on_capitulation = {
+        effect = {
+            if = {
+                limit = {
+                    tag = NOR
+                }
+                GER = {
+					every_state = {
+						limit = {
+							is_core_of = NOR
+							is_controlled_by = GER
+						}
+						set_compliance = 75
+					}
+                }
+            }
+        }
+    }
+	on_capitulation = {
+        effect = {
+            if = {
+                limit = {
+                    tag = GRE
+                }
+                ITA = {
+					every_state = {
+						limit = {
+							is_core_of = GRE
+							is_controlled_by = ITA
+						}
+						set_compliance = 75
+					}
+                }
+            }
+        }
+    }
+	on_capitulation = {
 		# Yugoslavia
 		effect = {
 			if = {

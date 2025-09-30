@@ -8762,6 +8762,11 @@ focus_tree = {
 					ITA_vittorio_emanuele_iii = { add_country_leader_trait = king_of_albania }
 				}
 			}
+			hidden_effect = { 
+				add_state_core = 44
+				add_state_core = 934
+				add_state_core = 805
+			}
 		}
 	}
 

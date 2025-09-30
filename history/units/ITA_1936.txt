@@ -1,8 +1,6 @@
 ﻿####### Division Templates #######
 division_template = { 
 	name = "Divisione di Fanteria" 
-	division_template = { 
-	name = "Divisione di Fanteria" 
 	division_names_group = ITA_INF_01 
 
 	# Represents nearly all infantry divisions
@@ -20,7 +18,6 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 		artillery = { x = 0 y = 1 }
 	}
-}
 }
 
 division_template = { 
