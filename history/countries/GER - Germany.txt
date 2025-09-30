@@ -26,6 +26,7 @@ add_breakthrough_progress = {
 			CAS1 = 1
 			naval_bomber1 = 1
 			early_transport_plane = 1
+			scout_plane1 = 1
 		}
 	}
 if = {
