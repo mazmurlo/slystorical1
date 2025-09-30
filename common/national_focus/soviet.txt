@@ -5210,7 +5210,7 @@ focus_tree = {
 				idea = SOV_desperate_measures_ns
 				days = 365
 			}
-			add_ideas = SOV_tankograd_idea
+			#add_ideas = SOV_tankograd_idea
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			custom_effect_tooltip = SOV_desperate_measures_decisions_unlocked_tt
@@ -6750,10 +6750,12 @@ focus_tree = {
 		completion_reward = {
 			
 			add_country_leader_trait = stalin_they_will_know_fear
-			add_breakthrough_progress = {
+			add_ideas = SOV_tankograd_idea
+			hidden_effect = {
+				add_breakthrough_progress = {
 				specialization = specialization_land
 				value = 1
-			}
+				}
 
 			add_tech_bonus = {
 				name = SOV_they_will_know_fear
@@ -6761,7 +6763,6 @@ focus_tree = {
 				uses = 1 # was 2
 				category = armor
 			}
-			hidden_effect = {
 			if = {
 				limit = {
 						has_game_rule = {
