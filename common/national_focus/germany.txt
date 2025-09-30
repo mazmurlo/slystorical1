@@ -226,10 +226,10 @@ focus_tree = {
 					}
 				}
 				51 = {
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 				}
@@ -3440,13 +3440,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = GER_advanced_panzer_research
-				#ahead_reduction = 1
-				bonus = 1
-				uses = 1
-				category = cat_medium_armor
-			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
@@ -3518,7 +3511,7 @@ focus_tree = {
 		relative_position_id = GER_panzer_troops_school
 		cost = 5
 		available = {
-			has_war_with_major = yes
+			date > 1940.5.1
 		}
 
 		continue_if_invalid = yes
@@ -7552,7 +7545,6 @@ focus_tree = {
 				#bonus = 1
 				ahead_reduction = 2
 				uses = 1
-				category = armor
 				category = artillery
 				category = naval_equipment
 				category = rocketry
@@ -7579,6 +7571,7 @@ focus_tree = {
 		alternate_icon = GFX_focus_GER_demand_sudetenland
 
 		prerequisite = { focus = GER_anschluss }
+		prerequisite = { focus = GER_treaty_with_the_ussr }
 
 		mutually_exclusive = { focus = GER_befriend_czechoslovakia }
 
