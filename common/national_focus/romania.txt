@@ -1464,7 +1464,7 @@ focus_tree = {
 		x = -10
 		y = 1
 	available = { 
-		date > 1942.1.1
+		
 	}
 		cost = 5
 
@@ -1504,6 +1504,9 @@ focus_tree = {
 		y = 2
 		relative_position_id = ROM_expand_the_air_force
 
+		available = { 
+			date > 1942.1.1
+		}
 		cost = 10
 
 		completion_reward = {
@@ -1616,7 +1619,9 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = ROM_expand_the_air_force
-
+		available = { 
+			date > 1942.1.1
+		}
 		cost = 10
 		completion_reward = {
 			air_experience = 50

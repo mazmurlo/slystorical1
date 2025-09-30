@@ -948,9 +948,9 @@ tactic_partisan_sweeps = {
     active = no
 
    	base =  { 
-		factor = 15
+		factor = 23
 		modifier = {
-			add = 5
+			add = 7
 			OR = {
 				has_trait = panzer_expert
 				has_trait = combined_arms_expert
