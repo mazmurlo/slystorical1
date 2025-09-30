@@ -4096,7 +4096,7 @@ focus = {
 				}
 
 			random_owned_controlled_state = {
-					prioritize = { 539 }
+					prioritize = { 553 }
 				create_unit = {
 						division = "name = \"40w\" division_template = \"40w\" start_experience_factor = 0.6 start_equipment_factor = 1.0" 
 						owner = FRA
