@@ -3337,18 +3337,10 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_pc_of_mechanical_engineering
-		cost = 10
+		cost = 5
 
 		available = {
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				has_tech = improved_medium_tank_chassis
-			}
-			else = {
 				has_tech = improved_medium_tank
-			}
 		}
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -3403,7 +3395,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_superior_war_machines
-		cost = 10
+		cost = 5
 
 		available = {
 		}
@@ -5219,7 +5211,6 @@ focus_tree = {
 				days = 365
 			}
 			add_ideas = SOV_tankograd_idea
-
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			custom_effect_tooltip = SOV_desperate_measures_decisions_unlocked_tt
