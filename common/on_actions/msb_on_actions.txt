@@ -7,7 +7,6 @@ on_actions = {
 				}
 				add_ideas = {
 					peace_training
-					tradeback_is_cancer
 				}
 				#create_intelligence_agency = yes
 			}
