@@ -5,8 +5,10 @@ state=
 	manpower = 4592537
 	
 	state_category = large_town
-	history=
-	{
+	resources={
+		rubber=12 # was: 70
+	}
+	history= {
 		# No Asia + Scraping
 		1936.1.1.13 = { owner = WST add_core_of = WST }
 		1936.1.1.14 = { owner = WST add_core_of = WST }

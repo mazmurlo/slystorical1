@@ -3507,11 +3507,13 @@ SOV_propaganda_campaigns = {
 		cost = SOV_propaganda_do_not_blab_cost
 
 		modifier = {
-			army_intel_to_others = -50
-			navy_intel_to_others = -50
-			airforce_intel_to_others = -50
-			civilian_intel_to_others = -50
-			foreign_subversive_activites = -0.25
+			army_attack_factor = 0.05
+			army_defence_factor = 0.05
+			#army_intel_to_others = -50
+			#navy_intel_to_others = -50
+			#airforce_intel_to_others = -50
+			#civilian_intel_to_others = -50
+			#foreign_subversive_activites = -0.25
 		}
 
 		complete_effect = {

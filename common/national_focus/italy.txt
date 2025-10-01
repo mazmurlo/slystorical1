@@ -3637,12 +3637,6 @@ focus_tree = {
 		relative_position_id = ITA_superesercito
 		cost = 10
 		available = {
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				has_tech = basic_medium_tank_chassis
-			}
 		}
 
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ARMY_XP}

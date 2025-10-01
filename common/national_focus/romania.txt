@@ -151,7 +151,7 @@ focus_tree = {
 		id = ROM_license_german_equipment
 		icon = GFX_focus_BRA_acquire_german_tanks
 		prerequisite = { focus = ROM_trade_treaty_with_germany }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = ROM_trade_treaty_with_germany
 
@@ -170,7 +170,7 @@ focus_tree = {
 		id = ROM_german_romanian_oil_exploitation_company
 		icon = GFX_goal_generic_oil_refinery
 		prerequisite = { focus = ROM_trade_treaty_with_germany }
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = ROM_trade_treaty_with_germany
 
@@ -189,9 +189,8 @@ focus_tree = {
 		}
 		icon = GFX_goal_generic_oil_refinery
 		prerequisite = { focus = ROM_german_romanian_oil_exploitation_company }
-		mutually_exclusive = { focus = ROM_reichswerke_subsidiary }
-		x = -1
-		y = 2
+		x = 0
+		y = 1
 		relative_position_id = ROM_german_romanian_oil_exploitation_company
 
 
@@ -207,31 +206,6 @@ focus_tree = {
 					amount = 8
 				}
 			}
-		}
-	}
-
-	focus = {
-		id = ROM_reichswerke_subsidiary
-		icon = GFX_focus_GER_vereinigte_stahlwerke
-		prerequisite = { focus = ROM_german_romanian_oil_exploitation_company }
-		mutually_exclusive = { focus = ROM_nationalize_the_oil }
-		x = 1
-		y = 2
-		relative_position_id = ROM_german_romanian_oil_exploitation_company
-
-
-		cost = 5
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			show_ideas_tooltip = ROM_reichswerke_hermann_goring 
-			
 		}
 	}
 
@@ -1322,6 +1296,9 @@ focus_tree = {
 				}
 				remove_ideas = ROM_army_tensions
 			}
+			hidden_effect = { 
+				add_political_power = 100
+			}
 		}
 	}
 
@@ -1381,7 +1358,10 @@ focus_tree = {
 					has_idea = ROM_army_tensions
 				}
 				remove_ideas = ROM_army_tensions
-			}		
+			}	
+			hidden_effect = { 
+				add_political_power = 100
+			}	
 		}
 	}
 
@@ -1393,7 +1373,7 @@ focus_tree = {
 		x = 4
 		y = 4
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 9
