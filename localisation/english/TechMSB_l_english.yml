@@ -1,17 +1,17 @@
 ﻿l_english:
- 
+
 tank_medium_cannon_3:0 "Advanced Medium Cannon"
 tank_medium_cannon_3_desc:0 "More Firepower is necessary"
 
-basic_medium_tank_chassis_short:0 "1936 Medium"
-improved_medium_tank_chassis_short:1 "1939 Medium"
-advanced_medium_tank_chassis_short:0 "1942 Medium"
-improved_heavy_tank_chassis_short:1 "1939 Heavy"
-advanced_heavy_tank_chassis_short:0 "1942 Heavy"
-advanced_light_tank_chassis_short:0 "1940 Light"
-
 cat_air_bombs:0 "Bomb Locks"
 advanced_ship_hull_heavy:0 "1942 Heavy Ship Hull"
+
+basic_medium_tank:0 "Basic Medium Tank"
+basic_light_tank:0 "Basic Light Tank"
+basic_heavy_tank:0 "Basic Heavy Tank"
+improved_medium_tank:0 "Improved Medium Tank"
+improved_light_tank:0 "Improved Light Tank"
+improved_heavy_tank:0 "Improved Heavy Tank"
 
 # TECH RUSH LOC
 hosttool_mech:0 "Mechanized 1"
