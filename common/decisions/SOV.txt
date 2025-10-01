@@ -3508,7 +3508,7 @@ SOV_propaganda_campaigns = {
 
 		modifier = {
 			army_attack_factor = 0.05
-			army_defence_factor = 0.05
+			army_defence_factor = 0.10
 			#army_intel_to_others = -50
 			#navy_intel_to_others = -50
 			#airforce_intel_to_others = -50
