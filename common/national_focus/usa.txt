@@ -2061,7 +2061,7 @@ focus_tree = {
 					add_trait = { trait = panzer_leader }
 					add_trait = { trait = cavalry_leader }
 					add_trait = { trait = brilliant_strategist }
-					gain_xp = 2501
+					#gain_xp = 2501
 				}
 			}
 			if = {

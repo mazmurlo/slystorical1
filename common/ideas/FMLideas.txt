@@ -322,6 +322,32 @@ ideas = {
 				}
 		}
 
+		FRA_eco_post_cap_idea2 = { # fra post cap idea
+			
+			name = "Military Dynanism"
+
+			allowed = {
+				original_tag = FRA
+				always = yes
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			available = {
+			}
+
+			removal_cost = -1
+
+			picture = ARG_envoy_to_london
+			
+			modifier = {
+				# fra post cap idea
+				production_factory_efficiency_gain_factor = 0.3
+				production_lack_of_resource_penalty_factor = -0.4
+
+				}
+		}
+
 		FRA_revolution_nationale = {
 			
 			allowed = {
