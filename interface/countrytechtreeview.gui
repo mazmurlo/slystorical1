@@ -4561,7 +4561,6 @@ guiTypes = {
 			position = { x=5 y=55 }
 			spriteType = "GFX_design_team_icon"
 		}
-
 	}
 
 	containerWindowType = {
