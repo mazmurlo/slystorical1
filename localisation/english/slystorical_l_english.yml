@@ -295,4 +295,7 @@ STATE_1017:0 "North Wales"
  
  a50cw:0 "Create 50W Infantry Template"
  a50cw_desc:0 "Create a 50-width infantry division (25 battalions) template."
+
+#Soviet focus tree localization
+SOV_synthetic_rubber:0 "Transformation of Nature"
  
