@@ -4557,7 +4557,7 @@ guiTypes = {
 		}
 			containerWindowType = {
 			name = "sub_technology_slot_3"
-			position = { x=140 y=0 }
+			position = { x=140 y=1 }
 			size = { width = 35 height = 26 }
 			clipping = no
 
