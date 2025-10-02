@@ -46,10 +46,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		#path = {
-		#	leads_to_tech = special_armored_vechile
-		#	research_cost_coeff = 1
-		#}
+		path = {
+			leads_to_tech = special_armored_vechile
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1918
@@ -91,31 +91,31 @@ technologies = {
 
 		special_project_specialization = { specialization_land }
 	}
-	#special_armored_vechile = { #Idk vechile
+	special_armored_vechile = { #Idk vechile
 
-		#enable_equipments = {
-		#	armored_support_vehicle_1
-		#}
-		#enable_subunits = {
-		#	assault_engineer
-		#}
+		enable_equipments = {
+			armored_support_vehicle_1
+		}
+		enable_subunits = {
+			assault_engineer
+		}
 
-		#research_cost = 0.5
-		#start_year = 1939
+		research_cost = 0.5
+		start_year = 1939
 
-	#folder = {
-		#	name = armour_folder
-		#	position = { x = 10 y = 5 }
-		#}
+	folder = {
+			name = armour_folder
+			position = { x = 7 y = 5 }
+		}
 
-		#categories = {
-		#	armor
-		#	mio_cat_tech_all_armor_and_modules
-		#	category_all_armor
-		#	mio_cat_tech_light_armor_and_modules
-		#}
-		#special_project_specialization = { specialization_land }
-	#}
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			category_all_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
 	basic_light_tank = { #Panzer I
 
 		enable_equipments = {
@@ -787,8 +787,6 @@ technologies = {
 		enable_subunits = {
 			medium_armor
 		}
-		#YOU GET FLAME FROM BASE RESEARCH!!
-	
 		path = {
 			leads_to_tech = improved_medium_tank
 			research_cost_coeff = 1

@@ -396,26 +396,17 @@ sp_air_intercontinental_bomber = {
 
 	available = { 
 		FROM = {
-			if = {
-				limit = { 
-					has_dlc = "By Blood Alone"
-				}
-				has_tech = improved_large_airframe
-			}
-			else = {
-				has_tech = strategic_bomber2
-			}
+			has_tech = strategic_bomber1
 		}
 	}
-
 	breakthrough_cost = {
-		specialization_air = 2
+		specialization_air = 3
 	}
 	
 	resource_cost = {
 		resources = {
-			aluminium = 24
-			rubber = 12
+			aluminium = 86
+			rubber = 44
 		}
 	}
 	
@@ -523,8 +514,8 @@ sp_air_intercontinental_bomber = {
 								bonus = {
 									strat_bomber_intercontinental_equipment = { #SETUP IN CASE OF HAVING TO BALANCE DIFFERENTLY FOR NON-BBA AND BBA
 										air_bombing = 0.15
-										air_defence	= -0.05
-										air_attack = -0.1
+										air_defence	= -0.2
+										air_attack = -0.5
 									}
 								}
 							}
@@ -534,9 +525,9 @@ sp_air_intercontinental_bomber = {
 								name = sp_air_intercontinental_bomber_bombing_payload
 								bonus = {
 									strat_bomber_intercontinental_equipment = { #SETUP IN CASE OF HAVING TO BALANCE DIFFERENTLY FOR NON-BBA AND BBA
-								      air_bombing = 0.15
-										air_defence	= -0.05
-										air_attack = -0.1	
+										air_bombing = 0.15
+										air_defence	= -0.2
+										air_attack = -0.5	
 									}
 								}
 							}
@@ -557,9 +548,9 @@ sp_air_intercontinental_bomber = {
 								name = sp_air_intercontinental_bomber_protection
 								bonus = {
 									strat_bomber_intercontinental_equipment = { #SETUP IN CASE OF HAVING TO BALANCE DIFFERENTLY FOR NON-BBA AND BBA
-										air_defence = 0.15
-										air_attack = -0.1
-										air_bombing = -0.1
+										air_defence = 0.2
+										air_attack = -0.6
+										air_bombing = -0.6
 									}
 								}
 							}
@@ -569,9 +560,9 @@ sp_air_intercontinental_bomber = {
 								name = sp_air_intercontinental_bomber_protection
 								bonus = {
 									strat_bomber_intercontinental_equipment = { #SETUP IN CASE OF HAVING TO BALANCE DIFFERENTLY FOR NON-BBA AND BBA
-										air_defence = 0.15
-										air_attack = -0.1
-										air_bombing = -0.1
+										air_defence = 0.2
+										air_attack = -0.6
+										air_bombing = -0.6
 									}
 								}
 							}
@@ -594,7 +585,9 @@ sp_air_mothership_aircraft = {
 	allowed = {
 		has_dlc = "Gotterdammerung"		
 	}
-
+	visible = {
+		always = no
+	}
 	generic_prototype_rewards = {
 		sp_air_political_interference_generic_reward
 		sp_air_generic_aerodynamics_advancements_reward
@@ -798,7 +791,9 @@ sp_air_jet_engine = {
 		sp_tag_aircraft
 		sp_tag_jet
 	}
-
+	visible = {
+		always = no
+	}
 	available = { 
 		FROM = {
 			if = {
@@ -1074,7 +1069,9 @@ sp_air_axial_jet_engine = {
 		sp_tag_aircraft
 		sp_tag_jet
 	}
-
+	visible = {
+		always = no
+	}
 	special_project_parent = {
 		sp_air_jet_engine
 	}
@@ -1362,7 +1359,9 @@ sp_air_supersonic_jet = {
 		sp_tag_aircraft
 		sp_tag_jet
 	}
-
+	visible = {
+		always = no
+	}
 	special_project_parent = {
 		sp_air_axial_jet_engine
 	}
@@ -1573,7 +1572,9 @@ sp_air_helicopter = {
 		sp_tag_aircraft
 		sp_tag_helicopter
 	}
-
+	visible = {
+		always = no
+	}
 	allowed = {
 		has_dlc = "Gotterdammerung"		
 	}

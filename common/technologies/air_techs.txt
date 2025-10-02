@@ -10,7 +10,10 @@ technologies = {
 			leads_to_tech = improved_transport_plane
 			research_cost_coeff = 1
 		}
-		
+		path = {
+			leads_to_tech = helicopter1
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 		start_year = 1933
 		folder = {
@@ -1308,6 +1311,26 @@ technologies = {
 		}
 	}
 
+	helicopter1 = {
+		enable_equipments = {
+			helicopter_equipment_1
+		}
+		enable_subunits = { 
+			helicopter_brigade
+		}
+		research_cost = 1.75
+		start_year = 1937
+		folder = {
+			name = air_techs_folder
+			position = { x = -6 y = 7 }
+		}
+		
+		categories = {
+			air_equipment
+			mio_cat_all_medium_aircraft_and_modules
+		}
+		special_project_specialization = { specialization_air }
+	}
 	scout_plane1 = {
 
 		enable_equipments = {

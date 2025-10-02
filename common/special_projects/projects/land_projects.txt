@@ -17,16 +17,18 @@ sp_land_flamethrower_tank = {
 	ai_will_do = {
 		base = 1
 	}
-
+	visible = {
+		always = no
+	}
 	allowed = {
 		has_dlc = "No Step Back"
 	}
 	
-	available = {
-		FROM = {
-			has_tech = sp_armored_advanced_flamethrower_tech
-		}
-	}
+	#available = {
+	#	FROM = {
+	#		has_tech = sp_armored_advanced_flamethrower_tech
+	#	}
+	#}
 
 	breakthrough_cost = {
 		specialization_land = 1
@@ -106,13 +108,14 @@ sp_land_flamethrower_tank = {
        #  #####   #       #       #  ######  #       #       #    #        #######  #####   #    #  #    #  #####   #       #    #       #   #   #       #    #  #  #       #       #            # 
  #     #  #       #       #    #  #  #    #  #       #  #    #    #        #     #  #   #   #    #  #    #  #   #   #       #    #        # #    #       #    #  #  #    #  #       #       #    # 
   #####   #       ######   ####   #  #    #  ######  #   ####     #        #     #  #    #  #    #   ####   #    #  ######  #####          #     ######  #    #  #   ####   ######  ######   ####  
-                                                                                                                                                                                                
 
 sp_land_military_engineering_vehicles = {
 	specialization = specialization_land
 
 	project_tags = sp_tag_tank
-	
+	visible = {
+		always = no
+	}
 	available = {
 		FROM = {
 			has_tech = tech_engineers
@@ -188,7 +191,9 @@ sp_land_land_cruiser = {
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
-
+	visible = {
+		always = no
+	}
 	available = {
 		always = no
 	}
@@ -986,7 +991,6 @@ sp_land_self_propelled_super_heavy_howitzer = {
 	}
 
 	special_project_parent = {
-		sp_land_military_engineering_vehicles
 		sp_land_super_heavy_howitzer
 	}
 	
@@ -1093,7 +1097,9 @@ sp_land_super_heavy_railway_gun = {
 	allowed = {
 		has_dlc = "No Step Back"
 	}
-
+	visible = {
+		always = no
+	}
 	available = {
 		always = no
 	#	FROM = {

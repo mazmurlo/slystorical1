@@ -2055,7 +2055,7 @@ technologies = {
 
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_air_helicopter
+				has_tech = helicopter1
 			}
 		}
 
@@ -2100,7 +2100,7 @@ technologies = {
 
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_air_helicopter
+				has_tech = helicopter1
 			}
 		}
 
@@ -2150,7 +2150,7 @@ technologies = {
 
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_air_helicopter
+				has_tech = helicopter1
 			}
 		}
 
@@ -2205,7 +2205,7 @@ technologies = {
 		
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_land_military_engineering_vehicles
+				has_tech = special_armored_vechile
 			}
 		}
 
@@ -2214,7 +2214,7 @@ technologies = {
 		force_use_small_tech_layout = yes
 		show_equipment_icon = yes
 
-		research_cost = 2.0
+		research_cost = 0.1
 		start_year = 1938
 		folder = {
 			name = support_folder

@@ -54,7 +54,7 @@ equipments = {
 		air_agility = 12
 		air_attack = 60
 		air_defence = 55
-		air_bombing = 36
+		air_bombing = 50
 
 		upgrades = {
 			plane_bomb_upgrade
@@ -74,9 +74,9 @@ equipments = {
 			aluminium = 8
 			rubber = 4
 		}
-		build_cost_ic = 140 #
+		build_cost_ic = 200 #
 		manpower = 100
-		fuel_consumption = 1.25
+		fuel_consumption = 5
 
 	}
 }
