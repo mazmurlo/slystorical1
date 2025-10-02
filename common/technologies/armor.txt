@@ -105,7 +105,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = -7 y = 5 }
+			position = { x = 10 y = 5 }
 		}
 
 		categories = {
@@ -124,14 +124,7 @@ technologies = {
 		enable_subunits = {
 			light_armor
 		}
-		#YOU GET FLAME FROM BASE RESEARCH!!
-		enable_equipments = {
-			light_tank_flame_equipment_1
-		}
 
-		enable_subunits = {
-			light_flame_tank 
-		}
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
 			NOT = {	has_template_containing_unit = heavy_armor }
@@ -349,9 +342,6 @@ technologies = {
 		enable_equipments = {
 			light_tank_equipment_2
 		}
-		enable_equipments = {
-			light_tank_flame_equipment_2
-		}
 		path = {
 			leads_to_tech = advanced_light_tank
 			research_cost_coeff = 1
@@ -379,6 +369,7 @@ technologies = {
 			improved_light_td
 			improved_light_art
 			improved_light_spaa
+			basic_light_flame
 		}
 
 		ai_will_do = {
@@ -571,7 +562,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 9 y = 6 }
+			position = { x = -8 y = 5 }
 		}
 
 		ai_will_do = {
@@ -614,7 +605,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 9 y = 8 }
+			position = { x = -8 y = 8 }
 		}
 
 		ai_will_do = {
@@ -669,6 +660,7 @@ technologies = {
 			advanced_light_td
 			advanced_light_art
 			advanced_light_spaa
+			improved_light_flame
 		}
 
 		ai_will_do = {
@@ -796,13 +788,7 @@ technologies = {
 			medium_armor
 		}
 		#YOU GET FLAME FROM BASE RESEARCH!!
-		enable_equipments = {
-			medium_tank_flame_equipment_1
-		}
-
-		enable_subunits = {
-			medium_flame_tank 
-		}
+	
 		path = {
 			leads_to_tech = improved_medium_tank
 			research_cost_coeff = 1
@@ -820,6 +806,7 @@ technologies = {
 			basic_medium_td
 			basic_medium_art
 			basic_medium_spaa
+			improved_medium_flame
 		}
 
 		ai_will_do = {
@@ -1033,9 +1020,7 @@ technologies = {
 		enable_equipments = {
 			medium_tank_equipment_2
 		}
-		enable_equipments = {
-			medium_tank_flame_equipment_2
-		}
+		
 		path = {
 			leads_to_tech = advanced_medium_tank
 			research_cost_coeff = 1
@@ -1057,6 +1042,7 @@ technologies = {
 			improved_medium_td
 			improved_medium_art
 			improved_medium_spaa
+			advanced_medium_flame
 		}
 
 		ai_will_do = {
@@ -1259,11 +1245,115 @@ technologies = {
 
 		special_project_specialization = { specialization_land }
 	}
+
+
+	basic_light_flame = {
+
+		enable_equipments = { 
+			light_tank_flame_equipment_1
+		}
+		
+		enable_subunits = {
+			light_flame_tank 
+		}
+
+		research_cost = 0.3
+		start_year = 1930
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	improved_light_flame = {
+
+		enable_equipments = { 
+			light_tank_flame_equipment_2
+		}
+		research_cost = 0.3
+		start_year = 1930
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
 	improved_medium_flame = {
 
+		enable_equipments = { 
+			medium_tank_flame_equipment_1
+		}
 		
+		enable_subunits = {
+			medium_flame_tank 
+		}
 
-		research_cost = 0.5
+		research_cost = 0.3
+		start_year = 1930
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	advanced_medium_flame = {
+
+		enable_equipments = { 
+			medium_tank_flame_equipment_2
+		}
+		
+		
+		research_cost = 0.3
+		start_year = 1930
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	basic_heavy_flame = {
+
+		enable_equipments = { 
+			heavy_tank_flame_equipment_1
+		}
+		enable_subunits = {
+			heavy_flame_tank 
+		}	
+		research_cost = 0.3
+		start_year = 1930
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	improved_heavy_flame = {
+
+		enable_equipments = { 
+			heavy_tank_flame_equipment_2
+		}
+		
+		research_cost = 0.3
 		start_year = 1930
 
 		categories = {
@@ -1647,14 +1737,6 @@ technologies = {
 		enable_subunits = {
 			heavy_armor
 		}
-		#YOU GET FLAME FROM BASE RESEARCH!!
-		enable_equipments = {
-			heavy_tank_flame_equipment_1
-		}
-
-		enable_subunits = {
-			heavy_flame_tank 
-		}
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
 			NOT = {	has_template_containing_unit = heavy_armor }
@@ -1698,6 +1780,7 @@ technologies = {
 			basic_heavy_td
 			basic_heavy_art
 			basic_heavy_spaa
+			basic_heavy_flame
 		}
 
 		ai_will_do = {
@@ -1858,10 +1941,7 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_equipment_2
 		}
-		#YOU GET FLAME FROM BASE RESEARCH!!
-		enable_equipments = {
-			heavy_tank_flame_equipment_2
-		}
+
 		path = {
 			leads_to_tech = advanced_heavy_tank
 			research_cost_coeff = 1
@@ -1888,6 +1968,7 @@ technologies = {
 			improved_heavy_td
 			improved_heavy_art
 			improved_heavy_spaa
+			improved_heavy_flame
 		}
 
 		ai_will_do = {
@@ -2204,7 +2285,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = armour_folder
-			position = { x = 7 y = 13 }
+			position = { x = 8 y = 10 }
 		}
 
 		sub_technologies = {

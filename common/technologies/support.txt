@@ -176,7 +176,7 @@ technologies = {
 		}
 	
 		enable_subunits = { 
-			medium_flame_tank
+		
 		}
 		
 		on_research_complete = { #MM: Moved to Special Project sp_land_flamethrower_tank
