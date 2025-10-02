@@ -51,7 +51,7 @@ NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00                        -- Unlim
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.5			    -- Volunteer shit to prevent 2w spam
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.5				    -- Volunteer shit to prevent 2w spam
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 1				    -- Volunteer shit to prevent 2w spam
-NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 9999				        -- Number of factories used to create an intelligence agency , no agency fuck agency agency is cringe
+NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 6767				        -- Number of factories used to create an intelligence agency , no agency fuck agency agency is cringe
 
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 999                            -- WAS 500 || XP Cap
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 999			                    -- WAS 500 || XP Cap
