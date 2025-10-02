@@ -1178,7 +1178,7 @@ equipments = {
 		reliability = 0.8		
 		#Defensive Abilities
 		defense = 8
-		breakthrough = 35
+		breakthrough = 30
 		armor_value = 20
 
 		#Offensive Abilities
@@ -1679,7 +1679,7 @@ equipments = {
 		reliability = 0.9		
 		#Defensive Abilities
 		defense = 8
-		breakthrough = 45
+		breakthrough = 40
 		armor_value = 20
 
 		#Offensive Abilities
@@ -1712,7 +1712,7 @@ equipments = {
 		reliability = 0.9		
 		#Defensive Abilities
 		defense = 9
-		breakthrough = 70
+		breakthrough = 60
 		armor_value = 25
 
 		#Offensive Abilities
