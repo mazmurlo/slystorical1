@@ -134,7 +134,21 @@ vp_system = {
 	}
 
 }
-
+vichy_france = {
+	name = "Vichy France"
+	group = "MSB Rules"
+	icon = "GFX_decision_eng_trade_unions_support"
+	default = {
+		name = forced
+		text = "RForce"
+		desc = "Germany has to make Vichy (Not Recommmended)"
+	}
+	option = {
+		name = banned
+		text = "GBanned"
+		desc = "Germany can't make Vichy (Recommmended)"
+	}
+}
 danzig_date_lock = {
 	name = "Danzig or War"
 	group = "MSB Rules"
@@ -919,11 +933,7 @@ maximum_fort_level = {
 	name = "RULE_MAXIMUM_FORT_LEVEL"
 	group = "RULE_GROUP_GAMEPLAY"
 	icon = "GFX_maximum_fort_level"
-	option = {
-		name = level_5
-		text = "RULE_OPTION_5"
-		desc = "RULE_MAXIMUM_FORT_LEVEL_DESC"
-	}
+
 	option = {
 		name = normal
 		text = "RULE_OPTION_NORMAL"
@@ -947,6 +957,11 @@ maximum_fort_level = {
 	option = {
 		name = level_4
 		text = "RULE_OPTION_4"
+		desc = "RULE_MAXIMUM_FORT_LEVEL_DESC"
+	}
+	option = {
+		name = level_5
+		text = "RULE_OPTION_5"
 		desc = "RULE_MAXIMUM_FORT_LEVEL_DESC"
 	}
 	option = {
