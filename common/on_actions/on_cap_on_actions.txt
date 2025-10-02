@@ -9,14 +9,10 @@ on_actions = {
 					NOT = { FRA = { has_country_flag = france_tp} }
 				}
 				FRA = { 
-					every_state = {
-						limit = { is_core_of = FRA }
-						teleport_armies = { to_state = 446 }
-					}
 					set_country_flag = france_tp
 					transfer_navy = { target = EFR }
 					transfer_units_fraction = {
-						target = IRE
+						target = EFR
 						size = 1
 						stockpile_ratio = 1
 						army_ratio = 0

@@ -2313,6 +2313,9 @@
 		}
 
 		allow_branch = {
+			NOT = {
+				has_global_flag = fall_of_france
+			}
 			if = {
 				limit = {
 					has_game_rule = {
