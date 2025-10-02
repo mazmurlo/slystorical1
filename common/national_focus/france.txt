@@ -1257,6 +1257,14 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			effect_tooltip = {
+				add_tech_bonus = {
+					name = FRA_begin_rearmament
+					bonus = 0.5
+					uses = 1
+					category = cat_medium_armor
+				}
+			}
 			806 = {
 				limit = {
 					is_controlled_by = ROOT
@@ -1278,6 +1286,14 @@
 					level = 4
 					instant_build = yes
 				}
+			}
+			hidden_effect = { 
+				add_tech_bonus = {
+				name = FRA_begin_rearmament
+				bonus = 0.5
+				uses = 1
+				technology = improved_medium_tank
+			}
 			}
 		}
 	}
@@ -2034,8 +2050,7 @@
 			add_tech_bonus = {
 				name = FRA_light_medium_armor
 				bonus = 1.5
-				uses = 2
-				category = cat_light_armor
+				uses = 1
 				category = cat_medium_armor
 			}
 		}
@@ -4165,6 +4180,10 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		completion_reward = {
+			add_timed_idea = {
+			idea = FRA_eco_post_cap_idea2
+			days = 180
+			}
 			add_country_leader_role = {
 				character = FRA_charles_de_gaulle
 				country_leader = {

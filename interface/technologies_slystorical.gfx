@@ -1,0 +1,8 @@
+spriteTypes = {
+
+spriteType = {
+		name = "GFX_subtech_flame"
+		textureFile = "gfx//interface//technologies//subtech_flame.dds"
+	}
+
+}

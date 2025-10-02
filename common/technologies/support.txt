@@ -176,7 +176,7 @@ technologies = {
 		}
 	
 		enable_subunits = { 
-			medium_flame_tank
+		
 		}
 		
 		on_research_complete = { #MM: Moved to Special Project sp_land_flamethrower_tank
@@ -1884,7 +1884,7 @@ technologies = {
 	sp_armored_engineer_tech = {
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_land_military_engineering_vehicles
+				has_tech = special_armored_vechile
 			}
 		}
 
@@ -1938,7 +1938,7 @@ technologies = {
 	sp_armored_maintenance_tech = {
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_land_military_engineering_vehicles
+				has_tech = special_armored_vechile
 			}
 		}
 
@@ -1992,7 +1992,7 @@ technologies = {
 	sp_armored_signal_tech = {
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_land_military_engineering_vehicles
+				has_tech = special_armored_vechile
 			}
 		}
 

@@ -209,7 +209,9 @@ NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.02
 NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 5
 NDefines.NAir.AIR_WING_XP_LEVELS = { 20, 40, 60, 80, 100, 140, 180, 220, 260, 300, 380, 460, 640, 620, 700, 740, 780, 820, 860, 900 }
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6;
+-- kill vanilla lol
 
+NDefines.NTechnology.MAX_SUBTECHS = 4 
 -- FUWG/TFB style converts
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0 
 
