@@ -267,7 +267,10 @@ focus_tree = {
 					}
 				}
 			}
-		}
+			hidden_effect = {
+					load_oob = "ENG_mech_spawn"
+				}
+			}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
 
@@ -289,10 +292,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			effect_tooltip = {
-				set_technology = { 
+			set_technology = { 
 					mechanised_infantry = 1
-					}
 				}
 			if = {
 				limit = {
@@ -307,9 +308,7 @@ focus_tree = {
 			}		
 			add_ideas = motorized_army	
 			hidden_effect = { 
-				set_technology = { 
-				mechanised_infantry = 1
-				}
+			
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
