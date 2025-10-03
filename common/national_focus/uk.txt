@@ -322,7 +322,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			has_tech = basic_heavy_tank_chassis
+			
 		}
 
 	#	available_if_capitulated = yes

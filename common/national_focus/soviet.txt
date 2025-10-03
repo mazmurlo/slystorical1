@@ -7805,6 +7805,52 @@ focus = {
 	}
 
 	focus = {
+		id = SOV_anti_sealion
+		icon = GFX_focus_attack_germany
+		prerequisite = { focus = SOV_the_comintern }
+		x = 2
+		y = 1
+		relative_position_id = SOV_the_comintern
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_civil_war = yes
+			}	
+		}
+		
+		mutually_exclusive = { focus = SOV_policy_of_individual_security }
+
+		available = {
+			ENG = { 
+				has_capitulated = yes
+			}
+		}
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		completion_reward = {
+			GER = { 
+				declare_war_on = {
+					target = SOV
+					type = take_state_focus
+					generator = { 50 }
+				}
+			}
+			hidden_effect = { 
+				GER = { 
+					add_timed_idea = { 
+						idea = GER_barbarossa
+						days = 100
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
 		id = SOV_anti_fascist_policies
 		icon = GFX_focus_generic_communism_anti_fascism
 		prerequisite = { focus = SOV_policy_of_collective_security }
@@ -7854,7 +7900,7 @@ focus = {
 		id = SOV_middle_east_diplomacy
 		icon = GFX_focus_TUR_treaty_of_saadabad
 		prerequisite = { focus = SOV_the_comintern }
-		x = 2
+		x = 7
 		y = 1
 		relative_position_id = SOV_the_comintern
 		cost = 5
@@ -8029,7 +8075,7 @@ focus = {
 		id = SOV_prepare_a_war_with_japan
 		icon = GFX_focus_AST_war_japan
 		prerequisite = { focus = SOV_the_comintern }
-		x = 5
+		x = 4
 		y = 1
 		relative_position_id = SOV_the_comintern
 		cost = 5
