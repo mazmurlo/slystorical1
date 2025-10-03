@@ -71,6 +71,19 @@ ideas = {
 		}	
 	}
 	hidden_ideas = {
+		sees_more = { 
+			name = "See More"
+			removal_cost = -1
+			picture = ger_mefo_bills_payment
+			allowed = {
+				is_ai = yes
+			}
+			modifier = { 
+				navy_intel_to_others = 50
+				army_intel_to_others = 50
+				airforce_intel_to_others = 50
+			}
+		}
 		blm_ai = {
 			cancel = {
 				is_ai = no

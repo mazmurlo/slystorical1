@@ -11,6 +11,15 @@ on_actions = {
 				#create_intelligence_agency = yes
 			}
 			every_country = {
+				limit = {
+					is_playable_country = yes
+				}
+				add_ideas = {
+					sees_more
+				}
+				#create_intelligence_agency = yes
+			}
+			every_country = {
 				every_army_leader = {
 					limit = {
 						NOT = { 

@@ -289,11 +289,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1.0
-				uses = 1
-				category = motorized_equipment
+			set_technology = { 
+				mechanized_equipment_1 = 1
 			}
 			if = {
 				limit = {
