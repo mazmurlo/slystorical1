@@ -85,6 +85,30 @@ on_actions = {
         effect = {
             if = {
                 limit = {
+                    tag = FRA
+                }
+                GER = {
+					every_state = {
+						limit = {
+							is_core_of = FRA
+							is_controlled_by = GER
+						}
+							set_compliance = 75
+						}
+						custom_effect_tooltip = GER_modify_economy_of_conquest_modifier_tt
+						add_to_variable = { 
+							GER_industrial_consumer_goods_factor = -0.35
+							tooltip = consumer_goods_factor_tt
+							}
+							GER_reduce_mefo_bills_penalty = yes
+						}
+                	}
+           	 	}
+			}
+	on_capitulation = {
+        effect = {
+            if = {
+                limit = {
                     tag = HOL
                 }
                 GER = {

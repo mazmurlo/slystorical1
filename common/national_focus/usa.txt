@@ -4081,6 +4081,7 @@ focus_tree = {
 				}
 			}
 			hidden_effect = { 
+				375 = {
 				add_resource = {
 					type = Rubber
 					amount = 130 #At least one factory's worth
@@ -4088,6 +4089,7 @@ focus_tree = {
 				add_resource = {
 					type = tungsten
 					amount = 75 #At least one factory's worth
+					}
 				}
 			}
 		}

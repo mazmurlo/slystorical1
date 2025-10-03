@@ -83,71 +83,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_appoint_german_friendly_government
-		icon = GFX_goal_support_fascism
-		prerequisite = { focus = ROM_elections_of_1937 }
-		x = 0
-		y = 1
-		relative_position_id = ROM_elections_of_1937
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_war_with = GER
-			}
-		}
-
-		available = {
-			is_subject = no
-			GER = {
-				is_faction_leader = yes
-				has_government = fascism
-			}
-			# has_completed_focus = ROM_elections_of_1937
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			set_rule = { can_join_factions = yes }
-			GER = { add_to_faction = ROOT }
-			add_popularity = {
-				popularity = 0.05
-				ideology = fascism
-			}
-
-			custom_effect_tooltip = CHL_skip_one_line_tt
-
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = ROM_mihail_sturdza
-			add_stability = -0.05
-			add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = GER }
-			GER = { add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = ROOT } }
-		
-
-			custom_effect_tooltip = CHL_skip_one_line_tt
-
-			
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			764 = {
-				add_claim_by = ROOT
-			}
-
-		}
-	}
-
-	focus = {
 		id = ROM_license_german_equipment
 		icon = GFX_focus_BRA_acquire_german_tanks
 		prerequisite = { focus = ROM_trade_treaty_with_germany }
@@ -705,243 +640,67 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_ask_codreanue_to_form_government
-		icon = GFX_focus_SWE_neither_death_nor_dishonor
-		relative_position_id = ROM_for_the_preservation_of_greater_romania
-		mutually_exclusive = { focus = ROM_institute_a_royal_dictatorship }
+		id = ROM_appoint_german_friendly_government
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = ROM_elections_of_1937 }
-		x = 4
-		y = 4
-
-		cost = 5
-
-		available = { 
-			always = no
-		}
-
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			retire_country_leader = yes
-
-			set_politics = {
-				ruling_party = fascism
-				elections_allowed = no
-			}	
-			add_war_support = 0.20
-			news_event = { id = news.485 }
-		}
-	}
-
-	focus = {
-		id = ROM_national_legionary_state
-		icon = GFX_focus_generic_fascist_propaganda
-		relative_position_id = ROM_ask_codreanue_to_form_government
-		prerequisite = { focus = ROM_ask_codreanue_to_form_government }
-		x = -2
-		y = 1
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 9
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			custom_effect_tooltip = ROM_this_will_stop_terrorist_attacks_tt
-			add_popularity = {
-				ideology = fascism 
-				popularity = 0.1 
-			}
-			swap_ideas = {
-				remove_idea = ROM_iron_guard2
-				add_idea = ROM_iron_guard3
-			}
-		}
-	}
-
-	focus = {
-		id = ROM_dismantle_the_monarchy 
-		icon = GFX_focus_rom_handle_king
-		relative_position_id = ROM_national_legionary_state
-		prerequisite = { focus = ROM_national_legionary_state }
-		x = 0
-		y = 1
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 9
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			remove_ideas = ROM_king_carol_ii_hedonist
-		}
-	}
-
-	focus = {
-		id = ROM_secure_our_territorial_integrity
-		icon = GFX_SOV_protect_the_white_sea_baltic_canal_ccp_2d_sov_compatibility
-		relative_position_id = ROM_ask_codreanue_to_form_government
-		prerequisite = { focus = ROM_ask_codreanue_to_form_government }
 		x = 2
 		y = 1
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 9
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			76 = {
-				add_extra_state_shared_building_slots = 4
-			}
-			remove_ideas = ROM_preserve_greater_romania2
-			custom_effect_tooltip = ROM_secured_our_territorial_integrity_tt
-		}
-	}
-
-	focus = {
-		id = ROM_abandon_the_ententes  
-		icon = GFX_focus_generic_total_war
-		relative_position_id = ROM_secure_our_territorial_integrity
-		prerequisite = { focus = ROM_secure_our_territorial_integrity }
-		x = 0
-		y = 1
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 9
-		}
-
-		available = {
-			# date > 1941.1.1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-				add_war_support = 0.1
-				add_ideas = tot_economic_mobilisation
-			}
-	}
-
-	focus = {
-		id = ROM_integrate_the_iron_guard_into_the_army
-		icon = GFX_focus_generic_fascist_troops
-		relative_position_id = ROM_ask_codreanue_to_form_government
-		prerequisite = { focus = ROM_ask_codreanue_to_form_government }
-		x = 0
-		y = 2
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 9
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			army_experience = 100
-			add_ideas = fascist_assault_divisions
-		}
-	}
-
-	focus = {
-		id = ROM_co_conducator
-		icon = GFX_focus_generic_military_mission
-		relative_position_id = ROM_ask_codreanue_to_form_government
-		prerequisite = { focus = ROM_dismantle_the_monarchy }
-		prerequisite = { focus = ROM_integrate_the_iron_guard_into_the_army }
-		prerequisite = { focus = ROM_abandon_the_ententes }
-		x = 0
-		y = 3
+		relative_position_id = ROM_elections_of_1937
 
 		cost = 5
 
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_war_with = GER
+			}
+		}
+
 		available = {
+			is_subject = no
+			GER = {
+				is_faction_leader = yes
+				has_government = fascism
+			}
+			# has_completed_focus = ROM_elections_of_1937
+		}
+
+		bypass = {
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
-
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			create_country_leader = {
-				name = "Ion Antonescu"
-				desc = "POLITICS_ION_ANTONESCU_DESC"
-				picture = "Portrait_Romania_Ion_Antonescu.dds"
-				expire = "1965.1.1"
-				ideology = fascism_ideology
-				traits = {
-					#
-				}
-			}	
-			news_event = { id = news.488 }
-			if = {
-				limit = {
-					has_idea = ROM_army_tensions
-				}
-				remove_ideas = ROM_army_tensions
+			set_rule = { can_join_factions = yes }
+			GER = { add_to_faction = ROOT }
+			add_popularity = {
+				popularity = 0.05
+				ideology = fascism
 			}
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = ROM_mihail_sturdza
+			add_stability = -0.05
+			add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = GER }
+			GER = { add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = ROOT } }
+		
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+
+			
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			764 = {
+				add_claim_by = ROOT
+			}
+
 		}
 	}
 
@@ -949,9 +708,8 @@ focus_tree = {
 		id = ROM_institute_a_royal_dictatorship
 		icon = GFX_SOV_romanov_reconstruction_ccp_2d_sov_compatibility
 		relative_position_id = ROM_for_the_preservation_of_greater_romania
-		mutually_exclusive = { focus = ROM_ask_codreanue_to_form_government }
 		prerequisite = { focus = ROM_elections_of_1937 }
-		x = -4
+		x = 0
 		y = 4
 
 		cost = 5
@@ -1010,7 +768,7 @@ focus_tree = {
 		icon = GFX_focus_AUS_lawmaking_leniency
 		relative_position_id = ROM_institute_a_royal_dictatorship
 		prerequisite = { focus = ROM_institute_a_royal_dictatorship }
-		x = 4
+		x = 3
 		y = 1
 
 		cost = 10
@@ -1042,7 +800,7 @@ focus_tree = {
 		icon = GFX_focus_rom_parties_end
 		relative_position_id = ROM_institute_a_royal_dictatorship
 		prerequisite = { focus = ROM_institute_a_royal_dictatorship }
-		x = -2
+		x = -4
 		y = 1
 
 		cost = 10
@@ -1087,7 +845,7 @@ focus_tree = {
 		icon = GFX_SOV_war_measures_in_the_east_ccp_2d_sov_compatibility
 		relative_position_id = ROM_institute_a_royal_dictatorship
 		prerequisite = { focus = ROM_institute_a_royal_dictatorship }
-		x = 0
+		x = -2
 		y = 1
 
 		cost = 10
@@ -1130,7 +888,7 @@ focus_tree = {
 		icon = GFX_focus_ETH_ecole_militaire_haile_selassie_1er
 		relative_position_id = ROM_institute_a_royal_dictatorship
 		prerequisite = { focus = ROM_institute_a_royal_dictatorship }
-		x = 2
+		x = 1
 		y = 1
 
 		cost = 10
@@ -1161,7 +919,7 @@ focus_tree = {
 		id = ROM_the_royal_foundation
 		icon = GFX_focus_NORDIC_mon_research
 		relative_position_id = ROM_operetta_fascism
-		prerequisite = { focus = ROM_operetta_fascism }
+		prerequisite = { focus = ROM_operetta_fascism focus = ROM_arrest_general_antonescu }
 		x = 1
 		y = 1
 
@@ -1177,25 +935,25 @@ focus_tree = {
 		icon = GFX_focus_generic_full_employment
 		relative_position_id = ROM_institute_a_royal_dictatorship
 		prerequisite = { focus = ROM_institute_a_royal_dictatorship }
-		x = -1
+		x = -3
 		y = 2
 
 		cost = 10
 
 		completion_reward = {
 			46 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes 
 				}
 			}
 			81 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes 
 				}
 			}
@@ -1212,7 +970,7 @@ focus_tree = {
 		icon = GFX_focus_generic_limited_social_mobilization
 		relative_position_id = ROM_institute_a_royal_dictatorship
 		prerequisite = { focus = ROM_institute_a_royal_dictatorship }
-		x = 1
+		x = -1
 		y = 2
 
 		cost = 10
@@ -1248,8 +1006,8 @@ focus_tree = {
 		icon = GFX_focus_generic_military_dictatorship
 		relative_position_id = ROM_arrest_general_antonescu
 		mutually_exclusive = { focus = ROM_pressure_antonescu_into_becoming_prime_minister }
-		prerequisite = { focus = ROM_arrest_general_antonescu }
-		x = 0
+		prerequisite = { focus = ROM_the_royal_foundation }
+		x = -1
 		y = 2
 
 		cost = 5
@@ -1308,7 +1066,7 @@ focus_tree = {
 		relative_position_id = ROM_institute_a_royal_dictatorship
 		mutually_exclusive = { focus = ROM_antonescus_coup_detat }
 		prerequisite = { focus = ROM_sentinels_of_the_motherland focus = ROM_form_the_front_of_national_rebirth focus = ROM_fascist_economics }
-		x = 0
+		x = -2
 		y = 3
 
 		cost = 5
@@ -1369,8 +1127,8 @@ focus_tree = {
 		id = ROM_force_the_king_to_abdicate
 		icon = GFX_focus_rom_coup
 		relative_position_id = ROM_institute_a_royal_dictatorship
-		prerequisite = { focus = ROM_pressure_antonescu_into_becoming_prime_minister focus = ROM_antonescus_coup_detat focus = ROM_co_conducator }
-		x = 4
+		prerequisite = { focus = ROM_pressure_antonescu_into_becoming_prime_minister focus = ROM_antonescus_coup_detat }
+		x = 0
 		y = 4
 
 		cost = 5
@@ -1414,7 +1172,7 @@ focus_tree = {
 		id = ROM_romanian_rearmament
 		icon = GFX_focus_generic_combined_arms
 
-		x = 44
+		x = 42
 		y = 0
 
 		cost = 5
@@ -1893,10 +1651,10 @@ focus_tree = {
 
 		completion_reward = {
 			79 = {
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 4
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -2625,14 +2383,13 @@ focus_tree = {
 		y = 1
 		relative_position_id = ROM_national_recovery
 
-		cost = 10
+		cost = 5
 		mutually_exclusive = { focus = ROM_national_defense_industry }
 
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_civil_works
-				bonus = 1
-				ahead_reduction = 1
+				bonus = 0.75
 				uses = 1
 				category = industry
 			}
@@ -2651,18 +2408,18 @@ focus_tree = {
 
 		completion_reward = {
 			83 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
 			46 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}					

@@ -1170,10 +1170,12 @@ focus_tree = {
 		cost = 5
 
 		available = {
+			date > 1939.1.1
 		}
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			add_political_power = -200
 		#	add_timed_idea = {
 		#		idea = BUL_contract_foreign_companies
 		#		days = 2200
