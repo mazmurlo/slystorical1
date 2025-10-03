@@ -4080,7 +4080,16 @@ focus_tree = {
 				level = 30
 				}
 			}
-			
+			hidden_effect = { 
+				add_resource = {
+					type = Rubber
+					amount = 130 #At least one factory's worth
+				}
+				add_resource = {
+					type = tungsten
+					amount = 75 #At least one factory's worth
+				}
+			}
 		}
 	}
 }
