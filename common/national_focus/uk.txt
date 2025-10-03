@@ -289,9 +289,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_technology = { 
-				mechanized_equipment_1 = 1
-			}
+			effect_tooltip = {
+				set_technology = { 
+					mechanised_infantry = 1
+					}
+				}
 			if = {
 				limit = {
 					has_dlc = "La Resistance"
@@ -304,6 +306,11 @@ focus_tree = {
 				}				
 			}		
 			add_ideas = motorized_army	
+			hidden_effect = { 
+				set_technology = { 
+				mechanised_infantry = 1
+				}
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}

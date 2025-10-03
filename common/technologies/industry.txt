@@ -475,9 +475,9 @@ technologies = {
 	
 	concentrated_industry5 = {
 
-		industrial_capacity_factory = 0.18
-		industrial_capacity_dockyard = 0.18
-		global_building_slots_factor = 0.25
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		global_building_slots_factor = 0.20
 		
 		research_cost = 2
 		start_year = 1943
