@@ -1272,6 +1272,10 @@ technologies = {
 		enable_equipments = { 
 			light_tank_flame_equipment_2
 		}
+		enable_subunits = {
+			light_flame_tank 
+		}
+
 		research_cost = 0.3
 		start_year = 1930
 
@@ -1312,6 +1316,9 @@ technologies = {
 			medium_tank_flame_equipment_2
 		}
 		
+		enable_subunits = {
+			medium_flame_tank 
+		}
 		
 		research_cost = 0.3
 		start_year = 1930
@@ -1350,7 +1357,9 @@ technologies = {
 		enable_equipments = { 
 			heavy_tank_flame_equipment_2
 		}
-		
+		enable_subunits = {
+			heavy_flame_tank 
+		}	
 		research_cost = 0.3
 		start_year = 1930
 

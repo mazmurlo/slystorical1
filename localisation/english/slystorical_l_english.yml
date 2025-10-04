@@ -233,6 +233,10 @@ JAP_domestic_air_production: "Domestic Aircraft Production"
 
 # Map Modding
 
+# State modifiers
+
+ENG_the_rock:0 "The Rock"
+
 # VP NAMES
   VICTORY_POINTS_10749:0 "Musus"
   VICTORY_POINTS_8030:0 "El-Shaif"

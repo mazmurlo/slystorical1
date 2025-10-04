@@ -43,6 +43,17 @@ on_actions = {
 					ai_tradelaw
 				}
 			}
+			118 = { 
+				if = { 
+					limit = { 
+						ENG = { 
+							owns_state = 118
+						}
+					}
+					add_dynamic_modifier = { modifier = ENG_the_rock scope = ENG }
+				}
+			
+			}
 			SOV = { 
 					
 			if = {
