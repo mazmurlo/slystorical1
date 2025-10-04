@@ -944,12 +944,12 @@ maximum_fort_level = {
 		text = "RULE_OPTION_1"
 		desc = "RULE_MAXIMUM_FORT_LEVEL_DESC"
 	}
-	default = {
+	option = {
 		name = level_2
 		text = "RULE_OPTION_2"
 		desc = "RULE_MAXIMUM_FORT_LEVEL_DESC"
 	}
-	option = {
+	default = {
 		name = level_3
 		text = "RULE_OPTION_3"
 		desc = "RULE_MAXIMUM_FORT_LEVEL_DESC"

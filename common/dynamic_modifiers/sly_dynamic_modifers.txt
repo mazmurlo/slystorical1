@@ -9,3 +9,11 @@ ENG_the_rock = { #STATE MODIFIER
 	max_dig_in_factor = 0.1
 	pocket_penalty = -0.15
 }
+
+ENG_Gib_line_dynamic_modifier = { #State Modifer
+	enable = { always = yes }
+
+	icon = GFX_modifiers_generic_defense
+    state_bunker_max_level_terrain_limit = 5
+	state_coastal_bunker_max_level_terrain_limit = 5
+}
