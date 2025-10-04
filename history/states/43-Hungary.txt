@@ -2,7 +2,7 @@
 state={
 	id=43
 	name="STATE_43" # Northern Hungary
-	manpower = 3750752
+	manpower = 4257152
 	resources={
 		steel=6 #was 3 was: 4
 		aluminium=20 # was: 40
