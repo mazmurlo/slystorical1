@@ -41,8 +41,8 @@ NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 14 							    -- WAS 48 | drastically cuts down on save file sizes after WW2 starts and well into barbarossa
 NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 14					     	    -- WAS 60 | less messages lying around at the top of your screen
 
-NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "MSB"
-NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "MSB"
+NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "Slystorical"
+NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "Slystorical"
 
 NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0                     -- Removed for game stability/reducing chance of desync
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 9999						    -- Unlimited special forces
@@ -210,7 +210,9 @@ NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 5
 NDefines.NAir.AIR_WING_XP_LEVELS = { 20, 40, 60, 80, 100, 140, 180, 220, 260, 300, 380, 460, 640, 620, 700, 740, 780, 820, 860, 900 }
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6;
 -- kill vanilla lol
-
+--- cope mod spirits
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.15 --- modifier for divs speed under red air
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 30.0
 NDefines.NTechnology.MAX_SUBTECHS = 4 
 -- FUWG/TFB style converts
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0 
