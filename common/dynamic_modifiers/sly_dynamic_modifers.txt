@@ -17,3 +17,11 @@ ENG_Gib_line_dynamic_modifier = { #State Modifer
     state_bunker_max_level_terrain_limit = 5
 	state_coastal_bunker_max_level_terrain_limit = 5
 }
+
+war_of_gazala_modifier = { #STATE MODIFIER
+	enable = { always = yes }
+
+	icon = GFX_modifiers_SOV_armored_battery
+	army_attack_factor = war_of_gazala_modifier_attack_factor
+	army_speed_factor = war_of_gazala_modifier_army_speed_factor
+}

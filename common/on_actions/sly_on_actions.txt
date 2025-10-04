@@ -352,6 +352,41 @@ on_actions = {
 					instant_build = yes
 				}
 			}
+			every_state = {
+				limit = {
+					OR = {
+						state = 448
+						state = 661
+						state = 449
+						state = 662
+						state = 450
+						state = 663
+						state = 451
+						state = 452
+						state = 447
+						state = 907
+						state = 446
+						state = 453
+						state = 454
+						state = 455
+						state = 553
+						state = 554
+						state = 667
+						state = 799
+						state = 456 
+						state = 457
+					}
+				} 
+				set_state_flag = war_in_africa
+			}
+			every_state = {
+					if = { 
+					limit = {  
+						has_state_flag = war_in_africa
+					}	
+					add_dynamic_modifier = { modifier = war_of_gazala_modifier }
+				}
+			}
 			every_country = {
                 hidden_effect = {
                     set_technology = { everyone_airport_technology = 1 popup = no }
@@ -598,6 +633,17 @@ on_actions = {
     }
 	on_declare_war = {
 		effect = {
+			if = { 
+				limit = { 
+					FROM = { 
+						tag = ITA
+						}
+					}
+				add_to_variable = { 
+					war_of_gazala_modifier_attack_factor = -0.5
+					tooltip = army_attack_factor_tt
+					}
+				}
 			if = {
 				limit = {
 					FROM = {
@@ -799,7 +845,7 @@ on_actions = {
 						days = 20
 					}
 				}
-			}
+			} 
 		}
 	}
 
