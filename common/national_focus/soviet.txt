@@ -1759,11 +1759,18 @@ focus_tree = {
 
 		available = {
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
+			date > 1939.1.1
 		}
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_tech = fighter2 }
+				}
+				set_technology = { fighter2 = 1 }
+			}
 			hidden_effect = {
 				#This handles the equipment bonus that's not supported by dynamic modifiers
 				add_ideas = SOV_increased_aircraft_production_ns_bonus
