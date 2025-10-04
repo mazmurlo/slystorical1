@@ -98,53 +98,13 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = SAF_civilian_industrial_expansion
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = SAF_south_african_railways_harbours }
-		mutually_exclusive = { focus = SAF_military_industrial_expansion }
-		x = -1
-		y = 1
-		relative_position_id = SAF_south_african_railways_harbours
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 45
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				prioritize = { 681 }
-				add_extra_state_shared_building_slots = 4
-			}
-			random_owned_controlled_state = {
-				prioritize = { 681 }
-				add_extra_state_shared_building_slots = 4
-			}
-			add_ideas = SAF_civilian_complex_expansion 
-			
-		}
-	}
+	
 	
 	focus = {
 		id = SAF_military_industrial_expansion
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = SAF_south_african_railways_harbours }
-		mutually_exclusive = { focus = SAF_civilian_industrial_expansion }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = SAF_south_african_railways_harbours
 
@@ -154,9 +114,6 @@ focus_tree = {
 			factor = 45
 		}
 
-		available = {
-			has_idea = partial_economic_mobilisation
-		}
 		
 		bypass = {
 			
@@ -184,12 +141,12 @@ focus_tree = {
 	focus = {
 		id = SAF_fund_the_university_of_south_africa
 		icon = GFX_focus_research
-		prerequisite = { focus = SAF_south_african_railways_harbours }
+		prerequisite = { focus = SAF_military_industrial_expansion }
 		x = 0
 		y = 2
 		relative_position_id = SAF_south_african_railways_harbours
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 45
@@ -603,7 +560,7 @@ focus_tree = {
 	focus = {
 		id = SAF_status_of_the_union_act
 		icon = GFX_focus_SWE_form_rfsu
-		x = 14
+		x = 13
 		y = 0
 
 		cost = 10
@@ -625,115 +582,23 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 120
-		}
-	}
-	
-	focus = {
-		id = SAF_csir
-		icon = GFX_goal_tfv_generic_tech_sharing
-		prerequisite = { focus = SAF_status_of_the_union_act }
-		x = -3
-		y = 1
-		relative_position_id = SAF_status_of_the_union_act
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			is_in_tech_sharing_group = commonwealth_research
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-		SAF = {
+			SAF = {
    			 modify_tech_sharing_bonus = {
          			id = commonwealth_research
-         			bonus = 0.2  # we get 20% higher bonus from this group
+         			bonus = 0.2 
     						}
 				}
-		}
-	}
-	
-	focus = {
-		id = SAF_representation_of_natives_act
-		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = SAF_status_of_the_union_act }
-		x = -1
-		y = 1
-		relative_position_id = SAF_status_of_the_union_act
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 15
-		}
-
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_stability = -0.05
-		}
-	}
-	
-	focus = {
-		id = SAF_native_laws_amendment_act
-		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = SAF_representation_of_natives_act  }
-		x = 0
-		y = 1
-		relative_position_id = SAF_representation_of_natives_act
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = SAF_cheap_labor_1
+			add_political_power = 120
 		}
 	}
 	
 	focus = {
 		id = SAF_work_for_all_poor
 		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = SAF_native_laws_amendment_act }
+		prerequisite = { focus = SAF_police_windhoek}
 		x = 0
 		y = 1
-		relative_position_id = SAF_native_laws_amendment_act
+		relative_position_id = SAF_police_windhoek
 
 		cost = 5
 
@@ -765,7 +630,7 @@ focus_tree = {
 		id = SAF_voortrekker_monument
 		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = SAF_status_of_the_union_act }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = SAF_status_of_the_union_act
 
@@ -789,6 +654,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = SAF_voortrekker_monument
+			add_stability = -0.05
 		}
 	}
 	
@@ -818,7 +684,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = {			
+		completion_reward = {	
+			add_ideas = SAF_cheap_labor_1	
 			swap_ideas = {
 				remove_idea = SAF_ossewabrandwag
 				add_idea = SAF_ossewabrandwag_2
@@ -954,7 +821,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = SAF_magazine_hill }
 		prerequisite = { focus = SAF_war_measures_act }
-		x = -7
+		x = -5
 		y = 1
 		relative_position_id = SAF_war_measures_act
 
@@ -997,42 +864,6 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SAF_allied_machine_tools
-		icon = GFX_goal_generic_production
-		prerequisite = { focus = SAF_lenz_bomb_factory }
-		x = -2
-		y = 1
-		relative_position_id = SAF_lenz_bomb_factory
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 15
-		}
-
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = SAF_new_machine_tools
-				bonus = 0.5
-				uses = 1
-				category = industry
-			}
-		}
-	}
-	
-	focus = {
 		id = SAF_allied_research_effort
 		icon = GFX_focus_research2
 		prerequisite = { focus = SAF_lenz_bomb_factory }
@@ -1062,88 +893,19 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ITA_tank_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 3
 				category = industry
 				category = electronics
 			}
 		}
 	}
 	
-	focus = {
-		id = SAF_pegging_act
-		icon = GFX_focus_generic_treaty
-		prerequisite = { focus = SAF_war_measures_act }
-		mutually_exclusive = { focus = SAF_reconstitute_the_cape_corps }
-		x = -5
-		y = 1
-		relative_position_id = SAF_war_measures_act
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 15
-		}
-
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_stability = -0.10
-			swap_ideas = {
-				remove_idea = SAF_history_of_segregation
-				add_idea = SAF_history_of_segregation_2
-			}
-		}
-	}
 	
-	focus = {
-		id = SAF_outlaw_strikes
-		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = SAF_pegging_act }
-		x = 0
-		y = 1
-		relative_position_id = SAF_pegging_act
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = SAF_cheap_labor_2
-				add_idea = SAF_cheap_labor_3
-			}
-		}
-	}
 	
 	focus = {
 		id = SAF_reconstitute_the_cape_corps
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = SAF_war_measures_act }
-		mutually_exclusive = { focus = SAF_pegging_act }
 		x = -3
 		y = 1
 		relative_position_id = SAF_war_measures_act
@@ -1204,7 +966,7 @@ focus_tree = {
 			remove_ideas = SAF_history_of_segregation_2
 			swap_ideas = {
 				remove_idea = SAF_cheap_labor_2
-				add_idea = SAF_cheap_labor_4
+				add_idea = SAF_cheap_labor_3
 			}
 		}
 	}
@@ -1516,7 +1278,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			air_experience = 25
+			air_experience = 50
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -1625,6 +1387,11 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
+			add_tech_bonus = {				
+				bonus = 0.5
+				uses = 1
+				category = armor
+			}	
 		}
 	}
 	
@@ -2138,7 +1905,6 @@ focus_tree = {
 		id = SAF_crusader_tank
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = SAF_cruiser_tanks }
-		mutually_exclusive = { focus = SAF_infantry_tank }
 		x = 1
 		y = 1
 		relative_position_id = SAF_cruiser_tanks
@@ -2176,7 +1942,6 @@ focus_tree = {
 		id = SAF_infantry_tank
 		icon = GFX_focus_generic_heavy_tank
 		prerequisite = { focus = SAF_cruiser_tanks }
-		mutually_exclusive = { focus = SAF_crusader_tank }
 		x = -1
 		y = 1
 		relative_position_id = SAF_cruiser_tanks
@@ -2250,12 +2015,11 @@ focus_tree = {
 		id = SAF_operation_overlord
 		icon = GFX_focus_hol_gateway_to_europe
 		prerequisite = { focus = SAF_tank_production focus = SAF_desert_equipment }
-		mutually_exclusive = { focus = SAF_operation_husky }
 		x = -1
 		y = 6
 		relative_position_id = SAF__south_african_military_college
 		
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -2287,12 +2051,11 @@ focus_tree = {
 		id = SAF_operation_husky
 		icon = GFX_focus_generic_adriatic_sea_focus
 		prerequisite = { focus = SAF_tank_production focus = SAF_desert_equipment }
-		mutually_exclusive = { focus = SAF_operation_overlord }
 		x = 1
 		y = 6
 		relative_position_id = SAF__south_african_military_college
 		
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -2331,7 +2094,7 @@ focus_tree = {
 		id = SAF_seaward_defence_force
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = SAF_union_defense_force }
-		x = 8
+		x = 6
 		y = 1
 		relative_position_id = SAF_union_defense_force		
 
@@ -2383,89 +2146,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SAF_protect_the_trade
-		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = SAF_seaward_defence_force }
-		mutually_exclusive = { focus = SAF_disrupt_the_trade }
-		x = -1
-		y = 2
-		relative_position_id = SAF_seaward_defence_force
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 0.8
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = convoy_defense_tree
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_disrupt_the_trade
-		icon = GFX_goal_generic_occupy_states_coastal
-		prerequisite = { focus = SAF_seaward_defence_force }
-		mutually_exclusive = { focus = SAF_protect_the_trade }
-		x = 1
-		y = 2
-		relative_position_id = SAF_seaward_defence_force
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 0.2
-			modifier = {
-				has_war_with = ENG
-				factor = 10
-			}
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.5
-				uses = 2
-				category = cat_trade_interdiction
-			}
-		}
-	}
-
-	focus = {
 		id = SAF_expand_the_simons_town_base
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = SAF_protect_the_trade focus = SAF_disrupt_the_trade }
+		prerequisite = { focus = SAF_seaward_defence_force}
 		x = 0
-		y = 3
+		y = 1
 		relative_position_id = SAF_seaward_defence_force
 
 		cost = 5
@@ -2515,183 +2200,6 @@ focus_tree = {
 						instant_build = yes
 					}
 					set_state_flag = SAF_expand_the_simons_town_base_NB
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_anti_submarine_tactics
-		icon = GFX_goal_generic_navy_anti_submarine
-		prerequisite = { focus = SAF_expand_the_simons_town_base }
-		x = -1
-		y = 4
-		relative_position_id = SAF_seaward_defence_force
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = SAF_anti_submarine_tactics
-				bonus = 1
-				ahead_reduction = 0.5
-				uses = 1
-				category = dd_tech
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_submarine_warfare
-		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = SAF_expand_the_simons_town_base }
-		x = 1
-		y = 4
-		relative_position_id = SAF_seaward_defence_force
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war_with = ENG
-				factor = 3
-			}
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = SAF_submarine_warfare
-				bonus = 1
-				ahead_reduction = 0.5
-				uses = 1
-				category = ss_tech
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_prepare_overseas_offensive
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = SAF_anti_submarine_tactics }
-		mutually_exclusive = { focus = SAF_strengthen_the_cape_garrison_artillery }
-		x = -1
-		y = 5
-		relative_position_id = SAF_seaward_defence_force
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = SAF_prepare_overseas_offensive
-				bonus = 1
-				uses = 1
-				category = convoy_defense_tree
-			}
-			add_tech_bonus = {
-				name = SAF_prepare_overseas_offensive
-				bonus = 1
-				uses = 1
-				category = marine_tech
-				category = tp_tech
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_strengthen_the_cape_garrison_artillery
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = SAF_submarine_warfare }
-		mutually_exclusive = { focus = SAF_prepare_overseas_offensive }
-		x = 1
-		y = 5
-		relative_position_id = SAF_seaward_defence_force
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			every_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-					is_in_home_area = yes
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					province = {
-						all_provinces = yes
-						limit_to_coastal = yes
-					}
-					level = 3
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					province = {
-						all_provinces = yes							
-						limit_to_naval_base = yes
-					}
-					level = 1
-					instant_build = yes
 				}
 			}
 		}
