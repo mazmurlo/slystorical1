@@ -108,7 +108,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_south_african_railways_harbours
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 45
@@ -146,7 +146,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_south_african_railways_harbours
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 45
