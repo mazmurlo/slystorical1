@@ -132,7 +132,6 @@ add_ideas = ROM_waning_influence_of_democracy
 add_ideas = ROM_romanian_officers
 add_ideas = ROM_iron_guard
 add_ideas = ROM_king_carol_ii_hedonist
-add_ideas = crusade_against_communism
 
 set_convoys = 100
 

@@ -9620,6 +9620,18 @@ focus_tree = {
 					id = wuw_GER_legions.8
 				}	
 			}
+			HUN = { 
+				add_timed_idea = { 
+					idea = crusade_against_communism
+					days = 180
+				}
+			}
+			ROM = { 
+				add_timed_idea = { 
+					idea = crusade_against_communism
+					days = 180
+				}
+			}
 		}
 	}
 

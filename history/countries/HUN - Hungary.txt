@@ -1,5 +1,4 @@
 ﻿capital = 43 # Budapest (Northern Hungary)
-add_ideas = crusade_against_communism
 set_convoys = 50
 IF = {
 	limit = {
