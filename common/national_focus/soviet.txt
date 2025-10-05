@@ -6713,7 +6713,7 @@ focus_tree = {
 
 		completion_reward = {
 			
-			add_country_leader_trait = stalin_they_will_know_fear
+			#add_country_leader_trait = stalin_they_will_know_fear
 			add_ideas = SOV_tankograd_idea
 			hidden_effect = {
 				add_breakthrough_progress = {
@@ -7103,23 +7103,27 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			OR = { 
-			custom_trigger_tooltip = {
-				tooltip = SOV_propaganda_campaigns_taken_20_or_greater_tt
-				check_variable = { SOV_propaganda_campaigns_taken = 20 compare = greater_than_or_equals }
-			}
+			#AND = { 
+			#custom_trigger_tooltip = {
+				#tooltip = SOV_propaganda_campaigns_taken_20_or_greater_tt
+				#check_variable = { SOV_propaganda_campaigns_taken = 20 compare = greater_than_or_equals }
+			#}
+			OR = {
+			surrender_progress > 0.45
+			date > 1944.1.1	
 			if = { 
 					limit = { 
 						has_start_date = 1941.1.1.12
 					}
 					date > 1943.5.1
+					}
 				}
 			}
-		}
-		
+		#}
 		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_STABILITY}
 
 		completion_reward = {
+			add_country_leader_trait = stalin_they_will_know_fear
 			swap_ruler_traits = {
 				remove = stalin_heart_of_steel
 				add = stalin_father_of_nations
@@ -7876,7 +7880,7 @@ focus = {
 				
 		search_filters = {FOCUS_FILTER_PROPAGANDA}
 		available = {
-			surrender_progress > 0.35
+			surrender_progress > 0.5
 			has_war_with_major = yes
 		}
 		cancel_if_invalid = no

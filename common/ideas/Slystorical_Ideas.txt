@@ -25,7 +25,7 @@ ideas = {
 			
 			Targeted_modifier = {
 				tag = SOV
-				defense_bonus_against = 0.15
+				defense_bonus_against = 0.10
 			}
         }
     }
