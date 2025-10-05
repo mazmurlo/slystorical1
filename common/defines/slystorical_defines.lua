@@ -212,7 +212,7 @@ NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6;
 -- kill vanilla lol
 --- cope mod spirits
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.15 --- modifier for divs speed under red air
-NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 30.0
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 20.0 -- vanilla 10 Modifier for army manpower reinforcement delivery speed (travel time)
 NDefines.NTechnology.MAX_SUBTECHS = 4 
 -- FUWG/TFB style converts
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0 
