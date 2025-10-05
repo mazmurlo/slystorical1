@@ -216,12 +216,11 @@ sub_units = {
 		is_artillery_brigade = yes
 		
 		type = {
-			support
 			armor
 			artillery
 		}
 		
-		group = support
+		group = armor
 		
 		categories = {
 			category_all_armor
@@ -233,7 +232,7 @@ sub_units = {
 		combat_width = 0
 
 		need = {
-			super_heavy_tank_artillery_chassis = 20
+			super_heavy_tank_artillery_chassis = 35
 		}
 		manpower = 500
 		max_organisation = 0
