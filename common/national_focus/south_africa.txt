@@ -365,7 +365,7 @@ focus_tree = {
 		id = SAF_expand_the_rand_mines
 		icon = GFX_focus_CONGO_gold_and_diamonds
 		prerequisite = { focus = SAF_south_african_railways_harbours }
-		x = 4
+		x = 3
 		y = 1
 		relative_position_id = SAF_south_african_railways_harbours
 
@@ -393,21 +393,21 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SAF_thabazimbi_mine
-		icon = GFX_focus_generic_steel
+		id = SAF_railway_expansion
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = SAF_expand_the_rand_mines }
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = SAF_expand_the_rand_mines
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 15
 		}
 
 		available = {
-			controls_state = 275
+			
 		}
 		
 		bypass = {
@@ -425,79 +425,6 @@ focus_tree = {
 					amount = 16
 				}
 			}
-		}
-	}
-	
-	focus = {
-		id = SAF_iscor_pretoria_works
-		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = SAF_thabazimbi_mine }
-		x = 0
-		y = 1
-		relative_position_id = SAF_thabazimbi_mine
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 15
-		}
-
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			275 = {
-				add_extra_state_shared_building_slots = 4
-			}
-			719 = {
-			
-				add_extra_state_shared_building_slots = 4
-			}
-			681 = {
-				add_extra_state_shared_building_slots = 4
-			}
-			541 = {
-				add_extra_state_shared_building_slots = 4
-			}
-		}
-	}
-	
-	focus = {
-		id = SAF_railway_expansion
-		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = SAF_expand_the_rand_mines }
-		x = 1
-		y = 1
-		relative_position_id = SAF_expand_the_rand_mines
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 15
-		}
-
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
 			681 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -537,6 +464,19 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			275 = {
+				add_extra_state_shared_building_slots = 4
+			}
+			719 = {
+			
+				add_extra_state_shared_building_slots = 4
+			}
+			681 = {
+				add_extra_state_shared_building_slots = 4
+			}
+			541 = {
+				add_extra_state_shared_building_slots = 4
+			}
 			random_owned_controlled_state = {
 				prioritize = { 275 }
 				limit = {
@@ -560,7 +500,7 @@ focus_tree = {
 	focus = {
 		id = SAF_status_of_the_union_act
 		icon = GFX_focus_SWE_form_rfsu
-		x = 13
+		x = 12
 		y = 0
 
 		cost = 10
@@ -699,9 +639,9 @@ focus_tree = {
 		icon = GFX_focus_CONGO_copper_cartridges
 		prerequisite = { focus = SAF_iscor_pretoria_works focus = SAF_transvaal_urbanization }
 		prerequisite = { focus = SAF_work_for_all_poor }
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = SAF_iscor_pretoria_works
+		relative_position_id = SAF_transvaal_urbanization
 
 		cost = 10
 
@@ -1221,7 +1161,7 @@ focus_tree = {
 	focus = {
 		id = SAF_union_defense_force
 		icon = GFX_goal_generic_army_doctrines
-		x = 25
+		x = 23
 		y = 0
 
 		cost = 5
