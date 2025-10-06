@@ -813,26 +813,6 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = FIN_moderate_politics
-		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = { focus = FIN_reach_out_to_scandinavia }
-
-		x = 0
-		y = 1
-		relative_position_id = FIN_reach_out_to_scandinavia
-		cost = 5
-		available = {
-			has_government = neutrality
-		}
-
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_POLITICAL FOCUS_FILTER_BALANCE_OF_POWER }
-
-		completion_reward = {
-			add_political_power = 50
-			FIN_bop_very_low_increase_effect = yes
-		}
-	}
 	
 	focus = {
 		id = FIN_weapon_caches
@@ -1053,13 +1033,7 @@ focus_tree = {
 		relative_position_id = FIN_national_unity
 		cost = 5
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = FIN_in_a_defensive_war_against_a_major_tt
-				any_enemy_country = {
-					is_major = yes
-					ROOT = { has_defensive_war_with = PREV }
-				}
-			}
+			date > 1939.6.1
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_MANPOWER }
