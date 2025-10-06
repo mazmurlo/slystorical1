@@ -1799,7 +1799,7 @@ focus_tree = {
 				name = SOV_increase_aircraft_production
 				bonus = 1.0
 				uses = 2
-				category = light_air
+				category = cas_bomber
 			}
 		}
 	}
