@@ -3998,7 +3998,7 @@
 		y = 1
 		relative_position_id = JAP_first_air_fleet
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
