@@ -22,6 +22,6 @@ war_of_gazala_modifier = { #STATE MODIFIER
 	enable = { always = yes }
 
 	icon = GFX_modifiers_SOV_armored_battery
-	army_attack_factor = war_of_gazala_modifier_attack_factor
-	army_speed_factor = war_of_gazala_modifier_army_speed_factor
+	army_attack_factor = global.war_of_gazala_modifier_attack_factor_var
+	army_speed_factor = -0.25
 }

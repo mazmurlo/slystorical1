@@ -2571,7 +2571,7 @@
 		y = 1
 		relative_position_id = JAP_support_the_kodoha_faction
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -2607,7 +2607,7 @@
 		y = 1
 		relative_position_id = JAP_purge_the_kodoha_faction
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2765,6 +2765,7 @@
 			RAJ = {
 				has_capitulated = yes
 			}
+			date > 1943.1.1
 		}
 
 		bypass = {
@@ -3997,7 +3998,7 @@
 		y = 1
 		relative_position_id = JAP_first_air_fleet
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
