@@ -3685,7 +3685,6 @@ focus_tree = {
 		relative_position_id = FIN_mannerheim_line
 		cost = 5
 		available = {
-			is_special_project_completed = sp:sp_air_radar
 			controls_state = 111 #UUSIMAA (Helsinki)
 		}
 
