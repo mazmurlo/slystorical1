@@ -63,8 +63,8 @@ characters={
 			}
 		}
 
-		corps_commander={
-			traits={ brilliant_strategist politically_connected trickster trait_engineer organizer infantry_leader panzer_leader trickster }
+		field_marshal ={
+			traits={ brilliant_strategist politically_connected trickster combined_arms_expert trait_engineer infantry_expert organizer infantry_leader panzer_leader aggressive_assaulter logistics_wizard thorough_planner trickster }
 			skill=8
 			attack_skill=5
 			defense_skill=6
@@ -197,8 +197,8 @@ characters={
 				army_chief_offensive_2
 			}
 		}
-		corps_commander={
-			traits={ career_officer infantry_officer organizer infantry_leader cavalry_leader trickster trait_engineer }
+		field_marshal ={
+			traits={ career_officer infantry_officer organizer infantry_leader infantry_expert cavalry_leader fortress_buster offensive_doctrine thorough_planner combined_arms_expert trickster logistics_wizard trait_engineer }
 			skill=8
 			attack_skill=6
 			defense_skill=6
@@ -273,8 +273,8 @@ characters={
 		
 		}
 
-		corps_commander={
-			traits = { organizer infantry_leader trait_engineer naval_invader commando trickster trait_mountaineer jungle_rat }
+		field_marshal ={
+			traits = { organizer infantry_leader trait_engineer fortress_buster naval_invader commando trickster trait_mountaineer jungle_rat infantry_expert offensive_doctrine camouflage_expert expert_improviser }
 			skill=8
 			attack_skill=5
 			defense_skill=6
@@ -547,8 +547,8 @@ characters={
 			}
 	
 		}
-		corps_commander={
-			traits={ career_officer politically_connected fortress_buster organizer infantry_leader trickster trait_engineer }
+		field_marshal ={
+			traits={ career_officer inspirational_leader politically_connected fortress_buster infantry_expert offensive_doctrine expert_improviser organizer infantry_leader trickster trait_engineer }
 			skill=8
 			attack_skill=5
 			defense_skill=6
@@ -659,8 +659,8 @@ characters={
 			}
 		}
 		
-		corps_commander={
-			traits = {  commando naval_invader infantry_leader infantry_expert trait_engineer hill_fighter ranger trait_mountaineer }
+		hitoshi_imamura ={
+			traits = { commando naval_invader infantry_leader infantry_expert trait_engineer hill_fighter ranger trait_mountaineer camouflage_expert infantry_expert fortress_buster offensive_doctrine }
 			skill=7
 			attack_skill=5
 			defense_skill=6
