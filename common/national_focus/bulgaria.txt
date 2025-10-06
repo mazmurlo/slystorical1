@@ -175,7 +175,6 @@ focus_tree = {
 	focus = {
 		id = BUL_increase_industry_investments
 
-		prerequisite = { focus = BUL_invigorate_national_industry }
 		prerequisite = { focus = BUL_expand_sofia_university }
 		icon = GFX_focus_generic_industry_2
 		relative_position_id = BUL_expand_sofia_university
@@ -221,7 +220,6 @@ focus_tree = {
 		x = 0
 		y = 2
 		cost = 10
-		mutually_exclusive = { focus = BUL_nationalization }
 
 		available = {
 			NOT = { has_idea = BUL_second_national_catastrophe }

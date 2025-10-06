@@ -319,34 +319,25 @@ characters = {
 		}
 
 		advisor = {
-			cost = 150
-			slot = theorist
+			cost = 100
+			slot = army_chief
 			idea_token = giovanni_messe
 			ledger = army
 			allowed = {
 				ITA_is_italian_tag = yes
 			}
-			available = {
-				if = {
-					limit = { has_dlc = "By Blood Alone" }
-					OR = {
-						NOT = { has_government = communism }
-						has_completed_focus = ITA_common_ground
-					}
-				}
-			}
 			traits = {
-				mobile_warfare_expert
+				army_chief_offensive_2
 			}
 		}
 		
-		corps_commander = {
-			traits = { armor_officer war_hero infantry_leader organizer panzer_leader brilliant_strategist }
+		field_marshal = {
+			traits = { armor_officer war_hero logistics_wizard aggressive_assaulter thorough_planner combined_arms_expert infantry_leader organizer panzer_leader brilliant_strategist }
 			skill = 6
 			attack_skill = 4
-			defense_skill = 3
+			defense_skill = 5
 			planning_skill = 5
-			logistics_skill = 4
+			logistics_skill = 6
 			legacy_id = 0
 		}
 	}
@@ -396,13 +387,24 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { inflexible_strategist career_officer organizer cavalry_leader trait_engineer infantry_leader skilled_staffer hill_fighter trait_mountaineer }
+			traits = { inflexible_strategist career_officer organizer logistics_wizard unyielding_defender defensive_doctrine ambusher combined_arms_expert cavalry_leader trait_engineer infantry_leader skilled_staffer hill_fighter trait_mountaineer }
 			skill = 6
 			attack_skill = 6
 			defense_skill = 6
 			planning_skill = 5
 			logistics_skill = 4
 			legacy_id = 0
+		}
+			advisor = {
+			slot = army_chief
+			idea_token = sebastiano_visconti_prasca
+			traits = {
+				army_chief_defensive_2 # Was army_chief_maneuver_2 (replaced by Alberto Pariani)
+			}
+			cost = 50
+			ai_will_do = {
+				base = 1
+			}
 		}
 	}
 
@@ -640,14 +642,25 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { organizer infantry_leader trait_engineer cavalry_leader trickster panzer_leader commando } #Motorized
+			traits = { organizer combined_arms_expert camouflage_expert ambusher offensive_doctrine infantry_leader trait_engineer cavalry_leader trickster panzer_leader commando } #Motorized
 			skill = 6
 			attack_skill = 4
 			defense_skill = 5
-			planning_skill = 4
-			logistics_skill = 4
+			planning_skill = 5
+			logistics_skill = 5
 			legacy_id = 0
 			visible = { has_government = fascism }
+		}
+		advisor = {
+			slot = high_command
+			idea_token = francesco_zingales
+			traits = {
+				army_armored_2
+			}
+			cost = 50
+			ai_will_do = {
+				base = 1
+			}
 		}
 	}
 
@@ -793,8 +806,18 @@ characters = {
 			logistics_skill = 4
 			legacy_id = 0
 		}
+		advisor = {
+			slot = high_command
+			idea_token = ITA_carlo_vecchiarelli
+			traits = {
+				army_CombinedArms_2
+			}
+			cost = 50
+			ai_will_do = {
+				base = 1
+			}
+		}
 	}
-
 	ITA_mario_robotti = {
 		name = ITA_mario_robotti
 		portraits = {
@@ -833,6 +856,17 @@ characters = {
 			logistics_skill = 2
 			legacy_id = 0
 			visible = { has_government = fascism }
+		}
+		advisor = {
+			slot = high_command
+			idea_token = ITA_ettore_baldassarre
+			traits = {
+				army_commando_2
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1
+			}
 		}
 	}
 

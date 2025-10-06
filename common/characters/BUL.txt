@@ -305,14 +305,22 @@ characters = {
 				small = GFX_portrait_BUL_georgi_markov_small
 			}
 		}
-		corps_commander = {
-			traits = { old_guard infantry_leader organizer cavalry_leader }
+		field_marshal = {
+			traits = { old_guard infantry_leader organizer logistics_wizard defensive_doctrine combined_arms_expert ambusher cavalry_leader }
 			skill = 6
 			attack_skill = 5
 			defense_skill = 10
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = 1206
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BUL_georgi_markov
+			traits = {
+				army_CombinedArms_2
+			}
+			cost = 50
 		}
 	}
 
@@ -395,14 +403,22 @@ characters = {
 				small = GFX_portrait_BUL_damian_velchev_small
 			}
 		}
-		corps_commander = {
-			traits = { trait_reckless trait_BUL_zveno_member organizer cavalry_leader infantry_leader commando skilled_staffer }
+		field_marshal = {
+			traits = { trait_reckless trait_BUL_zveno_member organizer cavalry_leader combined_arms_expert offensive_doctrine infantry_leader ambusher commando camouflage_expert skilled_staffer }
 			skill = 6
 			attack_skill = 5
 			defense_skill = 10
 			planning_skill = 4
 			logistics_skill = 5
 			legacy_id = 1210
+		}
+		advisor = {
+			slot = high_command
+			idea_token = BUL_damian_velchev
+			traits = {
+				army_concealment_2
+			}
+			cost = 50
 		}
 	}
 
