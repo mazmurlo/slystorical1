@@ -556,7 +556,7 @@ focus = {
 		prerequisite = { focus = PHI_research_new_enegry_options }
 
 		available = {
-			num_of_factories > 50
+			num_of_factories > 35
 		}
 
 		available_if_capitulated = yes
@@ -795,7 +795,7 @@ focus = {
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = PHI_american_imports }
 
-		x = 8
+		x = 9
 		y = 2
 		cost = 10
 
@@ -813,60 +813,6 @@ focus = {
 				category = motorized_equipment
 			}
 			#75% research bonus for Motorised
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-	}
-
-	focus = {
-		id = PHI_study_european_tanks
-		icon = GFX_goal_generic_production
-		prerequisite = { focus = PHI_lighting_warfare }
-
-		x = 8
-		y = 4
-		cost = 10
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = PHI_study_european_tanks
-				bonus = 1
-				uses = 2
-				category = armor
-			}
-			#50% armor research
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-	}
-
-	focus = {
-		id = PHI_create_main_battle_tanks
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = PHI_study_european_tanks }
-
-		x = 8
-		y = 5
-		cost = 10
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = PHI_create_main_battle_tanks
-				bonus = 1
-				uses = 1
-				category = cat_medium_armor
-			}
-			#1x 50% reduction on research for medium tanks
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
