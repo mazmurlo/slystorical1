@@ -8104,7 +8104,7 @@ focus = {
 		}
 
 		available = {
-			date > 1942.1.1
+			date > 1943.1.1
 			#surrender_progress < 0.01
 			country_exists = JAP
 			NOT = {

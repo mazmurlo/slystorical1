@@ -2765,6 +2765,7 @@
 			RAJ = {
 				has_capitulated = yes
 			}
+			date > 1943.1.1
 		}
 
 		bypass = {
