@@ -7502,8 +7502,8 @@ focus_tree = {
         id = RAJ_mahatma
         icon = GFX_focus_RAJ_mahatma
         prerequisite = { focus = RAJ_purna_swaraj }
-        x = -6
-        y = 8
+        x = -10
+        y = 1
         relative_position_id = RAJ_purna_swaraj
         mutually_exclusive = { focus = RAJ_league_against_gandhism }
         cost = 10
