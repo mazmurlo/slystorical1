@@ -995,7 +995,7 @@
 		x = 8
 		y = 0
 
-		cost = 8
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -2449,7 +2449,7 @@
 		y = 0
 		relative_position_id = JAP_purge_the_kodoha_faction
 
-		cost = 8
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
@@ -2571,7 +2571,7 @@
 		y = 1
 		relative_position_id = JAP_support_the_kodoha_faction
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 2
@@ -2607,7 +2607,7 @@
 		y = 1
 		relative_position_id = JAP_purge_the_kodoha_faction
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
