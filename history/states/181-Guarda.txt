@@ -24,11 +24,6 @@ state = {
 
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
-
-			# Cabril Dam
-			#11885 = { dam = 1 }
-			
 		}
 			1941.1.1 = {
 		owner = WST
