@@ -229,62 +229,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BRA_autarky
-		icon = GFX_focus_BRA_autarky
-		prerequisite = { focus = BRA_the_polaca focus = BRA_anaue }
-		x = 0
-		y = 1
-		relative_position_id = BRA_the_polaca
-		mutually_exclusive = { focus = BRA_corporatism }
-		cost = 5
-		available = {
-			num_of_factories > 25
-		}
-
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
-
-		completion_reward = {
-			#add_ideas = GER_autarky_idea
-			IF = {
-				limit = { has_dynamic_modifier = { modifier = BRA_estado_novo_modifier } }
-				custom_effect_tooltip = BRA_modify_estado_novo_ns_intro
-				add_to_variable = {
-					BRA_estado_novo_production_speed_arms_factory_factor = 0.05
-					tooltip = production_speed_arms_factory_factor_tt
-				}
-				add_to_variable = {
-					BRA_estado_novo_production_speed_dockyard_factor = 0.05
-					tooltip = production_speed_dockyard_factor_tt
-				}
-				add_to_variable = {
-					BRA_estado_novo_production_speed_industrial_complex_factor = 0.05
-					tooltip = production_speed_industrial_complex_factor_tt
-				}
-			}
-			ELSE = {
-				custom_effect_tooltip = BRA_modify_estado_moderno_ns_intro
-				add_to_variable = {
-					BRA_estado_moderno_production_speed_arms_factory_factor = 0.05
-					tooltip = production_speed_arms_factory_factor_tt
-				}
-				add_to_variable = {
-					BRA_estado_moderno_production_speed_dockyard_factor = 0.05
-					tooltip = production_speed_dockyard_factor_tt
-				}
-				add_to_variable = {
-					BRA_estado_moderno_production_speed_industrial_complex_factor = 0.05
-					tooltip = production_speed_industrial_complex_factor_tt
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = BRA_corporatism
 		icon = GFX_focus_ICE_state_corporatism
 		prerequisite = {  focus = BRA_the_polaca}
-		mutually_exclusive = { focus = BRA_autarky }
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id =  BRA_the_polaca
 		cost = 5
@@ -338,7 +286,7 @@ focus_tree = {
 		prerequisite = { focus = BRA_autarky focus = BRA_corporatism }
 		x = 0
 		y = 1
-		relative_position_id = BRA_autarky
+		relative_position_id = BRA_corporatism
 		cost = 5
 		available = {
 		}
@@ -347,41 +295,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = BRA_propaganda_idea
-		}
-	}
-
-	focus = {
-		id = BRA_departamento_de_ordem_politica_e_social
-		icon = GFX_focus_SWI_embrace_rote_drei
-		prerequisite = { focus = BRA_corporatism focus = BRA_autarky  }
-		x = 0
-		y = 1
-		relative_position_id = BRA_corporatism
-		cost = 5
-		ai_will_do = {
-			factor = 10
-		}
-		available = {
-		}
-
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
-
-		completion_reward = {
-		
-			IF = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				#create_intelligence_agency = yes
-				create_intelligence_agency = { 
-					name = "Departamento de Ordem"
-					icon = GFX_intelligence_agency_logo_BRA_neutrality
-				}
-				upgrade_intelligence_agency = upgrade_passive_defense 
-			}
-			ELSE = {
-				add_ideas = BRA_departamento_de_political_e_social_no_lar
-			}
 		}
 	}
 
@@ -1363,10 +1276,6 @@ focus_tree = {
 
 		completion_reward = {
 			938 = {
-				add_resource = {
-					type = rubber
-					amount = 10
-				}
 				add_extra_state_shared_building_slots = 1
 				add_victory_points = {
 					province = 2035
@@ -1811,50 +1720,6 @@ focus_tree = {
 			ENG = {
 				add_to_faction =  BRA
 			}
-		}
-	}
-
-	focus = {
-		id = BRA_disrupt_operation_bolivar
-		icon = GFX_focus_BRA_disrupt_bolivar
-		prerequisite = { 
-			focus = BRA_defense_spending
-		}
-		relative_position_id = BRA_defense_spending
-		x = 0
-		y = 1
-		
-		cost = 10
-		available = {
-			any_country = {
-				original_tag = GER
-				NOT = {
-					has_government = BRA
-				}
-			}
-			has_intelligence_agency = yes
-		}
-
-		search_filters = { }
-
-		completion_reward = {
-			IF = {
-				limit = {
-					has_dlc = "La Resistance"
-				}
-				add_ideas = BRA_disrupt_bolivar_LaR
-			}
-			ELSE = {
-				add_ideas = BRA_disrupt_bolivar_no_lar
-			}
-			GER = {
-				country_event = {
-					id = JUNO_brazil_events.13
-					hours = 1
-				}
-				event_option_tooltip = JUNO_brazil_events.13.a
-			}
-
 		}
 	}
 
