@@ -785,7 +785,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_medium"
-					position = { x = 207 y = 230 }
+					position = { x = 207 y = 250 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -810,7 +810,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "armour_subtitle_amphibious"
-					position = { x = -360 y = 230 }
+					position = { x = -360 y = 250 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}

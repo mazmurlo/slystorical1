@@ -1260,7 +1260,7 @@
 			effect_tooltip = {
 				add_tech_bonus = {
 					name = FRA_begin_rearmament
-					bonus = 0.5
+					bonus = 0.75
 					uses = 1
 					category = cat_medium_armor
 				}
@@ -1290,7 +1290,7 @@
 			hidden_effect = { 
 				add_tech_bonus = {
 				name = FRA_begin_rearmament
-				bonus = 0.5
+				bonus = 0.75
 				uses = 1
 				technology = improved_medium_tank
 			}
@@ -2699,8 +2699,8 @@
 			}
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
