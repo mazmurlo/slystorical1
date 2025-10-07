@@ -227,7 +227,7 @@ sub_units = {
 		}
 
 		forest = {
-			attack = 0.0125
+			attack = 0.05
 		}
 		hills = {
 			attack = 0.05

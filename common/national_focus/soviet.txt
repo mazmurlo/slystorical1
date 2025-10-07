@@ -7843,6 +7843,7 @@ focus = {
 		search_filters = {FOCUS_FILTER_POLITICAL}
 
 		completion_reward = {
+			add_ideas = sov_totaler_krieg_economy
 			GER = { 
 				declare_war_on = {
 					target = SOV
