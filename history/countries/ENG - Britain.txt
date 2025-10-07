@@ -90,7 +90,6 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
-	trench_warfare = 1
 	fleet_in_being = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
@@ -98,6 +97,20 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
+#### doctrine
+
+	set_technology = { 
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+		large_front_operations = 1
+		deep_operations = 1
+		operational_concentration = 1
+		vast_offensives = 1
+		breakthrough_priority = 1
+		mechanized_wave = 1
+		continuous_offensive = 1
+	}
 
 	set_technology = {
 		gwtank = 1

@@ -37,7 +37,7 @@
 				
 }
 division_template = {
-	name = "Garrisons"
+	name = "PORTS"
 			is_locked = no
 			priority = 1
 				regiments = {		
@@ -60,7 +60,10 @@ division_template = {
 					infantry = { x = 3 y = 1 }
 					infantry = { x = 3 y = 2 }
 					infantry = { x = 4 y = 0 }
-					infantry = { x = 4 y = 1 }			
+					infantry = { x = 4 y = 1 }
+					infantry = { x = 4 y = 2 }
+					infantry = { x = 4 y = 3 }
+					infantry = { x = 4 y = 4 }		
 					#medium_tank_destroyer_brigade = { x = 4 y = 2 }
 					#medium_tank_destroyer_brigade = { x = 4 y = 3 }
 				}
@@ -141,7 +144,7 @@ units = {
 				name_order = 3
 		}
 		location = 4076
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -151,7 +154,7 @@ units = {
 				name_order = 3
 		}
 		location = 4076
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -161,7 +164,7 @@ units = {
 				name_order = 3
 		}
 		location = 12049
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -171,7 +174,7 @@ units = {
 				name_order = 3
 		}
 		location = 12049
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -181,7 +184,7 @@ units = {
 				name_order = 3
 		}
 		location = 3996
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -191,7 +194,7 @@ units = {
 				name_order = 3
 		}
 		location = 3996
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -201,7 +204,7 @@ units = {
 				name_order = 3
 		}
 		location = 1068
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -211,7 +214,7 @@ units = {
 				name_order = 3
 		}
 		location = 1068
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -221,7 +224,7 @@ units = {
 				name_order = 3
 		}
 		location = 1155
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -231,7 +234,7 @@ units = {
 				name_order = 3
 		}
 		location = 1155
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -241,7 +244,7 @@ units = {
 				name_order = 3
 		}
 		location = 10005
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -251,7 +254,7 @@ units = {
 				name_order = 3
 		}
 		location = 10005
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -261,7 +264,7 @@ units = {
 				name_order = 3
 		}
 		location = 4206
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -271,7 +274,7 @@ units = {
 				name_order = 3
 		}
 		location = 4206
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -281,7 +284,7 @@ units = {
 				name_order = 3
 		}
 		location = 1201
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -291,7 +294,7 @@ units = {
 				name_order = 3
 		}
 		location = 1201
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -301,7 +304,7 @@ units = {
 				name_order = 3
 		}
 		location = 4088
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -311,7 +314,7 @@ units = {
 				name_order = 3
 		}
 		location = 4088
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -321,7 +324,7 @@ units = {
 				name_order = 3
 		}
 		location = 792
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -331,7 +334,7 @@ units = {
 				name_order = 3
 		}
 		location = 792
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -341,7 +344,7 @@ units = {
 				name_order = 3
 		}
 		location = 4135
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -351,7 +354,7 @@ units = {
 				name_order = 3
 		}
 		location = 4135
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -361,7 +364,7 @@ units = {
 				name_order = 3
 		}
 		location = 13228
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -371,7 +374,7 @@ units = {
 				name_order = 3
 		}
 		location = 13228
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -381,7 +384,7 @@ units = {
 				name_order = 3
 		}
 		location = 7193
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -391,7 +394,7 @@ units = {
 				name_order = 3
 		}
 		location = 7193
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -401,7 +404,7 @@ units = {
 				name_order = 3
 		}
 		location = 11984
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -411,7 +414,7 @@ units = {
 				name_order = 3
 		}
 		location = 11984
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -421,7 +424,7 @@ units = {
 				name_order = 3
 		}
 		location = 11974
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -431,7 +434,7 @@ units = {
 				name_order = 3
 		}
 		location = 11974
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -441,7 +444,7 @@ units = {
 				name_order = 3
 		}
 		location = 7091
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
@@ -451,7 +454,7 @@ units = {
 				name_order = 3
 		}
 		location = 7091
-		division_template = "Garrisons" 
+		division_template = "PORTS" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 	}
