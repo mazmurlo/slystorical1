@@ -2596,6 +2596,59 @@
 				remove_idea = JAP_militarism
 				add_idea = JAP_militarism_showa
 			}
+		hidden_effect = {
+		289= {
+			set_compliance = 53
+		}
+		868={
+			set_compliance =53
+		}
+		869={
+			set_compliance =53
+		}
+		724={
+			set_compliance =53
+		}
+		525={
+			set_compliance =53
+		}
+		527={
+			set_compliance =53
+		}
+		745={
+			set_compliance =53
+		}
+		716={
+			set_compliance =53
+		}
+		610={
+			set_compliance =53
+		}
+		609={
+			set_compliance =53
+		}
+		611={
+			set_compliance =53
+		}
+		612={
+			set_compliance =53
+		}
+		715={
+			set_compliance =53
+		}
+		714={
+			set_compliance =53
+		}
+		761={
+			set_compliance =53
+		}
+		328={
+			set_compliance =53
+		}
+		717={
+			set_compliance =53
+		}
+		}
 		}
 	}
 
