@@ -1139,6 +1139,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 		completion_reward = {
+			add_ideas = ITA_bandits_war_no_lar
 			swap_ideas = {
 				remove_idea = SPA_recovering_from_civil_war
 				add_idea = SPA_recovering_from_civil_war_2
@@ -2062,6 +2063,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
+			add_ideas = ITA_bandits_war_no_lar
 			if = {
 				limit = {
 					NOT = { has_idea = closed_economy }
