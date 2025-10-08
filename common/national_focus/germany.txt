@@ -4477,7 +4477,7 @@ focus_tree = {
 		relative_position_id = GER_form_the_jagdwaffe
 		cost = 5
 		available = {
-			is_special_project_completed = sp:sp_air_radar
+			has_tech = cavity_magnatron
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
