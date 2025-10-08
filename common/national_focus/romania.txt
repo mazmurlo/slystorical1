@@ -842,7 +842,7 @@ focus_tree = {
 		x = -2
 		y = 1
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 9
@@ -862,7 +862,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = neutrality 
+				ideology = fascism
 				popularity = 0.2 
 			}
 			add_stability = 0.1 
