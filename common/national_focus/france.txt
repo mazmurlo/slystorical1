@@ -4219,6 +4219,20 @@ focus = {
 				type = infantry_equipment
 				amount = 5000
 			}
+			hidden_effect = { 
+				add_equipment_to_stockpile = {
+				type = train_equipment_1
+				amount = 50
+				}
+				add_equipment_to_stockpile = {
+				type = convoy
+				amount = 300
+				}
+				add_equipment_to_stockpile = {
+				type = motorized_equipment_1
+				amount = 500
+				}
+			}
 		}
 	}
 	focus = {
