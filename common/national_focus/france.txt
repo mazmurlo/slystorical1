@@ -4017,7 +4017,7 @@ focus = {
 		
 	
 		available = {
-			has_global_flag = fall_of_france
+			has_capitulated = yes
 		}
 		
 		bypass = {
@@ -4049,8 +4049,6 @@ focus = {
 				type = industrial_complex
 				level = 4
 			}
-				
-				add_ideas = SPA_death_before_surrender
 				add_state_core = 730
 				EFR = {
 					give_resource_rights = {
