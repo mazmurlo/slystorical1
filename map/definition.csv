@@ -5033,7 +5033,7 @@
 5032;51;132;213;land;false;plains;6
 5033;51;135;73;land;false;desert;6
 5034;51;135;178;land;true;desert;5
-5035;118;109;217;lake;false;lakes;0
+5035;118;109;217;land;false;desert;5
 5036;51;138;93;land;true;jungle;5
 5037;51;138;143;land;false;mountain;7
 5038;51;141;3;land;false;mountain;2
