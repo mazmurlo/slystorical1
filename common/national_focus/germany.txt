@@ -828,8 +828,8 @@ focus_tree = {
 			else = {
 				GER_modify_industrial_modifier = yes
 				add_to_variable = { 
-					GER_industrial_consumer_goods_expected_value = -0.1
-					tooltip = consumer_goods_expected_value_tt
+					GER_industrial_consumer_goods_factor = -0.1
+					tooltip = consumer_goods_factor_tt
 				}
 			}
 
@@ -850,8 +850,8 @@ focus_tree = {
 		cost = 5
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = GER_industrial_consumer_goods_expected_value_limit_tt
-				check_variable = { GER_industrial_consumer_goods_expected_value < 0.9 }
+				tooltip = GER_industrial_consumer_goods_factor_limit_tt
+				check_variable = { GER_industrial_consumer_goods_factor < 0.9 }
 			}
 		}
 
@@ -899,8 +899,8 @@ focus_tree = {
 
 			GER_modify_industrial_modifier = yes
 			add_to_variable = { 
-				GER_industrial_consumer_goods_expected_value = 0.1
-				tooltip = consumer_goods_expected_value_tt
+				GER_industrial_consumer_goods_factor = 0.1
+				tooltip = consumer_goods_factor_tt
 			}
 			if = {
 				limit = {
@@ -934,8 +934,8 @@ focus_tree = {
 		cost = 5
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = GER_industrial_consumer_goods_expected_value_limit_tt
-				check_variable = { GER_industrial_consumer_goods_expected_value < 0.9 }
+				tooltip = GER_industrial_consumer_goods_factor_limit_tt
+				check_variable = { GER_industrial_consumer_goods_factor < 0.9 }
 			}
 			any_controlled_state = {
 				NOT = { is_core_of = ROOT }
@@ -1105,8 +1105,8 @@ focus_tree = {
 
 			GER_modify_industrial_modifier = yes
 			add_to_variable = { 
-				GER_industrial_consumer_goods_expected_value = 0.1
-				tooltip = consumer_goods_expected_value_tt
+				GER_industrial_consumer_goods_factor = 0.1
+				tooltip = consumer_goods_factor_tt
 			}
 			if = {
 				limit = {
@@ -1141,8 +1141,8 @@ focus_tree = {
 		cost = 5
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = GER_industrial_consumer_goods_expected_value_limit_tt
-				check_variable = { GER_industrial_consumer_goods_expected_value < 0.9 }
+				tooltip = GER_industrial_consumer_goods_factor_limit_tt
+				check_variable = { GER_industrial_consumer_goods_factor < 0.9 }
 			}
 		}
 
@@ -1182,8 +1182,8 @@ focus_tree = {
 
 			GER_modify_industrial_modifier = yes
 			add_to_variable = { 
-				GER_industrial_consumer_goods_expected_value = 0.1
-				tooltip = consumer_goods_expected_value_tt
+				GER_industrial_consumer_goods_factor = 0.1
+				tooltip = consumer_goods_factor_tt
 			}
 			if = {
 				limit = {
@@ -1238,8 +1238,8 @@ focus_tree = {
 		cost = 5
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = GER_industrial_consumer_goods_expected_value_limit_tt
-				check_variable = { GER_industrial_consumer_goods_expected_value < 0.9 }
+				tooltip = GER_industrial_consumer_goods_factor_limit_tt
+				check_variable = { GER_industrial_consumer_goods_factor < 0.9 }
 			}
 			has_tech = oil_processing
 		}
@@ -1289,8 +1289,8 @@ focus_tree = {
 
 			GER_modify_industrial_modifier = yes
 			add_to_variable = { 
-				GER_industrial_consumer_goods_expected_value = 0.1
-				tooltip = consumer_goods_expected_value_tt
+				GER_industrial_consumer_goods_factor = 0.1
+				tooltip = consumer_goods_factor_tt
 			}
 			if = {
 				limit = {
@@ -1333,8 +1333,8 @@ focus_tree = {
 		cost = 5
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = GER_industrial_consumer_goods_expected_value_limit_tt
-				check_variable = { GER_industrial_consumer_goods_expected_value < 0.9 }
+				tooltip = GER_industrial_consumer_goods_factor_limit_tt
+				check_variable = { GER_industrial_consumer_goods_factor < 0.9 }
 			}
 			has_tech = rubber_processing
 		}
@@ -1400,8 +1400,8 @@ focus_tree = {
 
 			GER_modify_industrial_modifier = yes
 			add_to_variable = { 
-				GER_industrial_consumer_goods_expected_value = 0.1
-				tooltip = consumer_goods_expected_value_tt
+				GER_industrial_consumer_goods_factor = 0.1
+				tooltip = consumer_goods_factor_tt
 			}
 			if = {
 				limit = {
@@ -9207,8 +9207,8 @@ focus_tree = {
 				GER_add_or_modify_military_intelligence_service = yes
 			}
 			add_to_variable = {
-				GER_military_intelligence_service_consumer_goods_expected_value = -0.1
-				tooltip =  consumer_goods_expected_value_tt
+				GER_military_intelligence_service_consumer_goods_factor = -0.1
+				tooltip =  consumer_goods_factor_tt
 			}
 			if = {
 				limit = {
