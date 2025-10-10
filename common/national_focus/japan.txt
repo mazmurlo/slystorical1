@@ -4062,7 +4062,7 @@
 		}
 
 		available = {
-
+			date > 1937.8.1
 		}
 
 		bypass = {
