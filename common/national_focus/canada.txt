@@ -569,6 +569,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_manpower = 75000
 			if = {
 				limit = { has_government = democratic }
 				add_ideas = CAN_defence_of_canada_regulations_democratic
@@ -1589,6 +1590,12 @@ focus_tree = {
 				remove_idea = CAN_war_bonds_1
 				add_idea = CAN_war_bonds_2
 			}
+			add_tech_bonus = {
+				name = CAN_if_day
+				bonus = 1.0
+				uses = 1
+				category = armor
+			}
 		}
 	}
 
@@ -1902,12 +1909,31 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			army_experience = 50 
+			effect_tooltip = { 
+				add_tech_bonus = {
+				name = CAN_army_modernization
+				bonus = 0.5
+				uses = 2
+				category = armor
+				}
+			}
 			add_doctrine_cost_reduction = {
 				name = CAN_army_modernization
 				cost_reduction = 0.5
 				uses = 1
 				category = land_doctrine
+			}
+			hidden_effect = { 
+			army_experience = 50 
+			add_tech_bonus = {
+				name = CAN_army_modernization
+				bonus = 0.5
+				uses = 2
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = basic_heavy_tank
+				technology = improved_heavy_tank
+				}
 			}
 		}
 	}
