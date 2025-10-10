@@ -269,6 +269,10 @@ focus_tree = {
 			}
 			hidden_effect = {
 					load_oob = "ENG_mech_spawn"
+					add_equipment_to_stockpile = {
+					type = infantry_equipment_1
+					amount = 10000
+					}
 				}
 			}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
