@@ -4045,6 +4045,22 @@ focus = {
 				}
 			}
 			hidden_effect = {
+			
+			if = { 
+				limit = { 
+					has_ideas = FPM_disjointed_government
+				}
+				remove_ideas = FPM_disjointed_government
+			}
+
+			
+			if = { 
+				limit = { 
+					has_ideas = FPM_disjointed_government1
+				}
+				remove_ideas = FPM_disjointed_government1
+			}
+
 			add_offsite_building = {
 				type = industrial_complex
 				level = 4
