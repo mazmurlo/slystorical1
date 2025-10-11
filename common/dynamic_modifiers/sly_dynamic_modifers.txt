@@ -18,10 +18,16 @@ ENG_Gib_line_dynamic_modifier = { #State Modifer
 	state_coastal_bunker_max_level_terrain_limit = 5
 }
 
-war_of_gazala_modifier = { #STATE MODIFIER
+war_of_gazala_modifier = { #ATTACK MODIFIER
 	enable = { always = yes }
 
 	icon = GFX_modifiers_SOV_armored_battery
 	army_attack_factor = global.war_of_gazala_modifier_attack_factor_var
-	army_speed_factor = -0.25
+	
+}
+war_of_gazala_speed_modifier = { #SPEED MOD 
+	enable = { always = yes }
+
+	icon = GFX_modifiers_SOV_armored_battery
+	army_speed_factor = global.war_of_gazala_modifier_speed_factor_var
 }
