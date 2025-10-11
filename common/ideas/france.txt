@@ -1270,7 +1270,7 @@ ideas = {
 			
 			modifier = {
 				no_supply_grace = 336
-				equipment_capture = 0.35
+				#equipment_capture = 0.35
 				supply_combat_penalties_on_core_factor = -0.05
 				exiled_government_weekly_manpower = 100
 				resistance_damage_to_garrison_on_our_occupied_states = 0.35
