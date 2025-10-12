@@ -874,7 +874,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_steel_casting_industry
-		cost = 0
+		cost = 5
 
 		available = {
 			SOV_third_five_year_plan_available = yes
@@ -891,10 +891,6 @@ focus_tree = {
 				add_resource = {
 					type = Rubber
 					amount = 75 #At least one factory's worth
-				}
-				add_resource = {
-					type = Oil
-					amount = 20 #At least one factory's worth
 				}
 			}
 			
@@ -1810,7 +1806,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_transpolar_flights
-		cost = 1
+		cost = 10
 
 		available = {
 
