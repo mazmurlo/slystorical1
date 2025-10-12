@@ -1529,14 +1529,14 @@ focus_tree = {
 		x = 10
 		y = 0
 		relative_position_id = SOV_infrastructure_effort_nsb
-		cost = 1
+		cost = 0
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-
+			has_completed_focus = SOV_the_ussr_academy_of_sciences
 		}
 		allow_branch = {
 		
@@ -1566,7 +1566,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_transpolar_flights
-		cost = 1 
+		cost = 0
 
 		available = {
 			any_owned_state = {
