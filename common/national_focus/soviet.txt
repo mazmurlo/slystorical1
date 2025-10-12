@@ -874,7 +874,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_steel_casting_industry
-		cost = 5
+		cost = 0
 
 		available = {
 			SOV_third_five_year_plan_available = yes
@@ -1770,6 +1770,7 @@ focus_tree = {
 					NOT = { has_tech = fighter2 }
 				}
 				set_technology = { fighter2 = 1 }
+				set_technology = { cas2 = 1 }
 			}
 			hidden_effect = {
 				#This handles the equipment bonus that's not supported by dynamic modifiers
@@ -1839,7 +1840,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_foster_flying_clubs
-		cost = 10
+		cost = 1
 
 		available = {
 			OR = {
@@ -1872,7 +1873,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_women_in_aviation
-		cost = 10
+		cost = 1
 
 		available = {
 			any_enemy_country = {
