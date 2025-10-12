@@ -599,7 +599,6 @@ focus_tree = {
 			date > 1937.10.1
 		}
 
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -725,6 +724,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			set_politics = { 
+				ruling_party = fascism
+			}
 			if = {
 				limit = {
 					has_idea = ROM_waning_influence_of_democracy
@@ -737,16 +739,12 @@ focus_tree = {
 				}
 				remove_ideas = ROM_waning_influence_of_democracy2
 			}
-			set_politics = {
-				ruling_party = neutrality
-				elections_allowed = no
-			}
 			create_country_leader = {
 				name = "Carol II"
 				desc = "POLITICS_CAROL_II_DESC"
 				picture = GFX_Portrait_romania_Carol_II				
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = fascism_ideology
 				traits = {
 				camarilla_leader
 				}
@@ -864,9 +862,6 @@ focus_tree = {
 			add_popularity = {
 				ideology = fascism
 				popularity = 0.2 
-			}
-			set_politics = { 
-				ruling_party = fascism
 			}
 			add_stability = 0.1 
 			46 = {
