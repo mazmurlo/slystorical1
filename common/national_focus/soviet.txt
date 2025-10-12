@@ -1839,7 +1839,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_foster_flying_clubs
-		cost = 1
+		cost = 10
 
 		available = {
 			OR = {
@@ -1872,7 +1872,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_women_in_aviation
-		cost = 1
+		cost = 10
 
 		available = {
 			any_enemy_country = {
