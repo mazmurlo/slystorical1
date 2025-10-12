@@ -3078,7 +3078,7 @@ ITA_balance_of_power_category = {
 		}
 
 		modifier = {
-			consumer_goods_expected_value = -0.03
+			consumer_goods_expected_value = -0.10
 		}
 
 		ai_will_do = {
@@ -3316,7 +3316,7 @@ ETH_italian_occupation_category = {
 		cost = 25
 
 		modifier = {
-			consumer_goods_expected_value = 0.025
+			consumer_goods_expected_value = 0.10
 		}
 
 		complete_effect = {
