@@ -6893,8 +6893,6 @@ focus = {
 	relative_position_id = RAJ_great_depression_price_controls 
 	cost = 5
 
-	mutually_exclusive = { focus = RAJ_great_depression_price_controls focus = RAJ_provincial_autonomy }
-
 	allow_branch = {
 		if = {
 			limit = {
