@@ -193,7 +193,7 @@ china_war_difficulty = {
 	option = {
 		name = spawns
 		text = "RSpawn ins"
-		desc = "China will get spawn in divisions(Not Recommmended)"
+		desc = "Japan's economy is boosted, China will get spawned-in waves(Not Recommmended)"
 	}
 	default = {
 		name = yes
