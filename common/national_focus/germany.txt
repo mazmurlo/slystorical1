@@ -7927,7 +7927,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
-			add_named_threat = { threat = 5 name = GER_end_of_czechoslovakia }
+			add_named_threat = { threat = 7 name = GER_end_of_czechoslovakia }
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
@@ -8080,18 +8080,6 @@ focus_tree = {
 		cost = 5
 		available = {
 			date > 1943.1.1
-			surrender_progress < 0.01
-			custom_trigger_tooltip = {
-				tooltip = GER_an_invincible_army_trigger
-				OR = {
-					num_subjects > 5
-					check_variable = { GER_occupied_states_europe > 49 }
-				}
-			}
-			custom_trigger_tooltip = { 
-				tooltip = GER_the_supreme_leader_trigger
-				check_variable = { GER_capitulated_major_countries > 2 }
-			}
 		}
 
 		search_filters = {}
