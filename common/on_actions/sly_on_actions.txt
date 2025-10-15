@@ -10,6 +10,37 @@ on_actions = {
 			}
 		}
 		}
+			if = { 
+				limit = { 
+					BUL = { 
+						is_ai = yes
+					}
+				}
+				BUL = {
+					add_ideas = war_economy
+					add_stability = 0.30
+					add_war_support = 0.30
+					complete_national_focus = BUL_power_to_the_tsar
+					complete_national_focus = BUL_appoint_right_wing_ministers
+					complete_national_focus = BUL_national_railway_lines
+					complete_national_focus = BUL_light_metal_exploitation
+					unlock_national_focus = BUL_negotiate_bulgarian_rearmament
+					
+					set_politics = { #DLC
+						ruling_party = fascism
+						last_election = "1935.1.22"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					set_popularities = { #VANILLA
+						democratic = 5
+						fascism = 60
+						neutrality = 35
+					}
+					remove_ideas = BUL_army_restrictions_aat
+					remove_ideas = BUL_army_restrictions
+				}
+			}
 		if = { 
 			limit = { 
 				has_game_rule = { 
