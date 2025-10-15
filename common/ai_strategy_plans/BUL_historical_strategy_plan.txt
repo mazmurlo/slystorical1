@@ -27,7 +27,9 @@ ai_national_focuses = {
         BUL_light_metal_exploitation
     }
 research = {
-		industry = 1000
+		industry = 100
+        concentrated_industry_category = 1000
+        synth_resources = -1000
 		air_equipment = -1000
 		air_doctrine = -1000
 	}
